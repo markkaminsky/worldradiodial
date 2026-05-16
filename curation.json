@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-05-16T22:00:00Z",
+  "updatedAt": "2026-05-16T22:15:00Z",
   "blockedNames": [
     "101.9 KISS FM",
     "102.1 The Edge",
@@ -2549,6 +2549,21 @@
       "callSign": "WBAB",
       "band": "fm",
       "freq": 102.3
+    },
+    {
+      "callSign": "KSAN",
+      "band": "fm",
+      "freq": 107.7
+    },
+    {
+      "callSign": "WLLZ",
+      "band": "fm",
+      "freq": 107.7
+    },
+    {
+      "callSign": "KFLY",
+      "band": "fm",
+      "freq": 107.7
     }
   ],
   "perNationFetchLimits": {
