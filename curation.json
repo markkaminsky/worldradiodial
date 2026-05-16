@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 3,
-  "updatedAt": "2026-05-16T19:00:00Z",
+  "schemaVersion": 4,
+  "updatedAt": "2026-05-16T20:45:00Z",
   "blockedNames": [
     "Veritas Asia",
     "La Ranchera de Monterrey",
@@ -3120,5 +3120,159 @@
     "countryDrillDown": 80,
     "regionDrillDown": 80,
     "nameSearch": 40
+  },
+  "coldStartPool": [
+    {
+      "band": "fm",
+      "freq": 88.5
+    },
+    {
+      "band": "fm",
+      "freq": 89.9
+    },
+    {
+      "band": "fm",
+      "freq": 93.1
+    },
+    {
+      "band": "fm",
+      "freq": 96.3
+    },
+    {
+      "band": "fm",
+      "freq": 97.1
+    },
+    {
+      "band": "fm",
+      "freq": 98.5
+    },
+    {
+      "band": "fm",
+      "freq": 101.1
+    },
+    {
+      "band": "fm",
+      "freq": 102.7
+    },
+    {
+      "band": "fm",
+      "freq": 103.5
+    },
+    {
+      "band": "fm",
+      "freq": 104.3
+    },
+    {
+      "band": "fm",
+      "freq": 105.1
+    },
+    {
+      "band": "fm",
+      "freq": 105.9
+    },
+    {
+      "band": "fm",
+      "freq": 106.7
+    },
+    {
+      "band": "fm",
+      "freq": 107.5
+    }
+  ],
+  "defaultFavoriteNames": [
+    "KIIS-FM",
+    "WLTW",
+    "WXRT",
+    "La 100",
+    "La Mega",
+    "Olímpica Stereo",
+    "Concierto FM",
+    "Rock & Pop",
+    "WFAN",
+    "WCBS",
+    "KMOX",
+    "WBZ",
+    "KNBR",
+    "Radio Paradise",
+    "SomaFM",
+    "Bloomberg Radio"
+  ],
+  "webCategoryEmojis": {
+    "pop": "💎",
+    "top 40": "💎",
+    "top40": "💎",
+    "hits": "💎",
+    "charts": "💎",
+    "rock": "🎸",
+    "alternative": "🎸",
+    "indie": "🎸",
+    "indie rock": "🎸",
+    "metal": "🤘",
+    "heavy metal": "🤘",
+    "jazz": "🎷",
+    "bebop": "🎷",
+    "blues": "🎺",
+    "classical": "🎼",
+    "opera": "🎼",
+    "orchestral": "🎼",
+    "country": "🤠",
+    "americana": "🤠",
+    "bluegrass": "🤠",
+    "folk": "🪕",
+    "hip hop": "🎤",
+    "hip-hop": "🎤",
+    "hiphop": "🎤",
+    "rap": "🎤",
+    "r&b": "🎶",
+    "rnb": "🎶",
+    "soul": "🎶",
+    "funk": "🎶",
+    "latin": "💃",
+    "salsa": "💃",
+    "reggaeton": "💃",
+    "bachata": "💃",
+    "merengue": "💃",
+    "cumbia": "💃",
+    "reggae": "🌴",
+    "ska": "🌴",
+    "dub": "🌴",
+    "electronic": "🪩",
+    "edm": "🪩",
+    "dance": "🪩",
+    "house": "🪩",
+    "techno": "🪩",
+    "trance": "🪩",
+    "club": "🪩",
+    "drum and bass": "🪩",
+    "dnb": "🪩",
+    "ambient": "🌌",
+    "chillout": "🌌",
+    "chill": "🌌",
+    "downtempo": "🌌",
+    "lounge": "🍸",
+    "easy listening": "🍸",
+    "oldies": "📼",
+    "retro": "📼",
+    "news": "📰",
+    "talk": "💬",
+    "talk radio": "💬",
+    "public radio": "📻",
+    "npr": "📻",
+    "information": "ℹ️",
+    "christian": "✝️",
+    "religious": "✝️",
+    "gospel": "✝️",
+    "faith": "✝️",
+    "worship": "✝️",
+    "sports": "🏟️",
+    "business": "📈",
+    "financial": "📈",
+    "finance": "📈",
+    "comedy": "😂",
+    "humor": "😂",
+    "kids": "🧸",
+    "children": "🧸",
+    "world": "🌍",
+    "international": "🌍"
   }
 }
