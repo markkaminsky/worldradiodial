@@ -74,6 +74,7 @@
     "Audacy",
     "AZPM",
     "Band FM 96.1",
+    "BPM sports",
     "BandNews FM",
     "BBC Radio 2",
     "BBC Radio 3",
@@ -421,6 +422,7 @@
     "Rock FM 96.9",
     "RPR1",
     "RTL 102.5",
+    "RTS Tambacounda",
     "Russkoe Radio",
     "Rythmos 89.2",
     "Rythmos 94.9",
@@ -545,6 +547,7 @@
     "WTMD",
     "WTOP",
     "WTOP-FM",
+    "WUMB",
     "WUNC",
     "WUPE",
     "WUTC",
@@ -2374,11 +2377,6 @@
       "freq": 89.1
     },
     {
-      "callSign": "WUMB",
-      "band": "fm",
-      "freq": 91.9
-    },
-    {
       "callSign": "WCLV",
       "band": "fm",
       "freq": 104.9
@@ -3064,7 +3062,6 @@
     "KISW",
     "WBGO",
     "KMHD",
-    "WUMB",
     "WGUC",
     "WCLV",
     "KING",
