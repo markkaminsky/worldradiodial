@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-05-16T23:10:00Z",
+  "updatedAt": "2026-05-16T23:25:00Z",
   "blockedNames": [
     "101.9 KISS FM",
     "102.1 The Edge",
@@ -2625,7 +2625,6 @@
     "charts": 120,
     "christian": 140,
     "gospel": 140,
-    "religious": 120,
     "financial": 120,
     "business": 100,
     "paranormal": 160,
