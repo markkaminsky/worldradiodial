@@ -647,6 +647,11 @@
       "freq": 96.1
     },
     {
+      "callSign": "CILQ",
+      "band": "fm",
+      "freq": 107.1
+    },
+    {
       "callSign": "KDRS Jack FM",
       "band": "fm",
       "freq": 107.1
