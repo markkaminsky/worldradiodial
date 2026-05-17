@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-05-16T22:50:00Z",
+  "updatedAt": "2026-05-16T22:55:00Z",
   "blockedNames": [
     "101.9 KISS FM",
     "102.1 The Edge",
@@ -2567,6 +2567,36 @@
       "callSign": "KFLY",
       "band": "fm",
       "freq": 107.7
+    },
+    {
+      "callSign": "WMVY",
+      "band": "fm",
+      "freq": 88.7
+    },
+    {
+      "callSign": "Hit FM 88.7",
+      "band": "fm",
+      "freq": 88.7
+    },
+    {
+      "callSign": "Antenne Bayern",
+      "band": "fm",
+      "freq": 88.7
+    },
+    {
+      "callSign": "NRJ 88.8",
+      "band": "fm",
+      "freq": 88.8
+    },
+    {
+      "callSign": "Heart 88.8",
+      "band": "fm",
+      "freq": 88.8
+    },
+    {
+      "callSign": "Cool FM 88.8",
+      "band": "fm",
+      "freq": 88.8
     }
   ],
   "perNationFetchLimits": {
