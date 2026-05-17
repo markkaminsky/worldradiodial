@@ -471,6 +471,7 @@
     "W Radio Ciudad de Mexico",
     "W Radio Ciudad de México",
     "WAMC",
+    "WAMU",
     "WBAL",
     "WBAL \\\"News Radio",
     "WBEZ",
@@ -1699,11 +1700,6 @@
       "freq": 88.5
     },
     {
-      "callSign": "WAMU",
-      "band": "fm",
-      "freq": 88.5
-    },
-    {
       "callSign": "WERS",
       "band": "fm",
       "freq": 88.9
@@ -2772,7 +2768,6 @@
     "Marketplace",
     "WNYC",
     "WFAN",
-    "WAMU",
     "KIIS FM",
     "KIIS-FM",
     "Hot 97",
