@@ -499,8 +499,10 @@
     "WCJK",
     "WCSP",
     "WDAC",
+    "WDCB",
     "WESA",
     "WFCR",
+    "WFMU",
     "WFUS",
     "WFUV",
     "WGBH",
@@ -525,6 +527,7 @@
     "WLIT",
     "WLRD 96.9",
     "WLTW",
+    "WLVR",
     "WLVU",
     "WMVP",
     "WNCY",
@@ -2481,11 +2484,6 @@
       "freq": 1070.0
     },
     {
-      "callSign": "WFMU",
-      "band": "fm",
-      "freq": 91.1
-    },
-    {
       "callSign": "WPRB",
       "band": "fm",
       "freq": 103.3
@@ -3081,7 +3079,6 @@
     "CHED",
     "CHQR",
     "CFAX",
-    "WFMU",
     "WPRB",
     "WHRB",
     "KNBR",
