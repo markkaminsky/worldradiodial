@@ -619,6 +619,16 @@
   ],
   "pinnedStations": [
     {
+      "callSign": "Radio Mágica",
+      "band": "fm",
+      "freq": 88.3
+    },
+    {
+      "callSign": "Radio Magica",
+      "band": "fm",
+      "freq": 88.3
+    },
+    {
       "callSign": "Plenty Valley",
       "band": "fm",
       "freq": 88.6
