@@ -2217,6 +2217,11 @@
       "freq": 106.1
     },
     {
+      "callSign": "CFGQ",
+      "band": "fm",
+      "freq": 107.3
+    },
+    {
       "callSign": "WRQX",
       "band": "fm",
       "freq": 107.3
