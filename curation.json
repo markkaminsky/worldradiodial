@@ -516,6 +516,7 @@
     "WPLM",
     "WPRT-FM",
     "WSM",
+    "WSRB",
     "WSTX",
     "WTAR",
     "WTIX",
@@ -2225,11 +2226,6 @@
       "freq": 106.3
     },
     {
-      "callSign": "WSRB",
-      "band": "fm",
-      "freq": 106.3
-    },
-    {
       "callSign": "Soul 106.3",
       "band": "fm",
       "freq": 106.3
@@ -3175,7 +3171,6 @@
     "CBC Music Winnipeg",
     "CBC Winnipeg",
     "CBC 98.3",
-    "WSRB",
     "Soul 106.3",
     "CHKS-FM",
     "Cool 106.3",
