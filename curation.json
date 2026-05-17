@@ -13,6 +13,7 @@
     "1030 Ciudad de Mexico",
     "1030 Ciudad de México",
     "105.7 R&B Classic",
+    "105.9 United Heart FM",
     "106.7 Lite FM",
     "106.7 LITE FM",
     "106.7 LITE FM MEGA",
@@ -336,6 +337,8 @@
     "News Radio 1090",
     "News Radio1090",
     "Now! Radio",
+    "Olimpica",
+    "Olímpica",
     "Parapolitika",
     "Plus 93.1",
     "Power 97.9",
@@ -2577,16 +2580,6 @@
       "freq": 88.9
     },
     {
-      "callSign": "Olímpica Stereo",
-      "band": "fm",
-      "freq": 105.9
-    },
-    {
-      "callSign": "Olimpica Stereo",
-      "band": "fm",
-      "freq": 105.9
-    },
-    {
       "callSign": "Concierto FM",
       "band": "fm",
       "freq": 88.5
@@ -3245,8 +3238,6 @@
     "Planet Rock",
     "La 100",
     "La Mega",
-    "Olímpica Stereo",
-    "Olimpica Stereo",
     "Concierto FM",
     "Rock & Pop",
     "Rock and Pop"
@@ -3328,7 +3319,6 @@
     "WXRT",
     "La 100",
     "La Mega",
-    "Olímpica Stereo",
     "Concierto FM",
     "Rock & Pop",
     "WFAN",
