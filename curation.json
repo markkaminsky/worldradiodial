@@ -1,7 +1,9 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-05-16T23:25:00Z",
+  "updatedAt": "2026-05-17T19:00:00Z",
   "blockedNames": [
+    ".977 80s",
+    ".977 The Mix",
     "101.9 KISS FM",
     "102.1 The Edge",
     "102.5 The Game",
@@ -35,14 +37,19 @@
     "92.1 The Ticket",
     "93.1 The Border",
     "93.7 K Country",
+    "93.7 The Ticket",
+    "93.9 KPDQ",
     "93.9 Lite FM",
     "93.9 WLIT",
+    "94 SU FM",
     "94.3 Lite FM",
+    "94.3 Now Radio",
     "94.3 The Goat",
     "94.5 ESPN",
     "94.9 HOM",
     "95.5 Buzz HD2",
     "95.5 Hallelujah",
+    "95.5 Hits FM",
     "95.9 LITE FM",
     "96.3 Jack FM",
     "96.5 KOIT",
@@ -56,6 +63,7 @@
     "Apartadó Stereo",
     "Aspen 102.3",
     "Aspen FM",
+    "Audacy",
     "AZPM",
     "Band FM 96.1",
     "BandNews FM",
@@ -70,6 +78,7 @@
     "Big 96.3",
     "Big Country 93",
     "Big Country 93.1",
+    "Big R Radio - 80s Metal FM",
     "BIG HEART FM",
     "Big Heart FM",
     "Bio-Bio",
@@ -84,6 +93,7 @@
     "C-SPAN Radio",
     "Cadena Radial del Centro",
     "Calm Radio",
+    "Candela Casanare 94.7",
     "Caracol Radio",
     "CBC Radio One London",
     "CBN Rio de Janeiro",
@@ -107,6 +117,7 @@
     "CHBW",
     "CHDI",
     "CHFX",
+    "CHKG-FM",
     "CHKT",
     "CHKT AM1430",
     "CHMB AM1320",
@@ -142,6 +153,7 @@
     "CKCE",
     "CKCE-FM",
     "CKCK",
+    "CKCU The Mighty 93.1",
     "CKDO",
     "CKIS",
     "CKLN",
@@ -150,6 +162,7 @@
     "CKNX",
     "CKPE",
     "CKWD",
+    "CKYE-FM 93.1",
     "Classical 96.3",
     "Classical KUSC",
     "Concierto FM 90.5",
@@ -159,6 +172,7 @@
     "Country 89",
     "CRI Kiswahili",
     "Cruise 1323",
+    "Cumulus",
     "Derti 107.7",
     "Derti FM",
     "Doksanlar",
@@ -198,6 +212,7 @@
     "Give the Drummer",
     "Hallelujah FM",
     "Heart FM 92.7",
+    "Heart FM 93.7",
     "Heart FM冰城",
     "Highveld 94.7",
     "HJMO",
@@ -238,6 +253,7 @@
     "KGU",
     "KHNC",
     "KIKK",
+    "Kis 95.1 FM",
     "Kiss 100.4",
     "KISS 92.5",
     "Kiswahili",
@@ -285,6 +301,7 @@
     "La Voz",
     "Lanao del Norte",
     "Lanao Del Norte",
+    "Lider 94.9",
     "Lite FM 101.1",
     "Lite FM 106.7",
     "Lite FM Lanao",
@@ -296,6 +313,7 @@
     "Los 40 Santa Fe",
     "m2o",
     "Master's Touch",
+    "MBC Loud",
     "Mega 96.3",
     "Mega 97.1",
     "MEGA 98.3",
@@ -308,6 +326,7 @@
     "Mix Medellin",
     "Mix Medellín",
     "Modern Talking",
+    "Mucha Radio 94.7",
     "Mundo Retro",
     "National Radio of Kampuchea",
     "New Country 92",
@@ -327,6 +346,8 @@
     "RADIO ACTIVA",
     "Radio Activa",
     "Radio America 94.7",
+    "Radio America  94.7",
+    "Radio America Tegucigalpa",
     "Radio Amor",
     "Radio Autentica",
     "Radio Auténtica",
@@ -338,6 +359,7 @@
     "Radio Brocken",
     "RADIO CAKRA",
     "Radio Cakra",
+    "Radio Chocolate Rock & Pop",
     "Radio Comas",
     "Radio Con Vos",
     "Radio Disney 94.3",
@@ -347,6 +369,7 @@
     "Radio Globo 88.5 HN",
     "Radio Itatiaia",
     "Radio Kampus",
+    "Radio Kassara Barika",
     "Radio Latina FM 101.1",
     "Radio m2o",
     "Radio M2O",
@@ -475,6 +498,7 @@
     "WKXP",
     "WLAV",
     "WLIT",
+    "WLRD 96.9",
     "WLTW",
     "WLVU",
     "WMVP",
@@ -585,6 +609,46 @@
   ],
   "pinnedStations": [
     {
+      "callSign": "Plenty Valley",
+      "band": "fm",
+      "freq": 88.6
+    },
+    {
+      "callSign": "88.6 The Beat",
+      "band": "fm",
+      "freq": 88.6
+    },
+    {
+      "callSign": "95.7 Cruz FM Edmonton",
+      "band": "fm",
+      "freq": 95.7
+    },
+    {
+      "callSign": "CFPL-FM",
+      "band": "fm",
+      "freq": 95.9
+    },
+    {
+      "callSign": "FM96",
+      "band": "fm",
+      "freq": 95.9
+    },
+    {
+      "callSign": "96.1 Shopping Classics",
+      "band": "fm",
+      "freq": 96.1
+    },
+    {
+      "callSign": "KDRS Jack FM",
+      "band": "fm",
+      "freq": 107.1
+    },
+    {
+      "callSign": "NPR News Radio",
+      "band": "fm",
+      "freq": 107.7
+    },
+    {
       "callSign": "Z Rock & Pop",
       "band": "fm",
       "freq": 94.1
@@ -593,6 +657,11 @@
       "callSign": "Z Rock and Pop",
       "band": "fm",
       "freq": 94.1
+    },
+    {
+      "callSign": "Radio Boing 97.3",
+      "band": "fm",
+      "freq": 97.3
     },
     {
       "callSign": "Dolfijn FM",
@@ -2260,6 +2329,21 @@
       "freq": 99.9
     },
     {
+      "callSign": "KEXP",
+      "band": "fm",
+      "freq": 90.3
+    },
+    {
+      "callSign": "KXLU",
+      "band": "fm",
+      "freq": 88.9
+    },
+    {
+      "callSign": "KCRW",
+      "band": "fm",
+      "freq": 89.9
+    },
+    {
       "callSign": "KMHD",
       "band": "fm",
       "freq": 89.1
@@ -2600,6 +2684,9 @@
       "freq": 88.8
     }
   ],
+  "featuredByTag": {
+    "80s": ["The Big 80s Station"]
+  },
   "perNationFetchLimits": {
     "US": 500,
     "CA": 400,
@@ -2674,6 +2761,7 @@
     "KIIS FM",
     "KIIS-FM",
     "Hot 97",
+    "WQHT",
     "Power 105",
     "WCBS",
     "WINS",
@@ -2689,8 +2777,6 @@
     "Country 100",
     "iHeartRadio",
     "iHeart",
-    "Audacy",
-    "Cumulus",
     "680 News",
     "680 NEWS",
     "TSN Radio",
@@ -3117,6 +3203,12 @@
     "Defected",
     "KEXP",
     "KEXP 90.3",
+    "KXLU",
+    "KXLU 88.9",
+    "KCRW Music",
+    "KCRW 89.9",
+    "KCRW Eclectic24",
+    "KCRW Eclectic 24",
     "Chillsky",
     "Chillhop",
     "CIMX-FM",
@@ -3135,6 +3227,7 @@
     "Radio 6 Music",
     "NTS Radio",
     "NTS Live",
+    "The Lot Radio",
     "Dublab",
     "Worldwide FM",
     "KSAN",
