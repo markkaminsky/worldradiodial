@@ -1,0 +1,81 @@
+name: Build catalog
+
+# Daily build of catalog.json from radio-browser.info. The output replaces the iOS app's
+# cold-launch ~543-request fan-out with a single GET against jsDelivr — fast launch, no
+# thermal spike on user devices.
+#
+# Why the `catalog` orphan branch:
+#   The merged station list is ~3–5 MB and a chunk of it (clickcount on every row) shifts
+#   every day. Committing daily to `main` would bloat git history without bound. The
+#   `catalog` branch is an orphan refreshed in-place — one commit, one file, no history.
+#   jsDelivr serves it from `@catalog` and caches for 12 h, which matches the build cadence.
+
+on:
+  schedule:
+    # 04:10 UTC — quiet window, well after end-of-day clickcount tallies refresh upstream.
+    - cron: "10 4 * * *"
+  workflow_dispatch: # manual trigger from the Actions tab when you want a fresh build NOW
+
+permissions:
+  contents: write # required to push the regenerated catalog branch
+
+concurrency:
+  # If two builds queue up (e.g. cron + manual), the newer one wins and the older is cancelled.
+  # Prevents two workflows racing to force-push the catalog branch.
+  group: build-catalog
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout curation source (main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20" # native fetch + AbortController; no npm install needed
+
+      - name: Build catalog.json
+        run: node build-catalog.mjs --out catalog.json
+
+      - name: Show catalog stats
+        run: |
+          SIZE=$(wc -c < catalog.json | tr -d ' ')
+          COUNT=$(node -e 'console.log(JSON.parse(require("fs").readFileSync("catalog.json")).stationCount)')
+          echo "stations=$COUNT" >> "$GITHUB_STEP_SUMMARY"
+          echo "size=$SIZE bytes" >> "$GITHUB_STEP_SUMMARY"
+          echo "Built catalog: $COUNT stations, $SIZE bytes"
+
+      - name: Publish to catalog branch (orphan, force-push)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # Stash the just-built file outside the worktree so the branch swap can't clobber it.
+          mkdir -p /tmp/wrd
+          cp catalog.json /tmp/wrd/catalog.json
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Create a fresh orphan commit for the catalog branch. Using `--orphan` resets
+          # parentage so the branch never accumulates history (always one commit on disk).
+          git checkout --orphan catalog
+          # Wipe everything tracked so the new commit contains catalog.json and nothing else.
+          git rm -rf --quiet . || true
+          # Also clean any untracked leftover from the main checkout (configs, gitignored items, etc.)
+          find . -mindepth 1 -maxdepth 1 \
+              ! -name '.git' \
+              -exec rm -rf {} +
+
+          cp /tmp/wrd/catalog.json catalog.json
+          git add catalog.json
+          git commit -m "Rebuild catalog ($(node -e 'console.log(JSON.parse(require("fs").readFileSync("catalog.json")).stationCount)') stations · $(date -u +%Y-%m-%dT%H:%MZ))"
+          # Force-push because the orphan commit has no shared ancestry with the previous tip.
+          git push --force origin catalog
