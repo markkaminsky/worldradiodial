@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-06-05T17:01:47Z",
+  "updatedAt": "2026-06-05T22:00:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -378,6 +378,7 @@
     "New Country 92",
     "New Country 96.9",
     "News Radio 1090",
+    "News Radio 1120 KMOX",
     "News Radio1090",
     "Now! Radio",
     "Olimpica",
@@ -526,6 +527,7 @@
     "WBGO-FM",
     "WBLS Radio",
     "WBUR",
+    "WBTA 1490",
     "WCJK",
     "WCSP",
     "WDAC",
@@ -539,6 +541,7 @@
     "WGNV",
     "WGUC",
     "WHAM",
+    "WHOP-FM",
     "Whoopee",
     "WHTZ",
     "WHUR",
@@ -579,6 +582,7 @@
     "WTOP-FM",
     "WUMB",
     "WUNC",
+    "WUFO 1080",
     "WUPE",
     "WUTC",
     "WUVT",
@@ -942,26 +946,6 @@
       "freq": 1070.0
     },
     {
-      "callSign": "WTKT",
-      "band": "am",
-      "freq": 1050.0
-    },
-    {
-      "callSign": "KTCT",
-      "band": "am",
-      "freq": 1050.0
-    },
-    {
-      "callSign": "KTKZ",
-      "band": "am",
-      "freq": 1050.0
-    },
-    {
-      "callSign": "WUFO",
-      "band": "am",
-      "freq": 1050.0
-    },
-    {
       "callSign": "KRLD",
       "band": "am",
       "freq": 1080.0
@@ -1150,16 +1134,6 @@
       "callSign": "KFI",
       "band": "am",
       "freq": 640.0
-    },
-    {
-      "callSign": "KMOX",
-      "band": "am",
-      "freq": 1120.0
-    },
-    {
-      "callSign": "KSOO",
-      "band": "am",
-      "freq": 1120.0
     },
     {
       "callSign": "WRVA",
@@ -2821,7 +2795,6 @@
     "WBBM",
     "WSCR",
     "WLS",
-    "KMOX",
     "WSDZ",
     "WNDE",
     "WIXY",
@@ -2886,7 +2859,6 @@
     "WHO",
     "CKST",
     "KTKZ",
-    "WUFO",
     "KAAY",
     "WISN",
     "KWKH",
