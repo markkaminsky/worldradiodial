@@ -41,6 +41,15 @@ const args = Object.fromEntries(
 const CURATION_PATH = resolve(__dirname, args.curation ?? "curation.json");
 const OUT_PATH = resolve(__dirname, args.out ?? "catalog.json");
 
+// Optional: also write the shaped catalog to the iOS app bundle so the bundled baseline
+// never drifts from the CDN. Pass the app's catalog-baseline.json path, e.g.:
+//   node build-catalog.mjs --baseline-out ../WorldRadioDial/iOS/WorldRadioDial/WorldRadioDial/Resources/catalog-baseline.json
+const BASELINE_OUT = args["baseline-out"] ? resolve(process.cwd(), args["baseline-out"]) : null;
+
+// Audit log of what the shape dropped — always written next to catalog.json, never shipped
+// to the app. Look here if a station you expected goes missing.
+const REPORT_PATH = resolve(__dirname, args["report-out"] ?? "shape-report.json");
+
 // ---------- Tunables ----------
 
 // Radio Browser is a free volunteer service; cap parallel requests so we're a polite client.
@@ -190,6 +199,151 @@ function buildJobs(curation) {
   return jobs;
 }
 
+// ---------- Shape to dial ----------
+//
+// A raw merge is ~4–12k stations, but the dial can only SHOW a bounded number
+// (≈20 per FM/AM frequency, ≤30 WEB genre slots × 20). ~75% of the merge is WEB
+// long-tail that never reaches the dial and only pads search — and search / Local /
+// category deep-dive are already live-fetched in the app. This trims the emitted
+// catalog down to what the dial surfaces (~1,200 stations): keep US broadcast + the
+// curator's explicit choices + genuinely popular stations, then hard-cap the tail
+// per FM frequency and per WEB genre.
+//
+// Keep this in sync with the iOS app: the band parse mirrors classifyBand in
+// AssignFrequencies.swift, and the SAME shaped set must ship as the app's bundled
+// catalog-baseline.json — otherwise the app's change-detection gate sees "changed"
+// on every launch and re-applies the full set (re-bloat + a visible second update).
+
+const SHAPE = {
+  keepNetworks: ["exclusively", "virgin radio rockstar"], // curated artist-station networks
+  keepCountries: new Set(["AE"]),                          // Dubai
+  fmSlotCap: 6,        // non-protected FM kept per frequency
+  webGenreCap: 12,     // non-protected WEB kept per genre
+  webOtherCap: 6,      // … and in the "other" bucket
+  fmMinForeignClicks: 10,
+  topGenres: 30,
+  // "Popular" = a blended score (votes + clicks×100), kept regardless of genre crowding.
+  // Radio Browser clickcount is sparse — national broadcasters like talkSPORT or RMF FM
+  // sit at ~40 clicks but tens of thousands of votes — while votes alone are too loose
+  // (cumulative/inflated). ≥10,000 ≈ "votes in the ten-thousands, or clicks ≥100": the
+  // recognizable-broadcaster tier (~230 stations).
+  popularScore: 10000,
+};
+
+function shapeToDialCatalog(stations, curation) {
+  const cco = (s) => Number(s.clickcount ?? 0);
+  const pop = (s) => Number(s.votes ?? 0) + cco(s) * 100; // blended popularity (votes-aware)
+  const US = (s) => (s.countrycode || "").toUpperCase() === "US";
+  const DXB = (s) => SHAPE.keepCountries.has((s.countrycode || "").toUpperCase());
+
+  // substring for long terms, word-boundary for short ones (so "wor" doesn't match "network")
+  const makeMatcher = (terms) => {
+    const t = (terms || []).filter((x) => x && x.length >= 3).map((x) => x.toLowerCase());
+    const longs = t.filter((x) => x.length >= 5);
+    const shorts = t.filter((x) => x.length < 5)
+      .map((x) => new RegExp(`\\b${x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`));
+    return (name) => {
+      const nm = (name || "").toLowerCase();
+      return longs.some((x) => nm.includes(x)) || shorts.some((r) => r.test(nm));
+    };
+  };
+  const isPick = makeMatcher([
+    ...(curation.pinnedStations || []).map((p) => p.callSign || ""),
+    ...(curation.defaultFavoriteNames || []),
+    ...Object.values(curation.featuredByTag || {}).flat(),
+    ...SHAPE.keepNetworks,
+  ]);
+  const isBrand = makeMatcher(curation.catalogBrandNeedles || []);
+
+  // band parse — mirror of classifyBand in AssignFrequencies.swift
+  const fmFreq = (name) => {
+    const m = /(\d{2,3}\.\d)\s*(FM|MHz)/i.exec(name);
+    if (m && +m[1] >= 88 && +m[1] <= 108) return +m[1];
+    for (const x of String(name).matchAll(/(?<![0-9.])(\d{2,3}\.\d)(?![0-9])/g))
+      if (+x[1] >= 88 && +x[1] <= 108) return +x[1];
+    return null;
+  };
+  const isAM = (name) =>
+    [/\bAM\s*-?\s*(\d{3,4})\b/i, /\b(\d{3,4})\s*AM\b/i, /\b(\d{3,4})\s*kHz\b/i].some((re) => {
+      const m = re.exec(name);
+      return m && +m[1] >= 530 && +m[1] <= 1700;
+    });
+  const band = (s) => (isAM(s.name) ? "AM" : fmFreq(s.name) != null ? "FM" : "WEB");
+  const ptag = (s) =>
+    (s.tags || "").split(",").map((x) => x.trim().toLowerCase()).filter(Boolean)[0] || "other";
+
+  // Always keep: the curator's picks, US broadcast, Dubai, and any genuinely popular station
+  // (blended votes+clicks score) — the last one stops the genre cap from dropping global
+  // flagships like talkSPORT, RFI, RMF FM that have huge votes but a handful of clicks.
+  const keepProtected = (s) => isPick(s.name) || US(s) || DXB(s) || pop(s) >= SHAPE.popularScore;
+  // Fill remaining slots brand-first, then by blended popularity (so the tail keeps the
+  // better-known stations, not whichever happened to log a few more clicks).
+  const qcmp = (a, b) => (isBrand(a.name) ? 0 : 1) - (isBrand(b.name) ? 0 : 1) || pop(b) - pop(a);
+
+  const out = [], fm = [], am = [], web = [];
+  for (const s of stations) (band(s) === "AM" ? am : band(s) === "FM" ? fm : web).push(s);
+
+  const fmSlots = {};
+  for (const s of fm) {
+    if (keepProtected(s)) out.push(s);
+    else if (cco(s) >= SHAPE.fmMinForeignClicks) (fmSlots[fmFreq(s.name)] ||= []).push(s);
+  }
+  for (const f in fmSlots) out.push(...fmSlots[f].sort(qcmp).slice(0, SHAPE.fmSlotCap));
+
+  out.push(...am); // AM is small — keep all
+
+  const counts = {};
+  for (const s of web) counts[ptag(s)] = (counts[ptag(s)] || 0) + 1;
+  const topGenres = new Set(
+    Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, SHAPE.topGenres).map((e) => e[0]),
+  );
+  const buckets = {};
+  for (const s of web) {
+    if (keepProtected(s)) { out.push(s); continue; }
+    (buckets[topGenres.has(ptag(s)) ? ptag(s) : "other"] ||= []).push(s);
+  }
+  for (const g in buckets)
+    out.push(...buckets[g].sort(qcmp).slice(0, g === "other" ? SHAPE.webOtherCap : SHAPE.webGenreCap));
+
+  // Audit: everything the shape dropped, so no curation is silently lost — written to a
+  // separate report file the build doesn't ship, for review if a good station goes missing.
+  const keptIds = new Set(out.map((s) => s.stationuuid));
+  const dropped = stations.filter((s) => !keptIds.has(s.stationuuid));
+  const byBand = {};
+  for (const s of stations) {
+    const bnd = band(s);
+    (byBand[bnd] ||= { kept: 0, dropped: 0 })[keptIds.has(s.stationuuid) ? "kept" : "dropped"]++;
+  }
+  const droppedByGenre = {};
+  for (const s of dropped) droppedByGenre[ptag(s)] = (droppedByGenre[ptag(s)] || 0) + 1;
+
+  return {
+    kept: out,
+    report: {
+      rawCount: stations.length,
+      keptCount: out.length,
+      droppedCount: dropped.length,
+      byBand,
+      droppedByGenre: Object.fromEntries(Object.entries(droppedByGenre).sort((a, b) => b[1] - a[1])),
+      // Full list so a missing favourite can be found by name; trimmed to the fields that
+      // make a station identifiable (this file is for humans, not the app).
+      dropped: dropped
+        .map((s) => ({
+          stationuuid: s.stationuuid,
+          name: s.name,
+          countrycode: s.countrycode,
+          clickcount: s.clickcount ?? 0,
+          tags: s.tags,
+        }))
+        .sort((a, b) => (b.clickcount ?? 0) - (a.clickcount ?? 0)),
+    },
+  };
+}
+
+// Floor for the *shaped* catalog — protects against a curation/parse bug that nukes
+// the catalog to near-nothing. Well below the expected ~1,200.
+const MIN_SHAPED_STATION_COUNT = 600;
+
 // ---------- Main ----------
 
 async function main() {
@@ -233,6 +387,8 @@ async function main() {
 
   console.log(`[merge] ${merged.length} unique stations after dedup`);
 
+  // Health check runs on the RAW merge — it guards against the API having a bad day,
+  // which must happen before we shape (the shaped count is intentionally ~1,200).
   if (merged.length < MIN_HEALTHY_STATION_COUNT) {
     console.error(
       `[abort] only ${merged.length} stations — below MIN_HEALTHY_STATION_COUNT=${MIN_HEALTHY_STATION_COUNT}. Refusing to overwrite catalog.json.`,
@@ -240,24 +396,56 @@ async function main() {
     process.exit(2);
   }
 
-  // Write atomically: write to tmp then rename. Avoids leaving a half-written file
-  // if the workflow gets cancelled mid-write.
-  const payload = {
-    schemaVersion: 1,
-    builtAt: new Date().toISOString(),
-    stationCount: merged.length,
-    stations: merged,
-  };
-  const tmpPath = OUT_PATH + ".tmp";
-  await writeFile(tmpPath, JSON.stringify(payload));
+  // Shape the raw merge down to what the dial can actually surface.
+  const { kept: shaped, report } = shapeToDialCatalog(merged, curation);
+  console.log(`[shape] ${merged.length} -> ${shaped.length} stations (dial-capacity trim)`);
+  if (shaped.length < MIN_SHAPED_STATION_COUNT) {
+    console.error(
+      `[abort] shaped to only ${shaped.length} stations — below MIN_SHAPED_STATION_COUNT=${MIN_SHAPED_STATION_COUNT}. Likely a curation/parse bug; refusing to overwrite.`,
+    );
+    process.exit(2);
+  }
+
+  const builtAt = new Date().toISOString();
+  const payload = { schemaVersion: 1, builtAt, stationCount: shaped.length, stations: shaped };
+
+  // Write atomically: tmp then rename. Avoids leaving a half-written file if cancelled mid-write.
   const { rename } = await import("node:fs/promises");
-  await rename(tmpPath, OUT_PATH);
+  const writeAtomic = async (path, data) => {
+    const tmp = path + ".tmp";
+    await writeFile(tmp, data);
+    await rename(tmp, path);
+  };
+
+  const catalogJson = JSON.stringify(payload);
+  await writeAtomic(OUT_PATH, catalogJson);
+  console.log(`[write] ${OUT_PATH} (${shaped.length} stations)`);
+
+  // Mirror the EXACT shaped catalog into the iOS app bundle so the bundled baseline and the
+  // CDN can't drift — keeps the app's change-detection gate silent because they match byte-for-byte.
+  if (BASELINE_OUT) {
+    await writeAtomic(BASELINE_OUT, catalogJson);
+    console.log(`[write] ${BASELINE_OUT} (iOS baseline — identical to CDN)`);
+  }
+
+  // Audit log of everything dropped, for human review — never shipped to the app.
+  await writeAtomic(REPORT_PATH, JSON.stringify({ builtAt, ...report }, null, 2));
+  console.log(
+    `[report] ${REPORT_PATH}: dropped ${report.droppedCount} ` +
+      `(FM ${report.byBand.FM?.dropped ?? 0} / AM ${report.byBand.AM?.dropped ?? 0} / WEB ${report.byBand.WEB?.dropped ?? 0})`,
+  );
 
   const elapsed = ((Date.now() - t0) / 1000).toFixed(1);
-  console.log(`[done] wrote ${OUT_PATH} in ${elapsed}s`);
+  console.log(`[done] in ${elapsed}s`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// Only run the full build when invoked directly — lets tests import shapeToDialCatalog
+// without triggering the live fetch.
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
+
+export { shapeToDialCatalog };
