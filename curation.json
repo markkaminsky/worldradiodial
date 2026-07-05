@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-05T18:10:00Z",
+  "updatedAt": "2026-07-05T22:10:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -138,6 +138,7 @@
     "oasis",
     "grunge",
     "new wave",
+    "rock",
     "classic rock",
     "beatles",
     "rolling stones",
@@ -161,7 +162,7 @@
     "soundtracks",
     "public radio",
     "podcast talk",
-    "paranormal",
+    "art bell",
     "sports",
     "news",
     "financial",
@@ -212,7 +213,6 @@
       "iHeart2000s Radio",
       "Decada FM 100.1",
       "Retro Rádio",
-      "KMYZ The Edge",
       "Sunshine Live - Classics"
     ],
     "metal": [
@@ -242,7 +242,10 @@
       "Top Latino",
       "Candela Estéreo",
       "Radio Art - Flamenco",
-      "Radio Sevillanas"
+      "Radio Sevillanas",
+      "Radio Andina",
+      "Radio Rumba",
+      "Chocolate FM"
     ],
     "soul": [
       "Retro Soul Radio",
@@ -288,7 +291,6 @@
       "WLML",
       "Radio Dismuke",
       "WJEJ 1240",
-      "WNAM 1280",
       "WGHQ 920"
     ],
     "workout": [
@@ -316,7 +318,8 @@
       "Radio K - Real College Radio",
       "UCM-The Beat",
       "Shady Pines Radio",
-      "KPCR 101.9"
+      "KPCR 101.9",
+      "WFMU"
     ],
     "public radio": [
       "NPR Illinois",
@@ -331,7 +334,10 @@
       "CBC Music",
       "Radio Canada Ici Musique",
       "CBC Radio 1",
-      "WUSF"
+      "WUSF",
+      "KTEP",
+      "WFDD",
+      "WAER"
     ],
     "whatever": [
       "Winnipeg's Bounce 99.9",
@@ -353,22 +359,31 @@
       "Good Vibes Radio",
       "Chillwave Radio",
       "The Alternate Side",
-      "SLAM!",
-      "ESKA - Gorąca 20",
       "Los 40 Cataluna",
       "bigFM LoFi",
-      "Smooth Chill"
+      "Smooth Chill",
+      "Chillsynth",
+      "Chilltrax",
+      "Chillstep",
+      "Ibiza SoniCalm",
+      "SomaFM Lush",
+      "Ibiza Sonica",
+      "Sunshine Live Blue",
+      "Shonan Beach"
     ],
     "classic rock": [
       "Virgin Radio Rockstar: Aerosmith",
-      "Virgin Radio Rockstar: AC/DC"
+      "Virgin Radio Rockstar: AC/DC",
+      "Exclusively Creedence",
+      "- 0 N - Classic Rock"
     ],
     "oldies": [
       "Radio Caroline",
       "OLDIE ANTENNE",
       "Radiostorm - Oldies 104",
       "Oldies Internet Radio",
-      "Elvis Presley"
+      "Elvis Presley",
+      "Radio Arabella"
     ],
     "top 40": [
       "Capital FM London",
@@ -378,13 +393,6 @@
       "WJOX",
       "WFAN"
     ],
-    "paranormal": [
-      "Art Bell",
-      "NYE Underground",
-      "Fade to Black with Jimmy Church",
-      "The Other Side of Midnight",
-      "KGRA Digital"
-    ],
     "70s": [
       "Exclusively Carole King"
     ],
@@ -392,16 +400,20 @@
       "Michael Jackson",
       "80s80s Prince",
       "Exclusively Prince",
-      "Prince Hits"
+      "Prince Hits",
+      "1000 HITS 80s",
+      "__80 HITS",
+      "__80s HITS"
     ],
     "electronic": [
       "Radio FG Techno",
-      "Sunshine Live Blue",
       "SomaFM Dub Step Beyond",
-      "Ibiza Sonica"
+      "Sunshine Live - Drum N Bass",
+      "Daft Punk"
     ],
     "jazz": [
-      "Smooth Jazz 247"
+      "Smooth Jazz 247",
+      "WWOZ"
     ],
     "financial": [
       "Bloomberg",
@@ -419,21 +431,9 @@
     "mexico": [
       "Los 40 Principales México",
       "Café Romántico Radio (Monterrey) - Online - www.caferomanticoradio.com - Grupo Digital Radioland - Monterrey, Nuevo León",
-      "BEAUTIFUL Instrumentals",
       "Cumbias Inmortales Radio (Monterrey) - Online - www.cumbiasinmortales.com - Grupo Digital Retroland - Monterrey, Nuevo León",
-      "La Ranchera de Monterrey - 1050 AM - XEG-AM - Núcleo Radio Monterrey - Monterrey, NL",
-      "SABROSITA Ciudad de México - 590 AM - XEPH-AM - NRM Comunicaciones - Ciudad de México",
-      "Amor Ciudad de México - 95.3 FM - XHSH-FM - Grupo ACIR - Ciudad de México",
-      "W Radio Ciudad de México (XEW-AM 900 kHz, XEW-FM 96.9 MHz) Televisa Radio",
-      "Panda Show Radio - Online - El Panda Zambrano - Ciudad de México",
-      "La Comadre Ciudad de México - 1260 AM - XEL-AM - Grupo ACIR - Ciudad de México",
-      "UNIVERSAL Ciudad de México - 88.1 FM - XHRED-FM - Grupo Radio Centro - Ciudad de México",
       "XHEXA \"Exa FM\" 104.9 FM Mexico City, DF",
-      "Radio Felicidad - 1180 AM - XEFR-AM - Grupo ACIR - Ciudad de México",
-      "ALFA 91.3 (Ciudad de México) - 91.3 FM - XHFAJ-FM - Grupo Radio Centro - Ciudad de México",
-      "Roca Fm Clasicos Mexico",
-      "El Fonógrafo - 690 AM - XEN-AM - Grupo Radio Centro - Ciudad de México",
-      "Convoy en vivo"
+      "La Ranchera de Monterrey - 1050 AM - XEG-AM - Núcleo Radio Monterrey - Monterrey, NL"
     ],
     "news": [
       "LBC UK",
@@ -444,6 +444,31 @@
     "soundtracks": [
       "Cinemix",
       "Classic FM at the Movies"
+    ],
+    "ambient": [
+      "Your Classical",
+      "YourClassical",
+      "Whisperings Solo Piano"
+    ],
+    "blues": [
+      "Radio BluesFlac",
+      "bluesflac",
+      "#joint radio Blues Rock"
+    ],
+    "indie": [
+      "FM4"
+    ],
+    "rock": [
+      "KMYZ The Edge",
+      "DIE NEUE 107.7",
+      "Guerrilla Radio",
+      "Bandit Rock"
+    ],
+    "art bell": [
+      "Art Bell",
+      "NYE Underground",
+      "Fade to Black with Jimmy Church",
+      "The Other Side of Midnight"
     ]
   },
   "blockedNames": [
@@ -1125,7 +1150,75 @@
     "=Bloomberg TV new",
     "NEUERSCHEINUNGEN",
     "-- # TOP 100 CHARTS",
-    "EXA FM: POP MUSIC"
+    "EXA FM: POP MUSIC",
+    "=Arab Mix FM",
+    "=Los 40 Catalunya",
+    "=__DEUTSCHE HITS__ by rautemusik (rm.fm)",
+    "=__TECHHOUSE__ by rautemusik (rm.fm)",
+    "=__BIGCITYBEATS.FM__ by rautemusik (rm.fm)",
+    "=Sunshine Live - Techno",
+    "=Sunshine Live - Lounge",
+    "=Sunshine Live - EDM",
+    "=Sunshine Live - Party",
+    "=Sunshine LIve - Trance (64kbps)",
+    "=Sunshine Live - Die 90er",
+    "=90s90s Dance HQ",
+    "=90s90s Techno HQ",
+    "=Frisky Chill",
+    "=Frisky Classics",
+    "=Ibiza Sonica Club",
+    "=Ibiza Sonica | Sonica Futura",
+    "=Ibiza Sonica | Balearic Sound",
+    "=Bayern 1 Franken",
+    "=Bayern 1 Schwaben",
+    "=NDR 1 Welle Nord",
+    "=NDR 1 Radio MV",
+    "=CBC Music Pacific (Vancouver) MP3 Stream",
+    "=CBC Music Eastern (Toronto) MP3 Stream",
+    "=CBC Music Atlantic (Halifax) MP3 Stream",
+    "=CBC Music Central (Winnipeg) - MP3 Stream",
+    "=CBC Music Central (Winnipeg) - AAC Stream",
+    "=CBC Music (Central) - Winnipeg, MB",
+    "=WGN Radio 720",
+    "=CHED 630 (Edmonton, AB)",
+    "=Newsradio 970 WFLA 48kbps",
+    "=99.7 & 1450 WHTC",
+    "=CHOK 1070 & 103.9 Sarnia, ON",
+    "=WNYC FM",
+    "=WNYC",
+    "=KFI LA",
+    "=CKNW",
+    "=CJCL Sportsnet 590 The Fan (Alt Stream)",
+    "=WKAR Jazz - East Lansing, MI",
+    "=WABC Oldies Time Machine airchecks",
+    "=101.1 WJRR Orlando's Rock Station",
+    "=WABC",
+    "=KEXP",
+    "=Radio Canada Ici Musique  - Québec City, QC",
+    "=Radio Canada Ici Musique (Mauricie-Centre-du-Québec) Trois-Rivieres, QC",
+    "=Radio Canada Ici Musique - Bas-Saint-Laurent, Côte-Nord, Gaspésie-Îles-de-la-Madeleine (Rimouski, QC)",
+    "=Radio Canada Ici Musique - Ottawa, ON",
+    "=Radio Canada Ici Musique (Colombie-Britannique-Yukon, Grand Nord) Vancouver, BC",
+    "=Radio Canada Ici Musique Alberta (Edmonton, AB)",
+    "=630 CHED",
+    "=TDI BEZ REKLAMA",
+    "=WNAM 1280 Neenah-Menasha, WI",
+    "=KGRA Digital Broadcasting",
+    "=CINA 1650 AM Mississauga, ON",
+    "=Radio Universidad AM580",
+    "=CKUW 95.9 FM ",
+    "=Antena 1 (Portugal)",
+    "=凤凰卫视资讯台",
+    "=WJON IP RADIO",
+    "=Zhulduz Radio",
+    "=__SCHLAGERRADIO.FM__ by rautemusik (rm.fm)",
+    "=__SCHLAGER OLDIES__ by rautemusik (rm.fm)",
+    "=Radio Edelweiss",
+    "=Radio Armisa",
+    "=Radio Dalmacija",
+    "=Cool Radio Serbia",
+    "=CADENA JOVEN RADIO 107.3 FM",
+    "=RFM"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -1854,7 +1947,7 @@
       "freq": 1040.0
     },
     {
-      "callSign": "WHO",
+      "callSign": "WHO 1040",
       "band": "am",
       "freq": 1040.0
     },
@@ -3189,10 +3282,10 @@
       "Soundgarden"
     ],
     "classic rock": [
-      "Beatles Radio",
-      "Exclusively The Beatles",
-      "Virgin Radio Rockstar: Rolling Stones",
-      "Virgin Radio Rockstar: Guns N' Roses"
+      "Q104.3",
+      "102.5 WDVE",
+      "100.7 WZLX",
+      "Exclusively Creedence"
     ],
     "rock": [
       "Big R Radio - Grunge FM",
@@ -3208,17 +3301,14 @@
       "KEXP 90.3 FM Seattle"
     ],
     "news": [
-      "NBC News Radio",
-      "BBC World Service",
-      "BBC Radio 4",
-      "CBC Radio 1 Toronto",
-      "CBC Radio 1 Calgary",
-      "CFRB News/Talk 1010",
-      "WBUR Boston",
-      "NPR",
-      "WAMC Northeast Public Radio",
-      "WHYY Philadelphia",
-      "WFUV New York"
+      "NPR Newscast",
+      "BBC Radio 5 Live",
+      "Fox News Radio",
+      "CNN",
+      "MSNBC",
+      "WNYC-FM 93.9",
+      "CBC Radio One - Toronto",
+      "LBC London"
     ],
     "talk": [
       "NBC News Radio",
@@ -3236,9 +3326,9 @@
       "Concierto FM"
     ],
     "soul": [
-      "105.7 R&B Classic",
-      "WWOZ 90.7 New Orleans",
-      "SomaFM Groove Salad"
+      "Motown Radio",
+      "FUNKY RADIO",
+      "Retro Soul Radio"
     ],
     "rap": [
       "Rap 123",
@@ -3279,6 +3369,11 @@
     "whatever": [
       "Winnipeg's Bounce 99.9",
       "Radio Paradise"
+    ],
+    "sports": [
+      "CJCL Sportsnet 590",
+      "TalkSPORT",
+      "97.1 The Ticket"
     ]
   },
   "perNationFetchLimits": {
@@ -3805,7 +3900,14 @@
     "Radio Sevillanas",
     "J-Rock Powerplay",
     "Cinemix",
-    "Classic FM at the Movies"
+    "Classic FM at the Movies",
+    "Exclusively Creedence",
+    "WWOZ",
+    "WFMU",
+    "Radio Andina",
+    "Radio Rumba",
+    "Exclusively Daft Punk",
+    "Kroq 106.7"
   ],
   "perSlotStationCap": 20,
   "actionFetchSizes": {
@@ -3942,12 +4044,12 @@
     "college": "🎓",
     "whatever": "🎲",
     "vibes": "✨",
-    "paranormal": "👽",
     "new wave": "🕶️",
     "60s": "✌️",
     "hard rock": "⚡",
     "mexico": "🇲🇽",
-    "soundtracks": "🎬"
+    "soundtracks": "🎬",
+    "art bell": "👽"
   },
   "webCategoryIcons": {
     "pop": "pop",
@@ -4056,20 +4158,8 @@
   "countryExclusionExemptNames": [
     "Los 40 Principales México",
     "Café Romántico Radio (Monterrey) - Online - www.caferomanticoradio.com - Grupo Digital Radioland - Monterrey, Nuevo León",
-    "BEAUTIFUL Instrumentals",
     "Cumbias Inmortales Radio (Monterrey) - Online - www.cumbiasinmortales.com - Grupo Digital Retroland - Monterrey, Nuevo León",
-    "La Ranchera de Monterrey - 1050 AM - XEG-AM - Núcleo Radio Monterrey - Monterrey, NL",
-    "SABROSITA Ciudad de México - 590 AM - XEPH-AM - NRM Comunicaciones - Ciudad de México",
-    "Amor Ciudad de México - 95.3 FM - XHSH-FM - Grupo ACIR - Ciudad de México",
-    "W Radio Ciudad de México (XEW-AM 900 kHz, XEW-FM 96.9 MHz) Televisa Radio",
-    "Panda Show Radio - Online - El Panda Zambrano - Ciudad de México",
-    "La Comadre Ciudad de México - 1260 AM - XEL-AM - Grupo ACIR - Ciudad de México",
-    "UNIVERSAL Ciudad de México - 88.1 FM - XHRED-FM - Grupo Radio Centro - Ciudad de México",
     "XHEXA \"Exa FM\" 104.9 FM Mexico City, DF",
-    "Radio Felicidad - 1180 AM - XEFR-AM - Grupo ACIR - Ciudad de México",
-    "ALFA 91.3 (Ciudad de México) - 91.3 FM - XHFAJ-FM - Grupo Radio Centro - Ciudad de México",
-    "Roca Fm Clasicos Mexico",
-    "El Fonógrafo - 690 AM - XEN-AM - Grupo Radio Centro - Ciudad de México",
-    "Convoy en vivo"
+    "La Ranchera de Monterrey - 1050 AM - XEG-AM - Núcleo Radio Monterrey - Monterrey, NL"
   ]
 }
