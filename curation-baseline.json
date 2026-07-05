@@ -1,0 +1,4260 @@
+{
+  "schemaVersion": 4,
+  "updatedAt": "2026-07-06T01:00:00Z",
+  "excludedWebCategories": [
+    "information",
+    "local",
+    "local news",
+    "religious",
+    "kids",
+    "children",
+    "easy listening",
+    "lounge",
+    "music",
+    "pop rock",
+    "rock",
+    "adult contemporary",
+    "alternative",
+    "alternative rock",
+    "christian",
+    "chillout",
+    "classic hits",
+    "eclectic",
+    "estación",
+    "méxico",
+    "musica",
+    "música",
+    "ciudad de méxico",
+    "mexico city",
+    "entretenimiento",
+    "español",
+    "moi merino",
+    "latinoamérica",
+    "norteamérica",
+    "radio",
+    "pop music",
+    "news talk",
+    "fm",
+    "culture",
+    "mediaset",
+    "variety",
+    "non-commercial",
+    "retro",
+    "internet",
+    "cdmx",
+    "am",
+    "am radio",
+    "mediumwave",
+    "commercial",
+    "aac",
+    "mp3",
+    "free",
+    "california",
+    "national",
+    "regional",
+    "live",
+    "public service",
+    "talk radio",
+    "américa",
+    "sport",
+    "catholic",
+    "música del recuerdo",
+    "música en español",
+    "radio hablada",
+    "comedy",
+    "techno",
+    "electro",
+    "edm",
+    "hip-hop",
+    "hip hop",
+    "hiphop",
+    "heavy metal",
+    "conservative talk",
+    "new york city",
+    "features",
+    "npr",
+    "downtempo",
+    "relax",
+    "funk",
+    "smooth jazz",
+    "electronica",
+    "80's",
+    "90's",
+    "70's",
+    "60's",
+    "00's",
+    "00s",
+    "80er",
+    "90er",
+    "70er",
+    "chicago",
+    "hot adult contemporary",
+    "political talk",
+    "soft rock",
+    "disco",
+    "blues rock",
+    "london",
+    "conspiracy theories",
+    "conspiracy",
+    "conspiracies",
+    "entertainment",
+    "radio france",
+    "relaxing",
+    "urban",
+    "christian contemporary",
+    "ccm",
+    "drama",
+    "hd",
+    "folk",
+    "gospel",
+    "old time radio",
+    "otr",
+    "politics",
+    "romantic",
+    "sports news",
+    "top hits",
+    "world news",
+    "bible",
+    "80",
+    "90",
+    "chill",
+    "decades",
+    "east lansing",
+    "talk"
+  ],
+  "pinnedWebDialCategories": [
+    "top 40",
+    "charts",
+    "hits",
+    "60s",
+    "70s",
+    "80s",
+    "90s",
+    "2000s",
+    "dance",
+    "electronic",
+    "house",
+    "ambient",
+    "oasis",
+    "grunge",
+    "new wave",
+    "rock",
+    "classic rock",
+    "beatles",
+    "rolling stones",
+    "guns n roses",
+    "metal",
+    "hard rock",
+    "country",
+    "rap",
+    "blues",
+    "soul",
+    "workout",
+    "vibes",
+    "latin",
+    "reggae",
+    "mexico",
+    "jazz",
+    "frank sinatra",
+    "oldies",
+    "college",
+    "classical",
+    "soundtracks",
+    "public radio",
+    "podcast talk",
+    "art bell",
+    "sports",
+    "news",
+    "financial",
+    "whatever"
+  ],
+  "stationCategoryRemappings": {
+    "country": [
+      "Today's Hot Country",
+      "Outlaw Country Radio",
+      "90's Country Music Radio",
+      "2000's Country Music Radio",
+      "The Outlaw",
+      "Music City Roadhouse",
+      "ER Willie Nelson",
+      "Exclusively Dolly Parton"
+    ],
+    "beatles": [
+      "Beatles",
+      "Exclusively The Beatles",
+      "Beatles Radio",
+      "MopTop Radio - The Beatles"
+    ],
+    "grunge": [
+      "Big R Radio - Grunge FM",
+      "Best Of Rock.FM Alternative Rock",
+      "KEXP 90.3",
+      "100.7 WMMS",
+      "Kroq 106.7",
+      "Indie X FM",
+      "Nu Metal Radio",
+      "Nirvana",
+      "Soundgarden",
+      "Pearl Jam"
+    ],
+    "rolling stones": [
+      "Virgin Radio Rockstar: Rolling Stones",
+      "Radio ROCKS Kyiv",
+      "RdMix Classic Rock 70s 80s 90s",
+      "Classic Rock 70s"
+    ],
+    "guns n roses": [
+      "Virgin Radio Rockstar: Guns N' Roses",
+      "Hard Rock Radio FM",
+      "Hair Metal Radio",
+      "80s Metal Radio"
+    ],
+    "2000s": [
+      "iHeart2000s Radio",
+      "Decada FM 100.1",
+      "Retro Rádio",
+      "Sunshine Live - Classics"
+    ],
+    "metal": [
+      "Nu Metal Radio",
+      "Rock Antenne - Heavy Metal",
+      "Big R Radio - 80s Metal FM",
+      "80s Metal",
+      "SomaFM Metal Detector (128k AAC)",
+      "Prog Rock and Metal",
+      "Stone Radio",
+      "Metallica",
+      "J-Rock Powerplay"
+    ],
+    "latin": [
+      "La 100 - 99.9 FM Buenos Aires",
+      "La Mega Medellín 92.9 FM",
+      "104.5 Latino Hits",
+      "Mega 97.1 Latino Hits",
+      "Z 92 Miami 92.3 FM",
+      "Concierto FM",
+      "Radiograma",
+      "Planeta FM",
+      "Romance FM",
+      "Sonidero",
+      "Latina Salsa",
+      "Olímpica Stereo",
+      "Top Latino",
+      "Candela Estéreo",
+      "Radio Art - Flamenco",
+      "Radio Sevillanas",
+      "Radio Andina",
+      "Radio Rumba",
+      "Chocolate FM"
+    ],
+    "soul": [
+      "Retro Soul Radio",
+      "CLASSIC HITS RADIO 70 80 DiscoFunk",
+      "70s 80s Disco Funk ModernSoul Boogie",
+      "Jazz Radio Funk",
+      "Rhythm & Blues Radio",
+      "Soul Music Radio",
+      "Stevie Wonder",
+      "FUNKY RADIO",
+      "Motown Radio",
+      "Stax and Motown",
+      "Funky Corner",
+      "WHUR 96.3"
+    ],
+    "rap": [
+      "Skyrock",
+      "90s90s HipHop & Rap",
+      "All Underground Hip Hop Radio",
+      "HOT 93.5 Old School",
+      "98.8 Kiss FM Urban Beats",
+      "SomaFM Fluid",
+      "Hot 97",
+      "BBC Radio 1Xtra",
+      "SiriusXM Hip-Hop Nation",
+      "Rap Classics",
+      "Eminem",
+      "Urban Radio - Hip Hop",
+      "Klassic Joints",
+      "Old School Hip Hop - Urbanradio.com",
+      "98.8 Kiss FM Oldshool",
+      "Power 105.1",
+      "98.8 Kiss FM Trap Beats",
+      "WHBX"
+    ],
+    "oasis": [
+      "Virgin Radio Rockstar: Oasis",
+      "Radio X"
+    ],
+    "frank sinatra": [
+      "Classic Vinyl",
+      "The Great American Songbook",
+      "WLML",
+      "Radio Dismuke",
+      "WJEJ 1240",
+      "WGHQ 920"
+    ],
+    "workout": [
+      "Hip Hop Workout Radio",
+      "WorkoutTime USA",
+      "1A Fitness Hits",
+      "Antenne Bayern - Workout",
+      "FFH Workout",
+      "Sunshine Live - Workout"
+    ],
+    "podcast talk": [
+      "TED Talks Radio",
+      "NPR World",
+      "BBC World Service",
+      "Podcast Addict",
+      "Intelligent Talk",
+      "NPR 24 Hour Program Stream",
+      "BBC Radio 4"
+    ],
+    "college": [
+      "KXLU",
+      "WHRB",
+      "WPRB",
+      "KALX",
+      "Radio K - Real College Radio",
+      "UCM-The Beat",
+      "Shady Pines Radio",
+      "KPCR 101.9",
+      "WFMU"
+    ],
+    "public radio": [
+      "NPR Illinois",
+      "WFUV 90.7 Fordham University - New York, NY",
+      "KCRW 88.9 FM - Live",
+      "KEXP 90.3 Seattle, WA",
+      "88.5 KQED",
+      "WAMC 90.3 \"Northeast Public Radio\" Albany, NY",
+      "WNYC-FM 93.9 New York Public Radio",
+      "KUSC 91.5 Los Angeles, CA (96kbps AAC)",
+      "WORT 89.9",
+      "CBC Music",
+      "Radio Canada Ici Musique",
+      "CBC Radio 1",
+      "WUSF",
+      "KTEP",
+      "WFDD",
+      "WAER"
+    ],
+    "whatever": [
+      "Winnipeg's Bounce 99.9",
+      "SomaFM Drone Zone",
+      "SomaFM Space Station Soma",
+      "SomaFM Defcon",
+      "The Alternate Side",
+      "Radio Paradise",
+      "FUV Discover",
+      "KEXP Experimental",
+      "Indie Shuffle Radio",
+      "Radio Nova France"
+    ],
+    "vibes": [
+      "KISS - The Best Vibes",
+      "SomaFM Groove Salad",
+      "Positive Hits Radio",
+      "Feel Good Station",
+      "Good Vibes Radio",
+      "Chillwave Radio",
+      "The Alternate Side",
+      "Los 40 Cataluna",
+      "bigFM LoFi",
+      "Smooth Chill",
+      "Chillsynth",
+      "Chilltrax",
+      "Chillstep",
+      "Ibiza SoniCalm",
+      "SomaFM Lush",
+      "Ibiza Sonica",
+      "Sunshine Live Blue",
+      "Shonan Beach"
+    ],
+    "classic rock": [
+      "Virgin Radio Rockstar: Aerosmith",
+      "Virgin Radio Rockstar: AC/DC",
+      "Exclusively Creedence",
+      "- 0 N - Classic Rock",
+      "St Louis Classic Rock",
+      "Radio GÖD",
+      "Exclusively Led Zeppelin",
+      "70 80 90 Vibrazioni Rock Radio"
+    ],
+    "oldies": [
+      "Radio Caroline",
+      "OLDIE ANTENNE",
+      "Radiostorm - Oldies 104",
+      "Oldies Internet Radio",
+      "Elvis Presley",
+      "Radio Arabella",
+      "Nostalgie New York",
+      "Scott Shannon's True Oldies",
+      "WGNY - Fox Oldies",
+      "WABC Oldies Time Machine",
+      "Antenne Bayern - Oldies but Goldies",
+      "Magic Fm",
+      "LOVE RADIO Only Love Songs",
+      "Antenne Sachsen",
+      "Radio Armisa"
+    ],
+    "top 40": [
+      "Capital FM London",
+      "Virgin Radio UK"
+    ],
+    "sports": [
+      "WJOX",
+      "WFAN"
+    ],
+    "60s": [
+      "-ON- 60s Radio"
+    ],
+    "70s": [
+      "Exclusively Carole King"
+    ],
+    "80s": [
+      "Michael Jackson",
+      "80s80s Prince",
+      "Exclusively Prince",
+      "Prince Hits",
+      "1000 HITS 80s",
+      "__80 HITS",
+      "__80s HITS"
+    ],
+    "90s": [
+      "90s90s Grunge Germany"
+    ],
+    "electronic": [
+      "Radio FG Techno",
+      "SomaFM Dub Step Beyond",
+      "Sunshine Live - Drum N Bass",
+      "Daft Punk",
+      "Intense Radio"
+    ],
+    "jazz": [
+      "Smooth Jazz 247",
+      "WWOZ",
+      "Jazz Radio Classic Jazz"
+    ],
+    "other": [
+      "Kancheeravam Radio",
+      "COOL FM Best Hits Ever"
+    ],
+    "financial": [
+      "Bloomberg",
+      "KFLP"
+    ],
+    "new wave": [
+      "SomaFM Underground 80s",
+      "SomaFM PopTron",
+      "Exclusively Talking Heads",
+      "exclusively Erasure",
+      "New Wave Radio",
+      "Sanctuary Radio",
+      "XWave"
+    ],
+    "mexico": [
+      "Los 40 Principales México",
+      "Café Romántico Radio (Monterrey) - Online - www.caferomanticoradio.com - Grupo Digital Radioland - Monterrey, Nuevo León",
+      "Cumbias Inmortales Radio (Monterrey) - Online - www.cumbiasinmortales.com - Grupo Digital Retroland - Monterrey, Nuevo León",
+      "XHEXA \"Exa FM\" 104.9 FM Mexico City, DF",
+      "La Ranchera de Monterrey - 1050 AM - XEG-AM - Núcleo Radio Monterrey - Monterrey, NL"
+    ],
+    "news": [
+      "LBC UK",
+      "talkRADIO",
+      "CJAD 800",
+      "WFED"
+    ],
+    "soundtracks": [
+      "Cinemix",
+      "Classic FM at the Movies"
+    ],
+    "ambient": [
+      "Your Classical",
+      "YourClassical",
+      "Whisperings Solo Piano"
+    ],
+    "blues": [
+      "Radio BluesFlac",
+      "bluesflac",
+      "#joint radio Blues Rock"
+    ],
+    "indie": [
+      "FM4"
+    ],
+    "rock": [
+      "KMYZ The Edge",
+      "DIE NEUE 107.7",
+      "Guerrilla Radio",
+      "Bandit Rock"
+    ],
+    "art bell": [
+      "Art Bell",
+      "NYE Underground",
+      "Fade to Black with Jimmy Church",
+      "The Other Side of Midnight"
+    ],
+    "reggae": [
+      "Bobs Ska Radio"
+    ],
+    "hits": [
+      "Power POP"
+    ]
+  },
+  "blockedNames": [
+    ".977 80s",
+    ".977 Hitz",
+    ".977 The Mix",
+    "=101 SMOOTH JAZZ",
+    "101.9 KISS FM",
+    "102.1 The Edge",
+    "102.5 The Game",
+    "103.3 Country",
+    "103.5 KISS FM",
+    "103.5 KTU",
+    "1030 Ciudad de Mexico",
+    "1030 Ciudad de México",
+    "105.7 R&B Classic",
+    "105.9 United Heart FM",
+    "106.7 Lite FM",
+    "106.7 LITE FM",
+    "106.7 LITE FM MEGA",
+    "107.3 BBC",
+    "107.5 KISS FM",
+    "107.7 The Bone",
+    "181 FM",
+    "181.FM",
+    "181FM",
+    "2SM Sydney",
+    "2SM Sydney 1269",
+    "3MP",
+    "4BC Brisbane 882",
+    "6PR Perth 882",
+    "88.7 The Bridge",
+    "88.7 The Ghoat",
+    "88.7 The Goat",
+    "88.9 Shine FM",
+    "89.0 RTL",
+    "90.1 MHz FM EL CHUBUT",
+    "90.5 Heart FM",
+    "90.7 K-LOVE",
+    "91. 3 Capital",
+    "91.2 Capital",
+    "91.3 Capital fm",
+    "92 KQRS",
+    "92.1 Capital",
+    "92.1 The Ticket",
+    "93.1 The Border",
+    "93.7 K Country",
+    "93.7 The Ticket",
+    "93.9 KPDQ",
+    "93.9 Lite FM",
+    "93.9 WLIT",
+    "94 SU FM",
+    "94.3 Lite FM",
+    "94.3 Now Radio",
+    "94.3 The Goat",
+    "94.5 ESPN",
+    "94.9 HOM",
+    "95.5 Buzz HD2",
+    "95.5 Hallelujah",
+    "95.5 Hits FM",
+    "95.9 LITE FM",
+    "96.3 Jack FM",
+    "96.5 KOIT",
+    "98.1 WTSN",
+    "98.5FM",
+    "98.5 Montreal",
+    "99.9 The Bay",
+    "AM 1090 KAAY",
+    "0R - SOFT ROCK",
+    "AM 790",
+    "AM790",
+    "Antena Sur",
+    "Apartado Stereo",
+    "Apartadó Stereo",
+    "Aspen 102.3",
+    "Aspen FM",
+    "Audacy",
+    "AZPM",
+    "Band FM 96.1",
+    "BPM sports",
+    "BandNews FM",
+    "BBC Radio 2",
+    "BBC Radio 3",
+    "BBC Radio Uganda",
+    "Beat FM - Kampala",
+    "Beat FM 96.3",
+    "Beat FM Kampala",
+    "Berliner Rundfunk",
+    "Besame",
+    "Big 96.3",
+    "Big Country 93",
+    "Big Country 93.1",
+    "Big R Radio - 80s Metal FM",
+    "BIG HEART FM",
+    "Big Heart FM",
+    "Bio-Bio",
+    "Black Power 96",
+    "Blu Radio",
+    "Blu Radio,",
+    "Blue 100.7",
+    "Boom 97.3",
+    "Buzz HD2",
+    "Bésame",
+    "Bío-Bío",
+    "C-SPAN Radio",
+    "Cadena Radial del Centro",
+    "Calm Radio",
+    "Candela Casanare 94.7",
+    "Caracol Radio",
+    "CBC Radio One London",
+    "CBN Rio de Janeiro",
+    "CENTRAL LUZ",
+    "CFCP",
+    "CFEX",
+    "CFFM",
+    "CFGB",
+    "CFGB-FM",
+    "CFIX",
+    "CFIX-FM",
+    "CFMK",
+    "CFMZ",
+    "CFNY",
+    "CFOB",
+    "CFOB-FM",
+    "CFRK",
+    "CFWD",
+    "CFWD-FM",
+    "CFXJ",
+    "CFYX",
+    "CHBM",
+    "CHBW",
+    "CHDI",
+    "CHFX",
+    "CHKG-FM",
+    "CHKT",
+    "CHMX",
+    "CHKT AM1430",
+    "CHMB AM1320",
+    "CHNS",
+    "CHOC 88.7",
+    "CHOI",
+    "CHUR-FM",
+    "CHUR-FM",
+    "CIDC-FM",
+    "CIGV",
+    "CILG",
+    "CILG-FM",
+    "CILV-FM",
+    "CIND-FM",
+    "CIRR-FM",
+    "CIRV",
+    "CIRV-FM",
+    "CIRX-FM",
+    "CJAB",
+    "CJCB",
+    "CJCQ-FM",
+    "CJJR",
+    "CJLR",
+    "CJMD",
+    "CJNS",
+    "CJNS-FM",
+    "CJPG",
+    "CJPG-FM",
+    "CJRG",
+    "CJSE",
+    "CJUK",
+    "CJXL",
+    "CJXX",
+    "CJXX-FM",
+    "CKBE",
+    "CKCE",
+    "CKCE-FM",
+    "CKCK",
+    "CKCU The Mighty 93.1",
+    "CKDO",
+    "CKIS",
+    "CKLN",
+    "CKMP",
+    "CKMX",
+    "CKOB",
+    "CKUT",
+    "CKWT",
+    "CKNO",
+    "CKNX",
+    "CKPE",
+    "CKWD",
+    "CKYE-FM 93.1",
+    "Classical 96.3",
+    "Classical KUSC",
+    "Concierto FM 90.5",
+    "Concierto FM 95.1",
+    "Cosquin Rock",
+    "Cosquín Rock",
+    "Country 89",
+    "CRI Kiswahili",
+    "Cruise 1323",
+    "Cumulus",
+    "Derti 107.7",
+    "Derti FM",
+    "Doksanlar",
+    "DZFE",
+    "Deep House Radio",
+    "EGE KAMPÜS",
+    "Ege Kampüs",
+    "El Sol (Medellin)",
+    "El Sol (Medellín)",
+    "El Sol 107.9",
+    "El Sol Medellin",
+    "El Sol Medellín",
+    "Elite FM 101.5",
+    "Energia 102.5",
+    "Energy 95.3",
+    "Estereo Clase",
+    "EXA FM Honduras",
+    "Exclusively Nat King Cole",
+    "Faro del Cariba",
+    "Faro del Caribe",
+    "Faro Del Caribe",
+    "Fasching",
+    "Feeling FM",
+    "Flow 93.5",
+    "FM 88.9 Toronto",
+    "FM 90 Saladillo",
+    "FM 97.9 Vida",
+    "FM BAND NEWS",
+    "FM La Boca",
+    "FM O Dia",
+    "Folklorica 98.7",
+    "FX 101.9",
+    "GBC Uniiq",
+    "GBH",
+    "Gen 103.1",
+    "Gen 98.7",
+    "Ghoat",
+    "Give the Drummer",
+    "Hallelujah FM",
+    "Heart FM 92.7",
+    "Heart FM 93.7",
+    "Heart FM冰城",
+    "Highveld 94.7",
+    "HJMO",
+    "Hot 96.9 Spokane",
+    "Hot 97.1 FM SVG",
+    "Hot 97.1 SVG",
+    "HRYW",
+    "iHeart",
+    "iHeartCountry",
+    "iHeartLatino",
+    "iHeartRadio",
+    "Indie 102.3",
+    "Indie 88.1",
+    "Indie88",
+    "Intergalactic FM",
+    "Itatiaia",
+    "Jack FM 94.5",
+    "Jack FM 95.7",
+    "Jazz 91",
+    "Jet FM",
+    "Joburg 94.7",
+    "JOE mp3",
+    "JR Country",
+    "K Country",
+    "K-Rock 105.7",
+    "K-Rock 97.5",
+    "KAAY",
+    "KALX",
+    "KBOO",
+    "Kakampi Partido",
+    "Kampala",
+    "KARNEVAL",
+    "Karneval",
+    "KBVU",
+    "KCMP",
+    "KCRW",
+    "KCSM",
+    "90.1 Edmonton",
+    "KCFR 90.1",
+    "KUCO 90.1 Edmonton",
+    "KUCO 90.1",
+    "KUCO Edmonton",
+    "KUCO-FM Edmonton",
+    "KERA",
+    "KEZE",
+    "KFAN 107.9",
+    "KFM - Kampala",
+    "KFM Kampala",
+    "KGU",
+    "KGLO",
+    "KHNC",
+    "KIKK",
+    "Kis 95.1 FM",
+    "Kiss 100.4",
+    "KISS 92.5",
+    "Kiswahili",
+    "KIXX Country",
+    "KJAB",
+    "KKNX",
+    "KLOS - HD2",
+    "KLOS 95.5 - HD2",
+    "KLOS HD2",
+    "KNOW",
+    "KNPR",
+    "KOIT",
+    "KOPB",
+    "KORA",
+    "KOST",
+    "KOST 103.5",
+    "KPCC",
+    "KPLX",
+    "KQED",
+    "KQRS",
+    "KRMG",
+    "Kroq 106.7",
+    "kroq 106.7",
+    "KSAN",
+    "KSAN-FM",
+    "KSBJ",
+    "KTU 103.5",
+    "KUSC",
+    "Kuschelrock",
+    "Kuschelschlager",
+    "KUTX",
+    "KWMU",
+    "KXOL-FM",
+    "Kyklos",
+    "La Clave 92.9",
+    "La FM Bogota",
+    "La FM Bogotá",
+    "La Maxima 89.1",
+    "La Mega 97.9",
+    "La Máxima 89.1",
+    "La Popu",
+    "La Red 106.1",
+    "La Red Guatemala",
+    "La Reina Cartagena",
+    "La Rompedoras",
+    "La Voz",
+    "Lanao del Norte",
+    "Lanao Del Norte",
+    "Lider 94.9",
+    "Lite FM 101.1",
+    "Lite FM 106.7",
+    "Lite FM Lanao",
+    "LITE FM MEGA",
+    "Lite FM Mega",
+    "LiteFM 106.7",
+    "Live 88.5",
+    "LOS 40 SANTA FE",
+    "Los 40 Santa Fe",
+    "m2o",
+    "Master's Touch",
+    "MBC Loud",
+    "Mega 96.3",
+    "Mega 97.1",
+    "MEGA 98.3",
+    "Mega 98.3",
+    "Melodii Veka",
+    "Metro 95.1",
+    "Minnesota Public",
+    "Missinipi",
+    "Mix (Medellín)",
+    "Mix Medellin",
+    "Mix Medellín",
+    "Modern Talking",
+    "Mucha Radio 94.7",
+    "Mundo Retro",
+    "National Radio of Kampuchea",
+    "New Country 92",
+    "New Country 96.9",
+    "News Radio 1090",
+    "News Radio 1120 KMOX",
+    "News Radio1090",
+    "Now! Radio",
+    "Olimpica",
+    "Olímpica",
+    "Parapolitika",
+    "Plus 93.1",
+    "Power 97.9",
+    "Power 98.7",
+    "Proud FM",
+    "Q107.5",
+    "Q98 97.9",
+    "Radio 4 Rock & Pop",
+    "Radio 4: Rock & Pop",
+    "RADIO ACTIVA",
+    "Radio Activa",
+    "Radio America 94.7",
+    "Radio America  94.7",
+    "Radio America Tegucigalpa",
+    "Radio Amor",
+    "Radio Autentica",
+    "Radio Auténtica",
+    "Radio Band FM",
+    "Radio BandNews",
+    "Radio Bob",
+    "RADIO BOB",
+    "Radio Bochum",
+    "Radio Brocken",
+    "RADIO CAKRA",
+    "Radio Cakra",
+    "Radio Chocolate Rock & Pop",
+    "Radio Comas",
+    "Radio Con Vos",
+    "Radio Disney 94.3",
+    "Radio FM O Dia",
+    "Radio Fulbe",
+    "Radio Globo 88.5 HN",
+    "Radio Itatiaia",
+    "Radio Kampus",
+    "Radio Kassara Barika",
+    "Radio Latina FM 101.1",
+    "Radio m2o",
+    "Radio M2O",
+    "Radio Nacional Folklorica",
+    "Radio Panam",
+    "Radio Pirata 97.7",
+    "Radio Policia",
+    "Radio Policía",
+    "Radio Punjabi USA",
+    "=Hard Rock Heaven",
+    "radio SAW",
+    "Radio SAW",
+    "Radio Tiempo",
+    "Radio Tupi",
+    "Radio X 98.1",
+    "RADYO DOKSANLAR",
+    "Radyo Doksanlar",
+    "RBB 88.8 Radio Berlin",
+    "Real FM 97.8",
+    "REBEL 105.2",
+    "REPLAY NEWS",
+    "Rewind Radio",
+    "RFI Kiswahili",
+    "Rio FM 96.9",
+    "River Rat Radio",
+    "Rock and Pop 95.9",
+    "Rock And Pop FM 95.9",
+    "Rock FM 96.9",
+    "RPR1",
+    "RTL 102.5",
+    "RTS Tambacounda",
+    "Russkoe Radio",
+    "Rythmos 89.2",
+    "Rythmos 94.9",
+    "Rádio Band FM",
+    "Rádio BandNews",
+    "Rádio FM O Dia",
+    "Rádio Itatiaia",
+    "Rádio Tupi",
+    "Saladillo FM",
+    "SANIB PWERSA",
+    "Sanib Pwersa",
+    "Sanyu",
+    "Sanyu FM",
+    "senal nacional",
+    "señal nacional",
+    "Simplesmente Diferente",
+    "simplesmente diferente",
+    "Sonic 102.9",
+    "Spor FM 95.0",
+    "Stereo Cafe",
+    "Stereo Exitos",
+    "Stereo Éxitos",
+    "StuBru",
+    "Studio 92",
+    "Studio Brussel",
+    "Studio Bruxelles",
+    "Suno Sharda",
+    "Super Radio Tupi",
+    "Sveriges Radio",
+    "Sydney 873",
+    "Texas Country Classic",
+    "ThaiRadio",
+    "The Beat 92.5",
+    "The Bone 107.7",
+    "The Rock - NZ",
+    "The Border 93.1",
+    "The Breeze 93.4",
+    "The Bridge 88.7",
+    "The Cape 94.9",
+    "The Current",
+    "The Edge 102.1",
+    "The Edge 92.9",
+    "The Ghoat",
+    "The Goat 94.3",
+    "The Goat 97.5",
+    "The Local Current",
+    "The New Classical",
+    "The Promise 100.7",
+    "The War Room With Owen Shroyer",
+    "The Wolf 99.5",
+    "Today Radio",
+    "Tropicana (Medellín)",
+    "Tropicana Medellin",
+    "Tropicana Medellín",
+    "TruckStop Radio",
+    "Uniiq",
+    "US 103.5",
+    "Vale 97.1",
+    "Veritas Asia",
+    "Victory Radio",
+    "Vinyl 96.3",
+    "VOCM-FM",
+    "Vox FM",
+    "Vox FM Honduras",
+    "W Radio Ciudad de Mexico",
+    "WAMC",
+    "WAMU",
+    "WBAL",
+    "WBAL \\\"News Radio",
+    "WBEZ",
+    "WBFJ",
+    "WBGO",
+    "WBGO Jazz",
+    "WBGO-FM",
+    "WBLS Radio",
+    "WBUR",
+    "WBTA 1490",
+    "WCJK",
+    "WCSP",
+    "WDAC",
+    "WDCB",
+    "WESA",
+    "WFCR",
+    "WFMU",
+    "WFUS",
+    "WFUV",
+    "WGBH",
+    "WGNV",
+    "WGUC",
+    "WHAM",
+    "WHOP-FM",
+    "Whoopee",
+    "WHTZ",
+    "WHUR",
+    "WHUR 96.3",
+    "WHUR-FM",
+    "WHYY",
+    "Wild 95.3",
+    "Wild Heart",
+    "Wild Heart FM",
+    "WJLB",
+    "WKCR",
+    "WKSC",
+    "WKSC-FM",
+    "WKTU",
+    "WKXP",
+    "WLAV",
+    "WLIT",
+    "WLRD 96.9",
+    "WLTW",
+    "WLVR",
+    "WLVU",
+    "WMVP",
+    "WNCY",
+    "WNPR",
+    "WOSU",
+    "WOWO",
+    "WOXL",
+    "WPLM",
+    "WPRT-FM",
+    "WSM",
+    "WSB UGA",
+    "WSRB",
+    "WSTX",
+    "WTAR",
+    "WTIX",
+    "WTMD",
+    "WTOP",
+    "WTOP-FM",
+    "WUMB",
+    "WUNC",
+    "WUFO 1080",
+    "WUPE",
+    "WUTC",
+    "WUVT",
+    "WUWM",
+    "WVPE",
+    "WVRS",
+    "WVRX",
+    "WWOZ",
+    "WXPN",
+    "XEB",
+    "XEB La B grande",
+    "XL Country 100.7",
+    "XY 90.5",
+    "Y100 Country",
+    "Yedyni novyny",
+    "YLFM",
+    "Z 92 (Miami)",
+    "Z 92 Miami",
+    "Z-103.5",
+    "Z100 - New York",
+    "Z100 New York",
+    "Z103.5",
+    "Ρυθμός",
+    "Σπορ FM 95.0",
+    "Мелодии Века",
+    "Русское радио",
+    "Єдині новини",
+    "冰城102.6",
+    "加拿大中文电台",
+    "飛揚調頻",
+    "WALM 2 HD",
+    "Iomo FM Belarus",
+    "Belarus Comedy",
+    "Belarus FM",
+    "Alex Jones",
+    "ABC News Live",
+    "=WJON Weatherscan 24/7",
+    "=Kancheeravam Radio",
+    "=Newgrounds Radio",
+    "=Elite Fm",
+    "=Elite fm new",
+    "Vibra FM (Culiacán",
+    "MIX 580 (Cancún",
+    "Lokura 830",
+    "=TGON koolFM",
+    "=JOE",
+    "=Relevant Radio",
+    "=Radio Vaticana English",
+    "=Classical Catholic Radio",
+    "=Christian Classic Rock Dot Net",
+    "=Martha Kowaski",
+    "=Rense Radio Network",
+    "Вести",
+    "Соловьёв",
+    "Спутник",
+    "Радио Маяк",
+    "Комсомольская",
+    "Kommersant",
+    "=Radio Paradise Main Mix (EU) 320k AAC",
+    "=Radio Paradise Main Mix (EU) 128k AAC",
+    "=Radio Paradise Main Mix (EU) FLAC+meta",
+    "=Radio Paradise Main Mix 128 AAC",
+    "=Radio Paradise Main Mix FLAC",
+    "=Radio Paradise Mellow Mix FLAC",
+    "=Radio Paradise Mellow Mix FLAC+meta",
+    "=Radio Paradise Mellow Mix 128k AAC",
+    "=Radio Paradise Mellow Mix",
+    "=Radio Paradise Rock Mix FLAC",
+    "=Radio Paradise Global Mix 128k AAC",
+    "=Radio Paradise World/etc FLAC+meta",
+    "=BBC World Service (128k)",
+    "=BBC World Service for East Asia",
+    "WRVO-3",
+    "WVPS-HD3",
+    "WUAL-HD3",
+    "=KEXP 90.3",
+    "=KEXP 90.3 FM Seattle, WA",
+    "=KEXP 90.3 FM Seattle",
+    "=KEXP 90.3 Seattle, WA (AAC 160K)",
+    "=KXLU 320mbps",
+    "=KXLU lo",
+    "=KXLU-hi",
+    "=WQXR",
+    "=WQXR Web Live",
+    "=Q104.3",
+    "=WAXQ 104.3 New York",
+    "=WGHQ-AM 920/W223CR 92.5 FM Kingston, NY",
+    "=HPR1 Traditional Classic Country (32kbs Low Quality)",
+    "=CHOK 103.9 FM & 1070 AM  \"Country CHOK\" Sarnia, ON  (MP3 Stream)",
+    "=Chocolate FM [calidad móvil-low bandwidth]",
+    "=Adroit Jazz Underground HD Opus",
+    "=Classic Vinyl HD Opus",
+    "Oldies Internet Radio (Monterrey",
+    "=Christian Talk FM",
+    "=Christian Hard Rock Dot Net",
+    "=BBS Radio 2",
+    "=SexFM",
+    "=RBN ",
+    "=Patriot Radio Classics",
+    "=Радонеж",
+    "=FM 100 Pakistan",
+    "=Barangay LS 97.1 Manila",
+    "=Радио Книга",
+    "=РАДИО ВАНЯ",
+    "=BloombergHTradyo ",
+    "=Bloomberg TV new",
+    "NEUERSCHEINUNGEN",
+    "-- # TOP 100 CHARTS",
+    "EXA FM: POP MUSIC",
+    "=Arab Mix FM",
+    "=Los 40 Catalunya",
+    "=__DEUTSCHE HITS__ by rautemusik (rm.fm)",
+    "=__TECHHOUSE__ by rautemusik (rm.fm)",
+    "=__BIGCITYBEATS.FM__ by rautemusik (rm.fm)",
+    "=Sunshine Live - Techno",
+    "=Sunshine Live - Lounge",
+    "=Sunshine Live - EDM",
+    "=Sunshine Live - Party",
+    "=Sunshine LIve - Trance (64kbps)",
+    "=Sunshine Live - Die 90er",
+    "=90s90s Dance HQ",
+    "=90s90s Techno HQ",
+    "=Frisky Chill",
+    "=Frisky Classics",
+    "=Ibiza Sonica Club",
+    "=Ibiza Sonica | Sonica Futura",
+    "=Ibiza Sonica | Balearic Sound",
+    "=Bayern 1 Franken",
+    "=Bayern 1 Schwaben",
+    "=NDR 1 Welle Nord",
+    "=NDR 1 Radio MV",
+    "=CBC Music Pacific (Vancouver) MP3 Stream",
+    "=CBC Music Eastern (Toronto) MP3 Stream",
+    "=CBC Music Atlantic (Halifax) MP3 Stream",
+    "=CBC Music Central (Winnipeg) - MP3 Stream",
+    "=CBC Music Central (Winnipeg) - AAC Stream",
+    "=CBC Music (Central) - Winnipeg, MB",
+    "=WGN Radio 720",
+    "=CHED 630 (Edmonton, AB)",
+    "=Newsradio 970 WFLA 48kbps",
+    "=99.7 & 1450 WHTC",
+    "=CHOK 1070 & 103.9 Sarnia, ON",
+    "=WNYC FM",
+    "=WNYC",
+    "=KFI LA",
+    "=CKNW",
+    "=CJCL Sportsnet 590 The Fan (Alt Stream)",
+    "=WKAR Jazz - East Lansing, MI",
+    "=WABC Oldies Time Machine airchecks",
+    "=101.1 WJRR Orlando's Rock Station",
+    "=WABC",
+    "=KEXP",
+    "=Radio Canada Ici Musique  - Québec City, QC",
+    "=Radio Canada Ici Musique (Mauricie-Centre-du-Québec) Trois-Rivieres, QC",
+    "=Radio Canada Ici Musique - Bas-Saint-Laurent, Côte-Nord, Gaspésie-Îles-de-la-Madeleine (Rimouski, QC)",
+    "=Radio Canada Ici Musique - Ottawa, ON",
+    "=Radio Canada Ici Musique (Colombie-Britannique-Yukon, Grand Nord) Vancouver, BC",
+    "=Radio Canada Ici Musique Alberta (Edmonton, AB)",
+    "=630 CHED",
+    "=TDI BEZ REKLAMA",
+    "=WNAM 1280 Neenah-Menasha, WI",
+    "=KGRA Digital Broadcasting",
+    "=CINA 1650 AM Mississauga, ON",
+    "=Radio Universidad AM580",
+    "=CKUW 95.9 FM ",
+    "=Antena 1 (Portugal)",
+    "=凤凰卫视资讯台",
+    "=WJON IP RADIO",
+    "=Zhulduz Radio",
+    "=__SCHLAGERRADIO.FM__ by rautemusik (rm.fm)",
+    "=__SCHLAGER OLDIES__ by rautemusik (rm.fm)",
+    "=Radio Edelweiss",
+    "=Radio Armisa",
+    "=Radio Dalmacija",
+    "=Cool Radio Serbia",
+    "=CADENA JOVEN RADIO 107.3 FM",
+    "=RFM",
+    "=AM710 - Radio 10 (El sonido de la realidad)",
+    "=Akaboozi FM 87.9",
+    "=BFM radio",
+    "=CNR-1 中国之声",
+    "=CNR-2 经济之声",
+    "=Cadena SER España",
+    "=Cadena SER Radio MADRID",
+    "=DIGI FM",
+    "=Europa FM",
+    "=Europe 1",
+    "=Inforadio",
+    "=Iran International",
+    "=Jak 101 FM",
+    "=Klubrádió 95,3",
+    "=Kossuth Rádió",
+    "=MDR Aktuell",
+    "=NDR Info (Hamburg)",
+    "=NDR Info (Niedersachsen)",
+    "=NPO Radio 1",
+    "=RAC1",
+    "=RFE/RL Radio Farda",
+    "=RFI Afrique",
+    "=RFI Monde",
+    "=RMC",
+    "=RTBF La Première",
+    "=RTL France",
+    "=Radio 2 1230 AM",
+    "=Radio ABC Cardinal 730 AM",
+    "=Radio Deejay",
+    "=Radio Romania Actualități",
+    "=Rai Radio 1",
+    "=SRo1 Rádio Slovensko",
+    "=SWR3",
+    "=Sud Radio",
+    "=VRT Radio 1",
+    "=WDR 2 Rhein und Ruhr",
+    "=WDR 2 Rheinland",
+    "=WDR 5",
+    "=WKAQ 580",
+    "=esRadio",
+    "=iraninternational",
+    "=ČRo Radiožurnál",
+    "=Радио НВ",
+    "=الجزيرة صوت",
+    "=国际新闻",
+    "=自由亚洲",
+    "Deutschlandfunk",
+    "France Info",
+    "= BBC RADIO 1 DANCE: The biggest current, future and classic dance vibes",
+    "= BBC RADIO 1 DANCE UK: The biggest current, future and classic dance vibes. Londres, Inglaterra",
+    "=BBC Radio 1 Dance",
+    "=BBC Radio One Dance",
+    "Small Town",
+    "Sonic Binary (Italy)",
+    "CKJR 1440",
+    "50s 60s retro hots italy",
+    "Romantica Radio Italy",
+    "Schwarzwaldradio",
+    "Radio Volami nel Cuore",
+    "LITE FM Malaysia",
+    "LITE FM (Malaysia)",
+    "Lite FM Malaysia",
+    "NORA Oldies",
+    "Classical KDFC"
+  ],
+  "excludedCountryCodes": [
+    "RU",
+    "AU",
+    "MX",
+    "BY"
+  ],
+  "religiousTagKeys": [
+    "religious",
+    "religion",
+    "religioso",
+    "religiöse",
+    "christian",
+    "christianity",
+    "cristiano",
+    "catholic",
+    "catolica",
+    "gospel",
+    "spiritual",
+    "islamic",
+    "muslim",
+    "islam",
+    "hindu",
+    "hinduism",
+    "buddhist",
+    "jewish",
+    "judaica",
+    "evangelical",
+    "evangelico"
+  ],
+  "explicitAdultTags": [
+    "adult",
+    "adult content",
+    "adult only",
+    "adult-only",
+    "adults",
+    "adults only",
+    "porn",
+    "porno",
+    "pornstar",
+    "xxx",
+    "erotic",
+    "erotica",
+    "erotik",
+    "sex radio",
+    "explicit",
+    "nsfw",
+    "fetish",
+    "bdsm",
+    "kink",
+    "kinky"
+  ],
+  "explicitAdultNameKeywords": [
+    "porn",
+    "porno",
+    "xxx",
+    "erotic",
+    "erotik",
+    "pornstar",
+    "nsfw"
+  ],
+  "pinnedStations": [
+    {
+      "callSign": "Radio Mágica",
+      "band": "fm",
+      "freq": 88.3
+    },
+    {
+      "callSign": "Radio Magica",
+      "band": "fm",
+      "freq": 88.3
+    },
+    {
+      "callSign": "Plenty Valley",
+      "band": "fm",
+      "freq": 88.6
+    },
+    {
+      "callSign": "88.6 The Beat",
+      "band": "fm",
+      "freq": 88.6
+    },
+    {
+      "callSign": "95.7 Cruz FM Edmonton",
+      "band": "fm",
+      "freq": 95.7
+    },
+    {
+      "callSign": "CFPL-FM",
+      "band": "fm",
+      "freq": 95.9
+    },
+    {
+      "callSign": "FM96",
+      "band": "fm",
+      "freq": 95.9
+    },
+    {
+      "callSign": "96.1 Shopping Classics",
+      "band": "fm",
+      "freq": 96.1
+    },
+    {
+      "callSign": "CILQ",
+      "band": "fm",
+      "freq": 107.1
+    },
+    {
+      "callSign": "KDRS Jack FM",
+      "band": "fm",
+      "freq": 107.1
+    },
+    {
+      "callSign": "NPR News Radio",
+      "band": "fm",
+      "freq": 107.7
+    },
+    {
+      "callSign": "Radio Boing 97.3",
+      "band": "fm",
+      "freq": 97.3
+    },
+    {
+      "callSign": "Dolfijn FM",
+      "band": "fm",
+      "freq": 97.3
+    },
+    {
+      "callSign": "Dolfijn",
+      "band": "fm",
+      "freq": 97.3
+    },
+    {
+      "callSign": "538 TOP 50",
+      "band": "fm",
+      "freq": 102.0
+    },
+    {
+      "callSign": "538 Top 50",
+      "band": "fm",
+      "freq": 102.0
+    },
+    {
+      "callSign": "CKWS-FM",
+      "band": "fm",
+      "freq": 104.3
+    },
+    {
+      "callSign": "Fresh Radio 104.3",
+      "band": "fm",
+      "freq": 104.3
+    },
+    {
+      "callSign": "CIKR-FM",
+      "band": "fm",
+      "freq": 105.7
+    },
+    {
+      "callSign": "K-Rock 105.7",
+      "band": "fm",
+      "freq": 105.7
+    },
+    {
+      "callSign": "CFRC",
+      "band": "fm",
+      "freq": 101.9
+    },
+    {
+      "callSign": "CFRC-FM",
+      "band": "fm",
+      "freq": 101.9
+    },
+    {
+      "callSign": "WFAN",
+      "band": "am",
+      "freq": 660.0
+    },
+    {
+      "callSign": "WGN",
+      "band": "am",
+      "freq": 720.0
+    },
+    {
+      "callSign": "WABC",
+      "band": "am",
+      "freq": 770.0
+    },
+    {
+      "callSign": "WBBM",
+      "band": "am",
+      "freq": 780.0
+    },
+    {
+      "callSign": "WCBS",
+      "band": "am",
+      "freq": 880.0
+    },
+    {
+      "callSign": "KRVN",
+      "band": "am",
+      "freq": 880.0
+    },
+    {
+      "callSign": "KIXI",
+      "band": "am",
+      "freq": 880.0
+    },
+    {
+      "callSign": "CHQT",
+      "band": "am",
+      "freq": 880.0
+    },
+    {
+      "callSign": "WLS",
+      "band": "am",
+      "freq": 890.0
+    },
+    {
+      "callSign": "CHML",
+      "band": "am",
+      "freq": 900.0
+    },
+    {
+      "callSign": "WURD",
+      "band": "am",
+      "freq": 900.0
+    },
+    {
+      "callSign": "WBEN",
+      "band": "am",
+      "freq": 930.0
+    },
+    {
+      "callSign": "WHJJ",
+      "band": "am",
+      "freq": 930.0
+    },
+    {
+      "callSign": "KJR",
+      "band": "am",
+      "freq": 950.0
+    },
+    {
+      "callSign": "WPEN",
+      "band": "am",
+      "freq": 950.0
+    },
+    {
+      "callSign": "WSBT",
+      "band": "am",
+      "freq": 960.0
+    },
+    {
+      "callSign": "WELI",
+      "band": "am",
+      "freq": 960.0
+    },
+    {
+      "callSign": "WFLA",
+      "band": "am",
+      "freq": 970.0
+    },
+    {
+      "callSign": "WNYM",
+      "band": "am",
+      "freq": 970.0
+    },
+    {
+      "callSign": "WZAN",
+      "band": "am",
+      "freq": 970.0
+    },
+    {
+      "callSign": "CKNW",
+      "band": "am",
+      "freq": 980.0
+    },
+    {
+      "callSign": "WTEM",
+      "band": "am",
+      "freq": 980.0
+    },
+    {
+      "callSign": "WONE",
+      "band": "am",
+      "freq": 980.0
+    },
+    {
+      "callSign": "CKGM",
+      "band": "am",
+      "freq": 990.0
+    },
+    {
+      "callSign": "KOMO",
+      "band": "am",
+      "freq": 1000.0
+    },
+    {
+      "callSign": "WINS",
+      "band": "am",
+      "freq": 1010.0
+    },
+    {
+      "callSign": "KNX",
+      "band": "am",
+      "freq": 1070.0
+    },
+    {
+      "callSign": "WDIA",
+      "band": "am",
+      "freq": 1070.0
+    },
+    {
+      "callSign": "KFTI",
+      "band": "am",
+      "freq": 1070.0
+    },
+    {
+      "callSign": "WAPI",
+      "band": "am",
+      "freq": 1070.0
+    },
+    {
+      "callSign": "WTSO",
+      "band": "am",
+      "freq": 1070.0
+    },
+    {
+      "callSign": "CHOK",
+      "band": "am",
+      "freq": 1070.0
+    },
+    {
+      "callSign": "KRLD",
+      "band": "am",
+      "freq": 1080.0
+    },
+    {
+      "callSign": "WTIC",
+      "band": "am",
+      "freq": 1080.0
+    },
+    {
+      "callSign": "KFXX",
+      "band": "am",
+      "freq": 1080.0
+    },
+    {
+      "callSign": "WKJK",
+      "band": "am",
+      "freq": 1080.0
+    },
+    {
+      "callSign": "KOAN",
+      "band": "am",
+      "freq": 1080.0
+    },
+    {
+      "callSign": "WBBR",
+      "band": "am",
+      "freq": 1130.0
+    },
+    {
+      "callSign": "WISN",
+      "band": "am",
+      "freq": 1130.0
+    },
+    {
+      "callSign": "KWKH",
+      "band": "am",
+      "freq": 1130.0
+    },
+    {
+      "callSign": "CKWX",
+      "band": "am",
+      "freq": 1130.0
+    },
+    {
+      "callSign": "KFAN",
+      "band": "am",
+      "freq": 1130.0
+    },
+    {
+      "callSign": "WWVA",
+      "band": "am",
+      "freq": 1170.0
+    },
+    {
+      "callSign": "KFAQ",
+      "band": "am",
+      "freq": 1170.0
+    },
+    {
+      "callSign": "KCKK",
+      "band": "am",
+      "freq": 1180.0
+    },
+    {
+      "callSign": "KFNX",
+      "band": "am",
+      "freq": 1180.0
+    },
+    {
+      "callSign": "KOFI",
+      "band": "am",
+      "freq": 1180.0
+    },
+    {
+      "callSign": "WAGI",
+      "band": "am",
+      "freq": 1180.0
+    },
+    {
+      "callSign": "KEX",
+      "band": "am",
+      "freq": 1190.0
+    },
+    {
+      "callSign": "WLIB",
+      "band": "am",
+      "freq": 1190.0
+    },
+    {
+      "callSign": "WAFS",
+      "band": "am",
+      "freq": 1190.0
+    },
+    {
+      "callSign": "WJBN",
+      "band": "am",
+      "freq": 1190.0
+    },
+    {
+      "callSign": "CFSL",
+      "band": "am",
+      "freq": 1190.0
+    },
+    {
+      "callSign": "WHKW",
+      "band": "am",
+      "freq": 1220.0
+    },
+    {
+      "callSign": "WKRS",
+      "band": "am",
+      "freq": 1220.0
+    },
+    {
+      "callSign": "WGNY",
+      "band": "am",
+      "freq": 1220.0
+    },
+    {
+      "callSign": "WIXI",
+      "band": "am",
+      "freq": 1220.0
+    },
+    {
+      "callSign": "WJOY",
+      "band": "am",
+      "freq": 1230.0
+    },
+    {
+      "callSign": "WIRL",
+      "band": "am",
+      "freq": 1230.0
+    },
+    {
+      "callSign": "WKBO",
+      "band": "am",
+      "freq": 1230.0
+    },
+    {
+      "callSign": "WTLB",
+      "band": "am",
+      "freq": 1230.0
+    },
+    {
+      "callSign": "WHNZ",
+      "band": "am",
+      "freq": 1250.0
+    },
+    {
+      "callSign": "WSSP",
+      "band": "am",
+      "freq": 1250.0
+    },
+    {
+      "callSign": "WMTR",
+      "band": "am",
+      "freq": 1250.0
+    },
+    {
+      "callSign": "WGAM",
+      "band": "am",
+      "freq": 1250.0
+    },
+    {
+      "callSign": "WSDZ",
+      "band": "am",
+      "freq": 1260.0
+    },
+    {
+      "callSign": "WNDE",
+      "band": "am",
+      "freq": 1260.0
+    },
+    {
+      "callSign": "WIXY",
+      "band": "am",
+      "freq": 1260.0
+    },
+    {
+      "callSign": "WADO",
+      "band": "am",
+      "freq": 1260.0
+    },
+    {
+      "callSign": "KFI",
+      "band": "am",
+      "freq": 640.0
+    },
+    {
+      "callSign": "WRVA",
+      "band": "am",
+      "freq": 1140.0
+    },
+    {
+      "callSign": "KCBQ",
+      "band": "am",
+      "freq": 1140.0
+    },
+    {
+      "callSign": "KEIB",
+      "band": "am",
+      "freq": 1150.0
+    },
+    {
+      "callSign": "WJBO",
+      "band": "am",
+      "freq": 1150.0
+    },
+    {
+      "callSign": "KSL",
+      "band": "am",
+      "freq": 1160.0
+    },
+    {
+      "callSign": "WYLL",
+      "band": "am",
+      "freq": 1160.0
+    },
+    {
+      "callSign": "WIP",
+      "band": "am",
+      "freq": 610.0
+    },
+    {
+      "callSign": "WSCR",
+      "band": "am",
+      "freq": 670.0
+    },
+    {
+      "callSign": "CFTR",
+      "band": "am",
+      "freq": 680.0
+    },
+    {
+      "callSign": "WLW",
+      "band": "am",
+      "freq": 700.0
+    },
+    {
+      "callSign": "WOR",
+      "band": "am",
+      "freq": 710.0
+    },
+    {
+      "callSign": "KCBS",
+      "band": "am",
+      "freq": 740.0
+    },
+    {
+      "callSign": "WSB",
+      "band": "am",
+      "freq": 750.0
+    },
+    {
+      "callSign": "WJR",
+      "band": "am",
+      "freq": 760.0
+    },
+    {
+      "callSign": "KABC",
+      "band": "am",
+      "freq": 790.0
+    },
+    {
+      "callSign": "WAXY",
+      "band": "am",
+      "freq": 790.0
+    },
+    {
+      "callSign": "KFGO",
+      "band": "am",
+      "freq": 790.0
+    },
+    {
+      "callSign": "CJAD",
+      "band": "am",
+      "freq": 800.0
+    },
+    {
+      "callSign": "CKLW",
+      "band": "am",
+      "freq": 800.0
+    },
+    {
+      "callSign": "KGO",
+      "band": "am",
+      "freq": 810.0
+    },
+    {
+      "callSign": "WGY",
+      "band": "am",
+      "freq": 810.0
+    },
+    {
+      "callSign": "WHB",
+      "band": "am",
+      "freq": 810.0
+    },
+    {
+      "callSign": "KMVP",
+      "band": "am",
+      "freq": 860.0
+    },
+    {
+      "callSign": "WWDB",
+      "band": "am",
+      "freq": 860.0
+    },
+    {
+      "callSign": "CJBC",
+      "band": "am",
+      "freq": 860.0
+    },
+    {
+      "callSign": "WBAP",
+      "band": "am",
+      "freq": 820.0
+    },
+    {
+      "callSign": "WCCO",
+      "band": "am",
+      "freq": 830.0
+    },
+    {
+      "callSign": "KOA",
+      "band": "am",
+      "freq": 850.0
+    },
+    {
+      "callSign": "WWL",
+      "band": "am",
+      "freq": 870.0
+    },
+    {
+      "callSign": "KRLA",
+      "band": "am",
+      "freq": 870.0
+    },
+    {
+      "callSign": "WHCU",
+      "band": "am",
+      "freq": 870.0
+    },
+    {
+      "callSign": "WKAR",
+      "band": "am",
+      "freq": 870.0
+    },
+    {
+      "callSign": "KTOK",
+      "band": "am",
+      "freq": 1000.0
+    },
+    {
+      "callSign": "CFRB",
+      "band": "am",
+      "freq": 1010.0
+    },
+    {
+      "callSign": "WPGP",
+      "band": "am",
+      "freq": 1010.0
+    },
+    {
+      "callSign": "KPSI",
+      "band": "am",
+      "freq": 1010.0
+    },
+    {
+      "callSign": "WGIR",
+      "band": "am",
+      "freq": 1010.0
+    },
+    {
+      "callSign": "WSVA",
+      "band": "am",
+      "freq": 1010.0
+    },
+    {
+      "callSign": "KDKA",
+      "band": "am",
+      "freq": 1020.0
+    },
+    {
+      "callSign": "WRJZ",
+      "band": "am",
+      "freq": 1020.0
+    },
+    {
+      "callSign": "Rocksteller",
+      "band": "am",
+      "freq": 1040.0
+    },
+    {
+      "callSign": "WHO 1040",
+      "band": "am",
+      "freq": 1040.0
+    },
+    {
+      "callSign": "CKST",
+      "band": "am",
+      "freq": 1040.0
+    },
+    {
+      "callSign": "WBZ",
+      "band": "am",
+      "freq": 1030.0
+    },
+    {
+      "callSign": "KYW",
+      "band": "am",
+      "freq": 1060.0
+    },
+    {
+      "callSign": "WTAM",
+      "band": "am",
+      "freq": 1100.0
+    },
+    {
+      "callSign": "KFAX",
+      "band": "am",
+      "freq": 1100.0
+    },
+    {
+      "callSign": "WBT",
+      "band": "am",
+      "freq": 1110.0
+    },
+    {
+      "callSign": "KFAB",
+      "band": "am",
+      "freq": 1110.0
+    },
+    {
+      "callSign": "WOAI",
+      "band": "am",
+      "freq": 1200.0
+    },
+    {
+      "callSign": "CFGO",
+      "band": "am",
+      "freq": 1200.0
+    },
+    {
+      "callSign": "WCHB",
+      "band": "am",
+      "freq": 1200.0
+    },
+    {
+      "callSign": "WPHT",
+      "band": "am",
+      "freq": 1210.0
+    },
+    {
+      "callSign": "WBSM",
+      "band": "am",
+      "freq": 1210.0
+    },
+    {
+      "callSign": "KGYN",
+      "band": "am",
+      "freq": 1210.0
+    },
+    {
+      "callSign": "WNSS",
+      "band": "am",
+      "freq": 1260.0
+    },
+    {
+      "callSign": "KKAA",
+      "band": "am",
+      "freq": 1260.0
+    },
+    {
+      "callSign": "WPDC",
+      "band": "am",
+      "freq": 1260.0
+    },
+    {
+      "callSign": "WXYT",
+      "band": "am",
+      "freq": 1270.0
+    },
+    {
+      "callSign": "WTSN",
+      "band": "am",
+      "freq": 1270.0
+    },
+    {
+      "callSign": "WMKT",
+      "band": "am",
+      "freq": 1270.0
+    },
+    {
+      "callSign": "WKBN",
+      "band": "am",
+      "freq": 1280.0
+    },
+    {
+      "callSign": "WNAM",
+      "band": "am",
+      "freq": 1280.0
+    },
+    {
+      "callSign": "KIT",
+      "band": "am",
+      "freq": 1280.0
+    },
+    {
+      "callSign": "WHIO",
+      "band": "am",
+      "freq": 1290.0
+    },
+    {
+      "callSign": "CFRW",
+      "band": "am",
+      "freq": 1290.0
+    },
+    {
+      "callSign": "WJOX",
+      "band": "am",
+      "freq": 1290.0
+    },
+    {
+      "callSign": "KOIL",
+      "band": "am",
+      "freq": 1290.0
+    },
+    {
+      "callSign": "KMRY",
+      "band": "am",
+      "freq": 1300.0
+    },
+    {
+      "callSign": "WAVZ",
+      "band": "am",
+      "freq": 1300.0
+    },
+    {
+      "callSign": "WIBA",
+      "band": "am",
+      "freq": 1310.0
+    },
+    {
+      "callSign": "WGH",
+      "band": "am",
+      "freq": 1310.0
+    },
+    {
+      "callSign": "KFNN",
+      "band": "am",
+      "freq": 1320.0
+    },
+    {
+      "callSign": "WJAS",
+      "band": "am",
+      "freq": 1320.0
+    },
+    {
+      "callSign": "WIRY",
+      "band": "am",
+      "freq": 1320.0
+    },
+    {
+      "callSign": "KZNS",
+      "band": "am",
+      "freq": 1320.0
+    },
+    {
+      "callSign": "CKEC",
+      "band": "am",
+      "freq": 1320.0
+    },
+    {
+      "callSign": "WJOL",
+      "band": "am",
+      "freq": 1340.0
+    },
+    {
+      "callSign": "WSYB",
+      "band": "am",
+      "freq": 1340.0
+    },
+    {
+      "callSign": "WSAI",
+      "band": "am",
+      "freq": 1360.0
+    },
+    {
+      "callSign": "WGEE",
+      "band": "am",
+      "freq": 1360.0
+    },
+    {
+      "callSign": "WFBL",
+      "band": "am",
+      "freq": 1360.0
+    },
+    {
+      "callSign": "WAOK",
+      "band": "am",
+      "freq": 1380.0
+    },
+    {
+      "callSign": "WPHM",
+      "band": "am",
+      "freq": 1380.0
+    },
+    {
+      "callSign": "KRKO",
+      "band": "am",
+      "freq": 1380.0
+    },
+    {
+      "callSign": "KEZW",
+      "band": "am",
+      "freq": 1430.0
+    },
+    {
+      "callSign": "WBNW",
+      "band": "am",
+      "freq": 1430.0
+    },
+    {
+      "callSign": "WENE",
+      "band": "am",
+      "freq": 1430.0
+    },
+    {
+      "callSign": "WHOO",
+      "band": "am",
+      "freq": 1440.0
+    },
+    {
+      "callSign": "WJEJ",
+      "band": "am",
+      "freq": 1440.0
+    },
+    {
+      "callSign": "WHTC",
+      "band": "am",
+      "freq": 1450.0
+    },
+    {
+      "callSign": "WOND",
+      "band": "am",
+      "freq": 1450.0
+    },
+    {
+      "callSign": "WBNS",
+      "band": "am",
+      "freq": 1460.0
+    },
+    {
+      "callSign": "KION",
+      "band": "am",
+      "freq": 1460.0
+    },
+    {
+      "callSign": "WMBD",
+      "band": "am",
+      "freq": 1470.0
+    },
+    {
+      "callSign": "WHBC",
+      "band": "am",
+      "freq": 1480.0
+    },
+    {
+      "callSign": "KQAM",
+      "band": "am",
+      "freq": 1480.0
+    },
+    {
+      "callSign": "WIBM",
+      "band": "am",
+      "freq": 1490.0
+    },
+    {
+      "callSign": "WGR",
+      "band": "am",
+      "freq": 550.0
+    },
+    {
+      "callSign": "KLAC",
+      "band": "am",
+      "freq": 570.0
+    },
+    {
+      "callSign": "WCHS",
+      "band": "am",
+      "freq": 580.0
+    },
+    {
+      "callSign": "WROW",
+      "band": "am",
+      "freq": 590.0
+    },
+    {
+      "callSign": "WTMJ",
+      "band": "am",
+      "freq": 620.0
+    },
+    {
+      "callSign": "WPRO",
+      "band": "am",
+      "freq": 630.0
+    },
+    {
+      "callSign": "KENI",
+      "band": "am",
+      "freq": 650.0
+    },
+    {
+      "callSign": "CKGM",
+      "band": "am",
+      "freq": 690.0
+    },
+    {
+      "callSign": "WNYC",
+      "band": "am",
+      "freq": 820.0
+    },
+    {
+      "callSign": "WHAS",
+      "band": "am",
+      "freq": 840.0
+    },
+    {
+      "callSign": "WEEI",
+      "band": "am",
+      "freq": 850.0
+    },
+    {
+      "callSign": "WJON",
+      "band": "am",
+      "freq": 1240.0
+    },
+    {
+      "callSign": "WFED",
+      "band": "am",
+      "freq": 1500.0
+    },
+    {
+      "callSign": "WLAC",
+      "band": "am",
+      "freq": 1510.0
+    },
+    {
+      "callSign": "WCKY",
+      "band": "am",
+      "freq": 1530.0
+    },
+    {
+      "callSign": "KXEL",
+      "band": "am",
+      "freq": 1540.0
+    },
+    {
+      "callSign": "WFDD",
+      "band": "fm",
+      "freq": 88.5
+    },
+    {
+      "callSign": "WERS",
+      "band": "fm",
+      "freq": 88.9
+    },
+    {
+      "callSign": "WFMT",
+      "band": "fm",
+      "freq": 89.3
+    },
+    {
+      "callSign": "WXRT",
+      "band": "fm",
+      "freq": 93.1
+    },
+    {
+      "callSign": "WMMR",
+      "band": "fm",
+      "freq": 93.3
+    },
+    {
+      "callSign": "WFLZ",
+      "band": "fm",
+      "freq": 93.3
+    },
+    {
+      "callSign": "WKYS",
+      "band": "fm",
+      "freq": 93.9
+    },
+    {
+      "callSign": "93.9 WKYS",
+      "band": "fm",
+      "freq": 93.9
+    },
+    {
+      "callSign": "KMPS",
+      "band": "fm",
+      "freq": 94.1
+    },
+    {
+      "callSign": "KTWV",
+      "band": "fm",
+      "freq": 94.7
+    },
+    {
+      "callSign": "WLS-FM",
+      "band": "fm",
+      "freq": 94.7
+    },
+    {
+      "callSign": "KLOS",
+      "band": "fm",
+      "freq": 95.5
+    },
+    {
+      "callSign": "KGMZ",
+      "band": "fm",
+      "freq": 95.7
+    },
+    {
+      "callSign": "Capital FM",
+      "band": "fm",
+      "freq": 95.8
+    },
+    {
+      "callSign": "WBBM-FM",
+      "band": "fm",
+      "freq": 96.3
+    },
+    {
+      "callSign": "WDVD",
+      "band": "fm",
+      "freq": 96.3
+    },
+    {
+      "callSign": "KSCS",
+      "band": "fm",
+      "freq": 96.3
+    },
+    {
+      "callSign": "WJKK",
+      "band": "fm",
+      "freq": 96.3
+    },
+    {
+      "callSign": "WBTU",
+      "band": "fm",
+      "freq": 96.3
+    },
+    {
+      "callSign": "WTIC-FM",
+      "band": "fm",
+      "freq": 96.5
+    },
+    {
+      "callSign": "KHMX",
+      "band": "fm",
+      "freq": 96.5
+    },
+    {
+      "callSign": "WPOW",
+      "band": "fm",
+      "freq": 96.5
+    },
+    {
+      "callSign": "Power 96",
+      "band": "fm",
+      "freq": 96.5
+    },
+    {
+      "callSign": "WKLB",
+      "band": "fm",
+      "freq": 96.7
+    },
+    {
+      "callSign": "WQHT",
+      "band": "fm",
+      "freq": 97.1
+    },
+    {
+      "callSign": "KAMP",
+      "band": "fm",
+      "freq": 97.1
+    },
+    {
+      "callSign": "WDRV",
+      "band": "fm",
+      "freq": 97.1
+    },
+    {
+      "callSign": "WRIF",
+      "band": "fm",
+      "freq": 97.9
+    },
+    {
+      "callSign": "WSKQ",
+      "band": "fm",
+      "freq": 97.9
+    },
+    {
+      "callSign": "WBZ-FM",
+      "band": "fm",
+      "freq": 98.5
+    },
+    {
+      "callSign": "WNCX",
+      "band": "fm",
+      "freq": 98.5
+    },
+    {
+      "callSign": "WEPN-FM",
+      "band": "fm",
+      "freq": 98.7
+    },
+    {
+      "callSign": "KYSR",
+      "band": "fm",
+      "freq": 98.7
+    },
+    {
+      "callSign": "WUSN",
+      "band": "fm",
+      "freq": 99.5
+    },
+    {
+      "callSign": "KMVQ",
+      "band": "fm",
+      "freq": 99.7
+    },
+    {
+      "callSign": "WMC-FM",
+      "band": "fm",
+      "freq": 100.3
+    },
+    {
+      "callSign": "KILT-FM",
+      "band": "fm",
+      "freq": 100.3
+    },
+    {
+      "callSign": "WMGK",
+      "band": "fm",
+      "freq": 100.7
+    },
+    {
+      "callSign": "WTMX",
+      "band": "fm",
+      "freq": 100.7
+    },
+    {
+      "callSign": "WCBS-FM",
+      "band": "fm",
+      "freq": 101.1
+    },
+    {
+      "callSign": "KRTH",
+      "band": "fm",
+      "freq": 101.1
+    },
+    {
+      "callSign": "WBEB",
+      "band": "fm",
+      "freq": 101.1
+    },
+    {
+      "callSign": "WFAN-FM",
+      "band": "fm",
+      "freq": 101.9
+    },
+    {
+      "callSign": "WVAZ",
+      "band": "fm",
+      "freq": 102.3
+    },
+    {
+      "callSign": "KIIS-FM",
+      "band": "fm",
+      "freq": 102.7
+    },
+    {
+      "callSign": "KIIS FM",
+      "band": "fm",
+      "freq": 102.7
+    },
+    {
+      "callSign": "WAXQ",
+      "band": "fm",
+      "freq": 104.3
+    },
+    {
+      "callSign": "CHUM-FM",
+      "band": "fm",
+      "freq": 104.5
+    },
+    {
+      "callSign": "CHUM FM",
+      "band": "fm",
+      "freq": 104.5
+    },
+    {
+      "callSign": "WWPR",
+      "band": "fm",
+      "freq": 105.1
+    },
+    {
+      "callSign": "KKGO",
+      "band": "fm",
+      "freq": 105.1
+    },
+    {
+      "callSign": "KPWR",
+      "band": "fm",
+      "freq": 105.9
+    },
+    {
+      "callSign": "KROQ",
+      "band": "fm",
+      "freq": 106.7
+    },
+    {
+      "callSign": "WBLS",
+      "band": "fm",
+      "freq": 107.5
+    },
+    {
+      "callSign": "WGCI-FM",
+      "band": "fm",
+      "freq": 107.5
+    },
+    {
+      "callSign": "KLVE",
+      "band": "fm",
+      "freq": 107.5
+    },
+    {
+      "callSign": "CKFM",
+      "band": "fm",
+      "freq": 99.9
+    },
+    {
+      "callSign": "WBMP",
+      "band": "fm",
+      "freq": 92.3
+    },
+    {
+      "callSign": "KCBS-FM",
+      "band": "fm",
+      "freq": 93.1
+    },
+    {
+      "callSign": "WNYC-FM",
+      "band": "fm",
+      "freq": 93.9
+    },
+    {
+      "callSign": "WLLD",
+      "band": "fm",
+      "freq": 94.1
+    },
+    {
+      "callSign": "Kiss 100",
+      "band": "fm",
+      "freq": 100.0
+    },
+    {
+      "callSign": "KKBT",
+      "band": "fm",
+      "freq": 100.3
+    },
+    {
+      "callSign": "NRJ France",
+      "band": "fm",
+      "freq": 100.3
+    },
+    {
+      "callSign": "NRJ Paris",
+      "band": "fm",
+      "freq": 100.3
+    },
+    {
+      "callSign": "Ibiza Global Radio",
+      "band": "fm",
+      "freq": 100.8
+    },
+    {
+      "callSign": "Ibiza Global",
+      "band": "fm",
+      "freq": 100.8
+    },
+    {
+      "callSign": "Radio 538",
+      "band": "fm",
+      "freq": 102.0
+    },
+    {
+      "callSign": "538",
+      "band": "fm",
+      "freq": 102.0
+    },
+    {
+      "callSign": "WHYI",
+      "band": "fm",
+      "freq": 100.7
+    },
+    {
+      "callSign": "KDWB",
+      "band": "fm",
+      "freq": 101.3
+    },
+    {
+      "callSign": "WLYF",
+      "band": "fm",
+      "freq": 101.5
+    },
+    {
+      "callSign": "WGRR",
+      "band": "fm",
+      "freq": 103.5
+    },
+    {
+      "callSign": "WMIB",
+      "band": "fm",
+      "freq": 103.5
+    },
+    {
+      "callSign": "WTLC-FM",
+      "band": "fm",
+      "freq": 103.5
+    },
+    {
+      "callSign": "Virgin Radio UK",
+      "band": "fm",
+      "freq": 105.8
+    },
+    {
+      "callSign": "Heart London",
+      "band": "fm",
+      "freq": 106.2
+    },
+    {
+      "callSign": "BBC Radio 1",
+      "band": "fm",
+      "freq": 98.8
+    },
+    {
+      "callSign": "KISS FM Berlin",
+      "band": "fm",
+      "freq": 98.8
+    },
+    {
+      "callSign": "98.8 KISS FM",
+      "band": "fm",
+      "freq": 98.8
+    },
+    {
+      "callSign": "KISS FM 98.8",
+      "band": "fm",
+      "freq": 98.8
+    },
+    {
+      "callSign": "BBC Radio 6 Music",
+      "band": "fm",
+      "freq": 90.0
+    },
+    {
+      "callSign": "BBC 6 Music",
+      "band": "fm",
+      "freq": 90.0
+    },
+    {
+      "callSign": "Radio 6 Music",
+      "band": "fm",
+      "freq": 90.0
+    },
+    {
+      "callSign": "WBLI",
+      "band": "fm",
+      "freq": 95.9
+    },
+    {
+      "callSign": "WBQT",
+      "band": "fm",
+      "freq": 96.9
+    },
+    {
+      "callSign": "Hot 96.9",
+      "band": "fm",
+      "freq": 96.9
+    },
+    {
+      "callSign": "WOGL",
+      "band": "fm",
+      "freq": 98.1
+    },
+    {
+      "callSign": "WGZB",
+      "band": "fm",
+      "freq": 98.1
+    },
+    {
+      "callSign": "WKFR",
+      "band": "fm",
+      "freq": 98.3
+    },
+    {
+      "callSign": "CBW-FM",
+      "band": "fm",
+      "freq": 98.3
+    },
+    {
+      "callSign": "CBC Music Manitoba",
+      "band": "fm",
+      "freq": 98.3
+    },
+    {
+      "callSign": "KKLZ",
+      "band": "fm",
+      "freq": 98.9
+    },
+    {
+      "callSign": "WMVN",
+      "band": "fm",
+      "freq": 98.9
+    },
+    {
+      "callSign": "WMYI",
+      "band": "fm",
+      "freq": 99.1
+    },
+    {
+      "callSign": "WDJX",
+      "band": "fm",
+      "freq": 102.5
+    },
+    {
+      "callSign": "KKZX",
+      "band": "fm",
+      "freq": 103.7
+    },
+    {
+      "callSign": "WNNX",
+      "band": "fm",
+      "freq": 103.9
+    },
+    {
+      "callSign": "KKRZ",
+      "band": "fm",
+      "freq": 104.1
+    },
+    {
+      "callSign": "WBOS",
+      "band": "fm",
+      "freq": 104.1
+    },
+    {
+      "callSign": "WCSX",
+      "band": "fm",
+      "freq": 104.7
+    },
+    {
+      "callSign": "KZPS",
+      "band": "fm",
+      "freq": 104.7
+    },
+    {
+      "callSign": "WDAS-FM",
+      "band": "fm",
+      "freq": 105.3
+    },
+    {
+      "callSign": "WDOK",
+      "band": "fm",
+      "freq": 105.5
+    },
+    {
+      "callSign": "WROR",
+      "band": "fm",
+      "freq": 105.7
+    },
+    {
+      "callSign": "KMEL",
+      "band": "fm",
+      "freq": 106.1
+    },
+    {
+      "callSign": "CFGQ",
+      "band": "fm",
+      "freq": 107.3
+    },
+    {
+      "callSign": "WRQX",
+      "band": "fm",
+      "freq": 107.3
+    },
+    {
+      "callSign": "KKDA-FM",
+      "band": "fm",
+      "freq": 107.9
+    },
+    {
+      "callSign": "KAJM",
+      "band": "fm",
+      "freq": 106.3
+    },
+    {
+      "callSign": "Soul 106.3",
+      "band": "fm",
+      "freq": 106.3
+    },
+    {
+      "callSign": "CHKS-FM",
+      "band": "fm",
+      "freq": 106.3
+    },
+    {
+      "callSign": "Cool 106.3",
+      "band": "fm",
+      "freq": 106.3
+    },
+    {
+      "callSign": "WRAZ-FM",
+      "band": "fm",
+      "freq": 106.3
+    },
+    {
+      "callSign": "Thunder 106.3",
+      "band": "fm",
+      "freq": 106.3
+    },
+    {
+      "callSign": "KNDD",
+      "band": "fm",
+      "freq": 107.7
+    },
+    {
+      "callSign": "Radio FG",
+      "band": "fm",
+      "freq": 98.2
+    },
+    {
+      "callSign": "Studio Brussel",
+      "band": "fm",
+      "freq": 102.1
+    },
+    {
+      "callSign": "Capital Xtra",
+      "band": "fm",
+      "freq": 107.1
+    },
+    {
+      "callSign": "Ibiza Sonica",
+      "band": "fm",
+      "freq": 95.2
+    },
+    {
+      "callSign": "CIMX-FM",
+      "band": "fm",
+      "freq": 88.7
+    },
+    {
+      "callSign": "88.7 The Border",
+      "band": "fm",
+      "freq": 88.7
+    },
+    {
+      "callSign": "90.3 AMP Radio",
+      "band": "fm",
+      "freq": 90.3
+    },
+    {
+      "callSign": "Move 90.3",
+      "band": "fm",
+      "freq": 90.3
+    },
+    {
+      "callSign": "WPGC-FM",
+      "band": "fm",
+      "freq": 95.5
+    },
+    {
+      "callSign": "WIYY",
+      "band": "fm",
+      "freq": 97.9
+    },
+    {
+      "callSign": "WMMS",
+      "band": "fm",
+      "freq": 100.7
+    },
+    {
+      "callSign": "KISW",
+      "band": "fm",
+      "freq": 99.9
+    },
+    {
+      "callSign": "KEXP",
+      "band": "fm",
+      "freq": 90.3
+    },
+    {
+      "callSign": "KXLU",
+      "band": "fm",
+      "freq": 88.9
+    },
+    {
+      "callSign": "KCRW",
+      "band": "fm",
+      "freq": 89.9
+    },
+    {
+      "callSign": "KMHD",
+      "band": "fm",
+      "freq": 89.1
+    },
+    {
+      "callSign": "WCLV",
+      "band": "fm",
+      "freq": 104.9
+    },
+    {
+      "callSign": "KING",
+      "band": "fm",
+      "freq": 98.1
+    },
+    {
+      "callSign": "WCRB",
+      "band": "fm",
+      "freq": 99.5
+    },
+    {
+      "callSign": "WQXR",
+      "band": "fm",
+      "freq": 105.9
+    },
+    {
+      "callSign": "CITI-FM",
+      "band": "fm",
+      "freq": 92.1
+    },
+    {
+      "callSign": "CHIQ-FM",
+      "band": "fm",
+      "freq": 94.3
+    },
+    {
+      "callSign": "Virgin Radio 94.3",
+      "band": "fm",
+      "freq": 94.3
+    },
+    {
+      "callSign": "CKUW",
+      "band": "fm",
+      "freq": 95.9
+    },
+    {
+      "callSign": "CJKR-FM",
+      "band": "fm",
+      "freq": 97.5
+    },
+    {
+      "callSign": "Power 97",
+      "band": "fm",
+      "freq": 97.5
+    },
+    {
+      "callSign": "CIIT-FM",
+      "band": "fm",
+      "freq": 99.1
+    },
+    {
+      "callSign": "CFWM",
+      "band": "fm",
+      "freq": 99.9
+    },
+    {
+      "callSign": "Bob FM",
+      "band": "fm",
+      "freq": 99.9
+    },
+    {
+      "callSign": "CKMM",
+      "band": "fm",
+      "freq": 103.1
+    },
+    {
+      "callSign": "Hot 103",
+      "band": "fm",
+      "freq": 103.1
+    },
+    {
+      "callSign": "CJOB",
+      "band": "am",
+      "freq": 680.0
+    },
+    {
+      "callSign": "CBW",
+      "band": "am",
+      "freq": 990.0
+    },
+    {
+      "callSign": "CHED",
+      "band": "am",
+      "freq": 630.0
+    },
+    {
+      "callSign": "CHQR",
+      "band": "am",
+      "freq": 770.0
+    },
+    {
+      "callSign": "CFRA",
+      "band": "am",
+      "freq": 580.0
+    },
+    {
+      "callSign": "CFAX",
+      "band": "am",
+      "freq": 1070.0
+    },
+    {
+      "callSign": "WPRB",
+      "band": "fm",
+      "freq": 103.3
+    },
+    {
+      "callSign": "WHRB",
+      "band": "fm",
+      "freq": 95.3
+    },
+    {
+      "callSign": "KNBR",
+      "band": "am",
+      "freq": 680.0
+    },
+    {
+      "callSign": "WHTA",
+      "band": "fm",
+      "freq": 107.9
+    },
+    {
+      "callSign": "WEDR",
+      "band": "fm",
+      "freq": 99.1
+    },
+    {
+      "callSign": "KIRO",
+      "band": "am",
+      "freq": 710.0
+    },
+    {
+      "callSign": "Radio Rebelde",
+      "band": "am",
+      "freq": 670.0
+    },
+    {
+      "callSign": "Radio COCO",
+      "band": "am",
+      "freq": 1180.0
+    },
+    {
+      "callSign": "WIPR",
+      "band": "am",
+      "freq": 940.0
+    },
+    {
+      "callSign": "WKAQ",
+      "band": "am",
+      "freq": 580.0
+    },
+    {
+      "callSign": "CDN La Radio",
+      "band": "fm",
+      "freq": 92.5
+    },
+    {
+      "callSign": "KLAA",
+      "band": "am",
+      "freq": 830.0
+    },
+    {
+      "callSign": "WJZ-FM",
+      "band": "fm",
+      "freq": 105.7
+    },
+    {
+      "callSign": "KMBZ",
+      "band": "am",
+      "freq": 980.0
+    },
+    {
+      "callSign": "WHP",
+      "band": "am",
+      "freq": 580.0
+    },
+    {
+      "callSign": "WKRC",
+      "band": "am",
+      "freq": 550.0
+    },
+    {
+      "callSign": "WGEM-FM",
+      "band": "fm",
+      "freq": 105.1
+    },
+    {
+      "callSign": "WSBA",
+      "band": "am",
+      "freq": 910.0
+    },
+    {
+      "callSign": "La 100",
+      "band": "fm",
+      "freq": 99.9
+    },
+    {
+      "callSign": "La Mega",
+      "band": "fm",
+      "freq": 88.9
+    },
+    {
+      "callSign": "Rock & Pop",
+      "band": "fm",
+      "freq": 94.1
+    },
+    {
+      "callSign": "KSHE",
+      "band": "fm",
+      "freq": 94.7
+    },
+    {
+      "callSign": "WEBN",
+      "band": "fm",
+      "freq": 102.7
+    },
+    {
+      "callSign": "WDVE",
+      "band": "fm",
+      "freq": 102.5
+    },
+    {
+      "callSign": "KEGL",
+      "band": "fm",
+      "freq": 97.1
+    },
+    {
+      "callSign": "WZLX",
+      "band": "fm",
+      "freq": 100.7
+    },
+    {
+      "callSign": "WXTB",
+      "band": "fm",
+      "freq": 97.9
+    },
+    {
+      "callSign": "KGON",
+      "band": "fm",
+      "freq": 92.3
+    },
+    {
+      "callSign": "WFBQ",
+      "band": "fm",
+      "freq": 94.7
+    },
+    {
+      "callSign": "WBAB",
+      "band": "fm",
+      "freq": 102.3
+    },
+    {
+      "callSign": "KSAN",
+      "band": "fm",
+      "freq": 107.7
+    },
+    {
+      "callSign": "WLLZ",
+      "band": "fm",
+      "freq": 107.7
+    },
+    {
+      "callSign": "KFLY",
+      "band": "fm",
+      "freq": 107.7
+    },
+    {
+      "callSign": "WMVY",
+      "band": "fm",
+      "freq": 88.7
+    },
+    {
+      "callSign": "Hit FM 88.7",
+      "band": "fm",
+      "freq": 88.7
+    },
+    {
+      "callSign": "Antenne Bayern",
+      "band": "fm",
+      "freq": 88.7
+    },
+    {
+      "callSign": "NRJ 88.8",
+      "band": "fm",
+      "freq": 88.8
+    },
+    {
+      "callSign": "Heart 88.8",
+      "band": "fm",
+      "freq": 88.8
+    },
+    {
+      "callSign": "Cool FM 88.8",
+      "band": "fm",
+      "freq": 88.8
+    }
+  ],
+  "featuredByTag": {
+    "80s": [
+      "The Big 80s Station"
+    ],
+    "90s": [
+      "Big R Radio - Grunge FM",
+      "Nirvana",
+      "Soundgarden"
+    ],
+    "classic rock": [
+      "Q104.3",
+      "102.5 WDVE",
+      "100.7 WZLX",
+      "Exclusively Creedence"
+    ],
+    "rock": [
+      "Big R Radio - Grunge FM",
+      "Virgin Radio Rockstar: Guns N' Roses"
+    ],
+    "metal": [
+      "100.7 WMMS - Cleveland",
+      "BBC Radio 6 Music",
+      "Rock Antenne - Heavy Metal"
+    ],
+    "electronic": [
+      "Digitally Imported - Hard Electronic",
+      "KEXP 90.3 FM Seattle"
+    ],
+    "news": [
+      "NPR Newscast",
+      "BBC Radio 5 Live",
+      "Fox News Radio",
+      "CNN",
+      "MSNBC",
+      "WNYC-FM 93.9",
+      "CBC Radio One - Toronto",
+      "LBC London"
+    ],
+    "talk": [
+      "NBC News Radio",
+      "CFRB News/Talk 1010",
+      "WBUR Boston"
+    ],
+    "2000s": [
+      "iHeart2000s Radio",
+      "SomaFM Indie Pop Rocks",
+      "KEXP 90.3 Seattle"
+    ],
+    "latin": [
+      "La 100",
+      "La Mega",
+      "Concierto FM"
+    ],
+    "soul": [
+      "Motown Radio",
+      "FUNKY RADIO",
+      "Retro Soul Radio"
+    ],
+    "rap": [
+      "Rap 123",
+      "The Source Radio"
+    ],
+    "drake": [
+      "Drake Radio",
+      "OVO Sound"
+    ],
+    "pearl jam": [
+      "Pearl Jam Radio",
+      "Grunge Station"
+    ],
+    "oasis": [
+      "Oasis Radio",
+      "90s Britpop Station"
+    ],
+    "michael jackson": [
+      "Michael Jackson Radio",
+      "The King of Pop"
+    ],
+    "frank sinatra": [
+      "Frank Sinatra Radio",
+      "Classic Standards"
+    ],
+    "workout": [
+      "Fitness & Energy",
+      "High Energy Dance"
+    ],
+    "podcast talk": [
+      "TED Talks Radio",
+      "BBC World Service"
+    ],
+    "college": [
+      "KEXP Seattle",
+      "WFUV New York"
+    ],
+    "whatever": [
+      "Winnipeg's Bounce 99.9",
+      "Radio Paradise"
+    ],
+    "sports": [
+      "CJCL Sportsnet 590",
+      "TalkSPORT",
+      "97.1 The Ticket"
+    ]
+  },
+  "perNationFetchLimits": {
+    "US": 500,
+    "CA": 400,
+    "GB": 200,
+    "DE": 120,
+    "FR": 120,
+    "JP": 100,
+    "HN": 40,
+    "AR": 80,
+    "CO": 80,
+    "CL": 60,
+    "PE": 50
+  },
+  "catalogTagFetches": {
+    "am": 400,
+    "mediumwave": 220,
+    "am radio": 180,
+    "talk": 170,
+    "news": 160,
+    "pop": 150,
+    "top 40": 140,
+    "hits": 140,
+    "charts": 120,
+    "christian": 140,
+    "gospel": 140,
+    "financial": 120,
+    "business": 100,
+    "paranormal": 160,
+    "conspiracy": 140,
+    "ufo": 120,
+    "oldies": 160,
+    "classic rock": 130,
+    "sports": 120
+  },
+  "catalogNameFragments": [
+    "Dark Matter Radio",
+    "Dark Matter",
+    "Art Bell",
+    "Coast to Coast AM",
+    "Coast to Coast",
+    "Somewhere in Time",
+    "Midnight in the Desert",
+    "Ground Zero",
+    "Beatles Radio",
+    "The Beatles",
+    "Fab Four",
+    "WPR"
+  ],
+  "catalogBrandNeedles": [
+    "Bloomberg",
+    "NPR",
+    "BBC World Service",
+    "BBC Radio",
+    "CBC Radio",
+    "Radio Canada",
+    "CBC Music",
+    "LBC",
+    "SiriusXM",
+    "ESPN",
+    "Fox News Radio",
+    "Fox Sports Radio",
+    "CBS News Radio",
+    "MSNBC",
+    "CNN Radio",
+    "American Public Media",
+    "Marketplace",
+    "WNYC",
+    "WFAN",
+    "KIIS FM",
+    "Hot 97",
+    "WQHT",
+    "Power 105",
+    "WCBS",
+    "WINS",
+    "KROQ",
+    "KISS-FM",
+    "WLTW",
+    "Lite FM",
+    "WPLJ",
+    "B96",
+    "97.1 AMP",
+    "Mix 104",
+    "98.7 The Fan",
+    "Country 100",
+    "iHeartRadio",
+    "iHeart",
+    "680 News",
+    "TSN Radio",
+    "TSN 1050",
+    "TSN 1290",
+    "CHFI",
+    "CHUM",
+    "Q107",
+    "Boom 97.3",
+    "KISS Toronto",
+    "Virgin Radio",
+    "98.5 The Sports Hub",
+    "The Edge",
+    "indie88",
+    "Jazz FM",
+    "JAZZ.FM91",
+    "Zoomer Radio",
+    "CFRB",
+    "Newstalk 1010",
+    "CKNW",
+    "CFRA",
+    "WABC",
+    "WOR",
+    "KFI",
+    "KNX",
+    "KABC",
+    "WGN",
+    "WBBM",
+    "WSCR",
+    "WLS",
+    "WSDZ",
+    "WNDE",
+    "WIXY",
+    "WADO",
+    "WBBR",
+    "WWVA",
+    "KFAQ",
+    "KFNX",
+    "WAGI",
+    "KTCT",
+    "WTKT",
+    "KRLD",
+    "WTIC",
+    "WIP",
+    "CFTR",
+    "WLW",
+    "KCBS",
+    "WAXY",
+    "KFGO",
+    "WGY",
+    "WBAP",
+    "WCCO",
+    "KOA",
+    "WWL",
+    "WMVP",
+    "KDKA",
+    "WBZ",
+    "KYW",
+    "WBAL",
+    "WPHT",
+    "WXYT",
+    "CKLW",
+    "KGO",
+    "WHB",
+    "KMVP",
+    "WWDB",
+    "CJBC",
+    "KRLA",
+    "WHCU",
+    "WKAR",
+    "KRVN",
+    "KIXI",
+    "CHQT",
+    "CHML",
+    "WURD",
+    "WBEN",
+    "WHJJ",
+    "KJR",
+    "WPEN",
+    "WSBT",
+    "WELI",
+    "WFLA",
+    "WNYM",
+    "WZAN",
+    "WTEM",
+    "WONE",
+    "CKGM",
+    "KOMO",
+    "KTOK",
+    "WGIR",
+    "WSVA",
+    "WHO",
+    "CKST",
+    "KTKZ",
+    "KAAY",
+    "WISN",
+    "KWKH",
+    "CKWX",
+    "KFAN",
+    "KCKK",
+    "CKDO",
+    "KOFI",
+    "KEX",
+    "WLIB",
+    "WAFS",
+    "WJBN",
+    "CFSL",
+    "WOAI",
+    "CFGO",
+    "WCHB",
+    "WBSM",
+    "KGYN",
+    "WGNY",
+    "WIXI",
+    "WHKW",
+    "WKRS",
+    "WJOY",
+    "WIRL",
+    "WKBO",
+    "WTLB",
+    "WHNZ",
+    "WSSP",
+    "WMTR",
+    "WGAM",
+    "WTSN",
+    "WNSS",
+    "KKAA",
+    "WPDC",
+    "WMKT",
+    "WKBN",
+    "WNAM",
+    "KIT",
+    "WHIO",
+    "CFRW",
+    "WJOX",
+    "KOIL",
+    "KMRY",
+    "WAVZ",
+    "WIBA",
+    "WGH",
+    "WIRY",
+    "KZNS",
+    "CKEC",
+    "WGR",
+    "KLAC",
+    "WCHS",
+    "WROW",
+    "WTMJ",
+    "WPRO",
+    "WHAS",
+    "WEEI",
+    "WJON",
+    "WFED",
+    "WLAC",
+    "WCKY",
+    "KXEL",
+    "WERS",
+    "WFMT",
+    "WXRT",
+    "WMMR",
+    "WFLZ",
+    "WLIT",
+    "KMPS",
+    "KTWV",
+    "KLOS",
+    "KGMZ",
+    "WDVD",
+    "KSCS",
+    "WJKK",
+    "WBTU",
+    "WKYS",
+    "KHMX",
+    "WBQT",
+    "WKLB",
+    "KAMP",
+    "WDRV",
+    "WRIF",
+    "WSKQ",
+    "WNCX",
+    "KYSR",
+    "WUSN",
+    "KMVQ",
+    "WMGK",
+    "WTMX",
+    "KRTH",
+    "WBEB",
+    "WVAZ",
+    "WAXQ",
+    "WWPR",
+    "KKGO",
+    "KPWR",
+    "WBLS",
+    "KLVE",
+    "KENI",
+    "WBMP",
+    "WLLD",
+    "KKBT",
+    "WHYI",
+    "KDWB",
+    "WLYF",
+    "WMIB",
+    "WBLI",
+    "WKQI",
+    "WTKK",
+    "WOGL",
+    "WGZB",
+    "WKFR",
+    "KKLZ",
+    "WMVN",
+    "WMYI",
+    "WDJX",
+    "KKZX",
+    "WNNX",
+    "KKRZ",
+    "WBOS",
+    "WCSX",
+    "KZPS",
+    "WDOK",
+    "WROR",
+    "KMEL",
+    "WRQX",
+    "KAJM",
+    "KNDD",
+    "WHUR",
+    "WIYY",
+    "WMMS",
+    "KISW",
+    "WBGO",
+    "KMHD",
+    "WGUC",
+    "WCLV",
+    "KING",
+    "WCRB",
+    "WQXR",
+    "WPRB",
+    "WHRB",
+    "KNBR",
+    "WTLC",
+    "WGRR",
+    "WHTA",
+    "WEDR",
+    "KIRO",
+    "WIPR",
+    "WKAQ",
+    "KLAA",
+    "KMBZ",
+    "WKRC",
+    "WSBA",
+    "KFNN",
+    "WJAS",
+    "WBOB",
+    "WJOL",
+    "WSYB",
+    "WSAI",
+    "WGEE",
+    "WFBL",
+    "WAOK",
+    "WPHM",
+    "KRKO",
+    "KEZW",
+    "WBNW",
+    "WENE",
+    "WHOO",
+    "WJEJ",
+    "WHTC",
+    "WOND",
+    "WBNS",
+    "KION",
+    "WMBD",
+    "WHBC",
+    "KQAM",
+    "WIBM",
+    "WFDD",
+    "WPGP",
+    "KPSI",
+    "WRJZ",
+    "WDIA",
+    "KFTI",
+    "WAPI",
+    "WTSO",
+    "KFXX",
+    "WKJK",
+    "KOAN",
+    "KFAX",
+    "KSOO",
+    "WRVA",
+    "KCBQ",
+    "KEIB",
+    "WJBO",
+    "WYLL",
+    "WTAM",
+    "KFAB",
+    "WHAM",
+    "WPOW",
+    "KEXP",
+    "KXLU",
+    "KSAN",
+    "KSHE",
+    "WEBN",
+    "WDVE",
+    "KEGL",
+    "WZLX",
+    "WXTB",
+    "KGON",
+    "WFBQ",
+    "WBAB",
+    "WLS-FM",
+    "Capital FM",
+    "New Country 96.3",
+    "Mix 96.3",
+    "Bear 96.3",
+    "Dolfijn",
+    "538 TOP 50",
+    "CKWS-FM",
+    "Fresh Radio 104.3",
+    "CFRC",
+    "Mix 96.5",
+    "Hot 96.9",
+    "WBZ-FM",
+    "WEPN-FM",
+    "CKFM",
+    "WMC-FM",
+    "KILT-FM",
+    "K-Earth",
+    "Q104.3",
+    "Power 106",
+    "WGCI-FM",
+    "Jack FM",
+    "Kiss 100",
+    "Y100",
+    "Heart London",
+    "Heart FM",
+    "WDAS-FM",
+    "KKDA-FM",
+    "Radio FG",
+    "Studio Brussel",
+    "Capital Xtra",
+    "Ibiza Sonica",
+    "WPGC-FM",
+    "CITI-FM",
+    "CHIQ-FM",
+    "CFWM",
+    "CKMM",
+    "CJOB",
+    "CHED",
+    "CHQR",
+    "CFAX",
+    "Greatest Hits 103.5",
+    "WHYY-FM",
+    "Fresh Air",
+    "Radio Rebelde",
+    "Radio COCO",
+    "CDN La Radio",
+    "CDN Deportes",
+    "WJZ-FM",
+    "WHP",
+    "WGEM-FM",
+    "Rocksteller",
+    "CHOK",
+    "KSL",
+    "WJR",
+    "WBT",
+    "WSB",
+    "WTOP 820",
+    "CJAD 800",
+    "CKOM",
+    "CBW",
+    "92 CITI",
+    "CKUW",
+    "CJKR-FM",
+    "Power 97",
+    "CIIT-FM",
+    "Bob FM 99.9",
+    "Hot 103",
+    "CBW-FM",
+    "CBC Winnipeg",
+    "CBC 98.3",
+    "Soul 106.3",
+    "CHKS-FM",
+    "Cool 106.3",
+    "WRAZ-FM",
+    "Thunder 106.3",
+    "Power 96",
+    "NRJ France",
+    "NRJ Paris",
+    "Ibiza Global Radio",
+    "Radio 538",
+    "Radio 1 Dance",
+    "SUNSHINE LIVE",
+    "Defected",
+    "KCRW Music",
+    "KCRW 89.9",
+    "KCRW Eclectic24",
+    "KCRW Eclectic 24",
+    "Chillsky",
+    "Chillhop",
+    "CIMX-FM",
+    "The Border",
+    "90.3 AMP Radio",
+    "Move 90.3",
+    "France Inter",
+    "Deutschlandfunk",
+    "Radio New Zealand",
+    "BBC 6 Music",
+    "Radio 6 Music",
+    "NTS Radio",
+    "NTS Live",
+    "The Lot Radio",
+    "Dublab",
+    "Worldwide FM",
+    "The Bone",
+    "Planet Rock",
+    "La 100",
+    "La Mega",
+    "Concierto FM",
+    "Rock & Pop",
+    "Rock and Pop",
+    "Michael Jackson",
+    "Eminem",
+    "Metallica",
+    "Elvis Presley",
+    "Fitness Hits",
+    "Antenne Bayern - Workout",
+    "FFH Workout",
+    "Sunshine Live - Workout",
+    "WBEZ",
+    "80s80s Prince",
+    "Exclusively Prince",
+    "FUNKY RADIO",
+    "Motown Radio",
+    "Jazz Radio Stax and Motown",
+    "The Outlaw",
+    "Music City Roadhouse",
+    "ER Willie Nelson",
+    "Exclusively Dolly Parton",
+    "Radio Art - Flamenco",
+    "Radio Sevillanas",
+    "J-Rock Powerplay",
+    "Cinemix",
+    "Classic FM at the Movies",
+    "Exclusively Creedence",
+    "WWOZ",
+    "WFMU",
+    "Radio Andina",
+    "Radio Rumba",
+    "Exclusively Daft Punk",
+    "Kroq 106.7"
+  ],
+  "perSlotStationCap": 20,
+  "actionFetchSizes": {
+    "regionDefault": 260,
+    "userEnglishLanguage": 260,
+    "perNameFragment": 42,
+    "perBrandNeedle": 36,
+    "fallback": 400,
+    "categoryDeepDive": 260,
+    "tagDrillDown": 80,
+    "countryDrillDown": 80,
+    "regionDrillDown": 80,
+    "nameSearch": 40
+  },
+  "coldStartPool": [
+    {
+      "band": "web",
+      "freq": 1
+    }
+  ],
+  "defaultFavoriteNames": [
+    "KIIS-FM",
+    "WLTW",
+    "WXRT",
+    "La 100",
+    "La Mega",
+    "Concierto FM",
+    "Rock & Pop",
+    "WFAN",
+    "WCBS",
+    "KMOX",
+    "WBZ",
+    "KNBR",
+    "Radio Paradise",
+    "SomaFM",
+    "Bloomberg Radio"
+  ],
+  "webCategoryEmojis": {
+    "pop": "💎",
+    "top 40": "💎",
+    "top40": "💎",
+    "hits": "💎",
+    "charts": "💎",
+    "rock": "🎸",
+    "alternative": "🎸",
+    "indie": "🎸",
+    "indie rock": "🎸",
+    "metal": "🤘",
+    "heavy metal": "🤘",
+    "jazz": "🎷",
+    "bebop": "🎷",
+    "blues": "🎺",
+    "classical": "🎼",
+    "opera": "🎼",
+    "orchestral": "🎼",
+    "country": "🤠",
+    "americana": "🤠",
+    "bluegrass": "🤠",
+    "folk": "🪕",
+    "hip hop": "🎤",
+    "hip-hop": "🎤",
+    "hiphop": "🎤",
+    "rap": "🎤",
+    "drake": "🎤",
+    "r&b": "🎶",
+    "rnb": "🎶",
+    "soul": "🎶",
+    "funk": "🎶",
+    "latin": "💃",
+    "salsa": "💃",
+    "reggaeton": "💃",
+    "bachata": "💃",
+    "merengue": "💃",
+    "cumbia": "💃",
+    "reggae": "🌴",
+    "ska": "🌴",
+    "dub": "🌴",
+    "electronic": "🪩",
+    "edm": "🪩",
+    "dance": "🪩",
+    "house": "🪩",
+    "techno": "🪩",
+    "trance": "🪩",
+    "club": "🪩",
+    "drum and bass": "🪩",
+    "dnb": "🪩",
+    "ambient": "🌌",
+    "chillout": "🌌",
+    "chill": "🌌",
+    "downtempo": "🌌",
+    "lounge": "🍸",
+    "easy listening": "🍸",
+    "oldies": "📼",
+    "retro": "📼",
+    "70s": "📼",
+    "80s": "📼",
+    "90s": "📼",
+    "classic hits": "📼",
+    "news": "📰",
+    "talk": "💬",
+    "2000s": "📀",
+    "talk radio": "💬",
+    "public radio": "📻",
+    "npr": "📻",
+    "information": "ℹ️",
+    "christian": "✝️",
+    "religious": "✝️",
+    "gospel": "✝️",
+    "faith": "✝️",
+    "worship": "✝️",
+    "sports": "🏟️",
+    "business": "📈",
+    "financial": "📈",
+    "finance": "📈",
+    "comedy": "😂",
+    "humor": "😂",
+    "kids": "🧸",
+    "children": "🧸",
+    "world": "🌍",
+    "international": "🌍",
+    "beatles": "🎵",
+    "rolling stones": "🎸",
+    "guns n roses": "🎸",
+    "pearl jam": "🎸",
+    "oasis": "🎸",
+    "grunge": "🎸",
+    "classic rock": "🎸",
+    "led zeppelin": "🎸",
+    "pink floyd": "🎸",
+    "michael jackson": "🕺",
+    "frank sinatra": "🎤",
+    "workout": "💪",
+    "podcast talk": "🎙️",
+    "college": "🎓",
+    "whatever": "🎲",
+    "vibes": "✨",
+    "new wave": "🕶️",
+    "60s": "✌️",
+    "hard rock": "⚡",
+    "mexico": "🇲🇽",
+    "soundtracks": "🎬",
+    "art bell": "👽"
+  },
+  "webCategoryIcons": {
+    "pop": "pop",
+    "top 40": "pop",
+    "top40": "pop",
+    "hits": "pop",
+    "charts": "pop",
+    "rock": "rock",
+    "alternative": "rock",
+    "indie": "rock",
+    "indie rock": "rock",
+    "metal": "metal",
+    "heavy metal": "metal",
+    "jazz": "jazz",
+    "bebop": "jazz",
+    "blues": "blues",
+    "classical": "classical",
+    "opera": "classical",
+    "orchestral": "classical",
+    "country": "country",
+    "americana": "country",
+    "bluegrass": "country",
+    "folk": "folk",
+    "hip hop": "hiphop",
+    "hip-hop": "hiphop",
+    "hiphop": "hiphop",
+    "rap": "hiphop",
+    "drake": "hiphop",
+    "r&b": "rnb",
+    "rnb": "rnb",
+    "soul": "rnb",
+    "funk": "rnb",
+    "latin": "latin",
+    "salsa": "latin",
+    "reggaeton": "latin",
+    "bachata": "latin",
+    "merengue": "latin",
+    "cumbia": "latin",
+    "reggae": "reggae",
+    "ska": "reggae",
+    "dub": "reggae",
+    "electronic": "electronic",
+    "edm": "electronic",
+    "dance": "electronic",
+    "house": "electronic",
+    "techno": "electronic",
+    "trance": "electronic",
+    "club": "electronic",
+    "drum and bass": "electronic",
+    "dnb": "electronic",
+    "ambient": "ambient",
+    "chillout": "ambient",
+    "chill": "ambient",
+    "downtempo": "ambient",
+    "lounge": "lounge",
+    "easy listening": "lounge",
+    "oldies": "oldies",
+    "retro": "oldies",
+    "70s": "oldies",
+    "80s": "oldies",
+    "90s": "oldies",
+    "classic hits": "oldies",
+    "alternative rock": "rock",
+    "pop rock": "rock",
+    "classic rock": "rock",
+    "adult contemporary": "lounge",
+    "music": "pop",
+    "news": "news",
+    "talk": "talk",
+    "talk radio": "talk",
+    "2000s": "pop",
+    "public radio": "public-radio",
+    "npr": "public-radio",
+    "information": "information",
+    "christian": "christian",
+    "religious": "christian",
+    "gospel": "christian",
+    "faith": "christian",
+    "worship": "christian",
+    "sports": "sports",
+    "business": "financial",
+    "financial": "financial",
+    "finance": "financial",
+    "comedy": "comedy",
+    "humor": "comedy",
+    "kids": "kids",
+    "children": "kids",
+    "world": "world",
+    "international": "world",
+    "beatles": "rock",
+    "rolling stones": "rock",
+    "guns n roses": "rock",
+    "pearl jam": "rock",
+    "oasis": "rock",
+    "grunge": "rock",
+    "led zeppelin": "rock",
+    "pink floyd": "rock",
+    "michael jackson": "pop",
+    "frank sinatra": "jazz",
+    "workout": "electronic",
+    "podcast talk": "news",
+    "college": "jazz",
+    "whatever": "jazz",
+    "vibes": "pop"
+  },
+  "countryExclusionExemptNames": [
+    "Los 40 Principales México",
+    "Café Romántico Radio (Monterrey) - Online - www.caferomanticoradio.com - Grupo Digital Radioland - Monterrey, Nuevo León",
+    "Cumbias Inmortales Radio (Monterrey) - Online - www.cumbiasinmortales.com - Grupo Digital Retroland - Monterrey, Nuevo León",
+    "XHEXA \"Exa FM\" 104.9 FM Mexico City, DF",
+    "La Ranchera de Monterrey - 1050 AM - XEG-AM - Núcleo Radio Monterrey - Monterrey, NL"
+  ]
+}
