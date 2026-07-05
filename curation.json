@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-06T00:20:00Z",
+  "updatedAt": "2026-07-06T01:00:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -395,7 +395,8 @@
       "Antenne Bayern - Oldies but Goldies",
       "Magic Fm",
       "LOVE RADIO Only Love Songs",
-      "Antenne Sachsen"
+      "Antenne Sachsen",
+      "Radio Armisa"
     ],
     "top 40": [
       "Capital FM London",
@@ -426,7 +427,11 @@
     ],
     "jazz": [
       "Smooth Jazz 247",
-      "WWOZ"
+      "WWOZ",
+      "Jazz Radio Classic Jazz"
+    ],
+    "other": [
+      "Kancheeravam Radio"
     ],
     "financial": [
       "Bloomberg",
