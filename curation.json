@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-05T23:00:00Z",
+  "updatedAt": "2026-07-06T00:20:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -375,7 +375,11 @@
       "Virgin Radio Rockstar: Aerosmith",
       "Virgin Radio Rockstar: AC/DC",
       "Exclusively Creedence",
-      "- 0 N - Classic Rock"
+      "- 0 N - Classic Rock",
+      "St Louis Classic Rock",
+      "Radio GÖD",
+      "Exclusively Led Zeppelin",
+      "70 80 90 Vibrazioni Rock Radio"
     ],
     "oldies": [
       "Radio Caroline",
@@ -383,7 +387,15 @@
       "Radiostorm - Oldies 104",
       "Oldies Internet Radio",
       "Elvis Presley",
-      "Radio Arabella"
+      "Radio Arabella",
+      "Nostalgie New York",
+      "Scott Shannon's True Oldies",
+      "WGNY - Fox Oldies",
+      "WABC Oldies Time Machine",
+      "Antenne Bayern - Oldies but Goldies",
+      "Magic Fm",
+      "LOVE RADIO Only Love Songs",
+      "Antenne Sachsen"
     ],
     "top 40": [
       "Capital FM London",
@@ -409,7 +421,8 @@
       "Radio FG Techno",
       "SomaFM Dub Step Beyond",
       "Sunshine Live - Drum N Bass",
-      "Daft Punk"
+      "Daft Punk",
+      "Intense Radio"
     ],
     "jazz": [
       "Smooth Jazz 247",
@@ -469,6 +482,12 @@
       "NYE Underground",
       "Fade to Black with Jimmy Church",
       "The Other Side of Midnight"
+    ],
+    "reggae": [
+      "Bobs Ska Radio"
+    ],
+    "hits": [
+      "Power POP"
     ]
   },
   "blockedNames": [
@@ -1266,7 +1285,11 @@
     "=国际新闻",
     "=自由亚洲",
     "Deutschlandfunk",
-    "France Info"
+    "France Info",
+    "= BBC RADIO 1 DANCE: The biggest current, future and classic dance vibes",
+    "= BBC RADIO 1 DANCE UK: The biggest current, future and classic dance vibes. Londres, Inglaterra",
+    "=BBC Radio 1 Dance",
+    "=BBC Radio One Dance"
   ],
   "excludedCountryCodes": [
     "RU",
