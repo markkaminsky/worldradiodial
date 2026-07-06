@@ -143,7 +143,10 @@
     "metal",
     "hard rock",
     "country",
-    "rap",
+    "wu-tang era",
+    "old school hip hop",
+    "underground hip hop",
+    "trap",
     "blues",
     "stax motown soul",
     "workout",
@@ -251,24 +254,23 @@
       "SOUL RADIO Classics",
       "Motown Radio"
     ],
-    "rap": [
-      "Skyrock",
+    "wu-tang era": [
       "90s90s HipHop & Rap",
-      "All Underground Hip Hop Radio",
-      "HOT 93.5 Old School",
-      "98.8 Kiss FM Urban Beats",
-      "SomaFM Fluid",
-      "Hot 97",
       "BBC Radio 1Xtra",
-      "SiriusXM Hip-Hop Nation",
-      "Rap Classics",
       "Eminem",
-      "Urban Radio - Hip Hop",
-      "Klassic Joints",
+      "Rap Classics"
+    ],
+    "old school hip hop": [
+      "HOT 93.5 Old School",
       "Old School Hip Hop - Urbanradio.com",
-      "98.8 Kiss FM Oldshool",
-      "Power 105.1",
-      "98.8 Kiss FM Trap Beats",
+      "Klassic Joints"
+    ],
+    "underground hip hop": [
+      "All Underground Hip Hop Radio",
+      "SomaFM Fluid"
+    ],
+    "trap": [
+      "Urban Radio - Hip Hop",
       "WHBX"
     ],
     "oasis": [
@@ -1318,7 +1320,14 @@
     "Intense Radio - We love Dance #HQ# FLAC",
     "Intense Radio - We love Dance 256k",
     "Play 90's",
-    "1000 Hits 90s"
+    "1000 Hits 90s",
+    "Skyrock",
+    "Hot 97",
+    "Power 105.1",
+    "98.8 Kiss FM Urban Beats",
+    "98.8 Kiss FM Oldshool",
+    "98.8 Kiss FM Trap Beats",
+    "SiriusXM Hip-Hop Nation"
   ],
   "excludedCountryCodes": [
     "RU",
