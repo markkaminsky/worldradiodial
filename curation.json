@@ -150,6 +150,7 @@
     "vibes",
     "latin",
     "reggae",
+    "ska",
     "mexico",
     "jazz",
     "frank sinatra",
@@ -394,6 +395,11 @@
       "Antenne Sachsen",
       "Radio Armisa"
     ],
+    "ska": [
+      "Bob's Ska Radio",
+      "Ska World",
+      "REAL PUNK RADIO"
+    ],
     "top 40": [
       "Capital FM London",
       "Virgin Radio UK"
@@ -417,8 +423,7 @@
       "Radio FG Techno",
       "SomaFM Dub Step Beyond",
       "Sunshine Live - Drum N Bass",
-      "Daft Punk",
-      "Intense Radio"
+      "Daft Punk"
     ],
     "jazz": [
       "Smooth Jazz 247",
@@ -1302,7 +1307,12 @@
     "__DEUTSCHRAP CHARTS__ by rautemusik (rm.fm)",
     "__ROCK__ by rautemusik (rm.fm)",
     "__TOP40__ by rautemusik (rm.fm)",
-    "__WACKENRADIO__ by rautemusik (rm.fm)"
+    "__WACKENRADIO__ by rautemusik (rm.fm)",
+    ".977 90s",
+    "Heart 90s",
+    "Radio Dancefloor 90s",
+    "Intense Radio - We love Dance #HQ# FLAC",
+    "Intense Radio - We love Dance 256k"
   ],
   "excludedCountryCodes": [
     "RU",
