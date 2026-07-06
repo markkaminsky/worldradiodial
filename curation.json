@@ -381,7 +381,6 @@
     "oldies": [
       "Radio Caroline",
       "OLDIE ANTENNE",
-      "Radiostorm - Oldies 104",
       "Oldies Internet Radio",
       "Elvis Presley",
       "Radio Arabella",
@@ -412,7 +411,6 @@
       "Exclusively Prince",
       "Prince Hits",
       "1000 HITS 80s",
-      "__80 HITS",
       "__80s HITS"
     ],
     "electronic": [
@@ -1292,7 +1290,9 @@
     "= BBC RADIO 1 DANCE UK: The biggest current, future and classic dance vibes. Londres, Inglaterra",
     "=BBC Radio 1 Dance",
     "=BBC Radio One Dance",
-    "Virgin Radio Vancouver"
+    "Virgin Radio Vancouver",
+    "Radiostorm - Oldies 104",
+    "__80s HITS"
   ],
   "excludedCountryCodes": [
     "RU",
