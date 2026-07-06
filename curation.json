@@ -172,10 +172,7 @@
   ],
   "stationCategoryRemappings": {
     "country": [
-      "Today's Hot Country",
       "Outlaw Country Radio",
-      "90's Country Music Radio",
-      "2000's Country Music Radio",
       "The Outlaw",
       "Music City Roadhouse",
       "ER Willie Nelson",
@@ -190,8 +187,6 @@
       "Big R Radio - Grunge FM",
       "Best Of Rock.FM Alternative Rock",
       "KEXP 90.3",
-      "100.7 WMMS",
-      "Kroq 106.7",
       "Indie X FM",
       "Nu Metal Radio",
       "Nirvana",
@@ -343,7 +338,6 @@
       "Radio Nova France"
     ],
     "vibes": [
-      "KISS - The Best Vibes",
       "SomaFM Groove Salad",
       "Positive Hits Radio",
       "Feel Good Station",
@@ -366,8 +360,6 @@
       "Virgin Radio Rockstar: Aerosmith",
       "Virgin Radio Rockstar: AC/DC",
       "Exclusively Creedence",
-      "- 0 N - Classic Rock",
-      "St Louis Classic Rock",
       "Radio GÖD",
       "Exclusively Led Zeppelin",
       "70 80 90 Vibrazioni Rock Radio"
@@ -378,10 +370,6 @@
       "Oldies Internet Radio",
       "Elvis Presley",
       "Radio Arabella",
-      "Nostalgie New York",
-      "Scott Shannon's True Oldies",
-      "WGNY - Fox Oldies",
-      "WABC Oldies Time Machine",
       "Antenne Bayern - Oldies but Goldies",
       "Magic Fm",
       "LOVE RADIO Only Love Songs",
@@ -1326,7 +1314,19 @@
     "98.8 Kiss FM Urban Beats",
     "98.8 Kiss FM Oldshool",
     "98.8 Kiss FM Trap Beats",
-    "SiriusXM Hip-Hop Nation"
+    "SiriusXM Hip-Hop Nation",
+    "KISS - The Best Vibes",
+    "Nostalgie New York",
+    "Scott Shannon's True Oldies",
+    "WGNY - Fox Oldies",
+    "WABC Oldies Time Machine",
+    "100.7 WMMS",
+    "Kroq 106.7",
+    "Today's Hot Country",
+    "90's Country Music Radio",
+    "2000's Country Music Radio",
+    "- 0 N - Classic Rock",
+    "St Louis Classic Rock"
   ],
   "excludedCountryCodes": [
     "RU",
