@@ -123,7 +123,8 @@
     "talk",
     "jazz",
     "bebop",
-    "pop"
+    "pop",
+    "podcast talk"
   ],
   "pinnedWebDialCategories": [
     "top 40",
@@ -163,7 +164,6 @@
     "classical",
     "soundtracks",
     "public radio",
-    "podcast talk",
     "art bell",
     "sports",
     "news",
@@ -302,15 +302,6 @@
       "Antenne Bayern - Workout",
       "FFH Workout",
       "Sunshine Live - Workout"
-    ],
-    "podcast talk": [
-      "TED Talks Radio",
-      "NPR World",
-      "BBC World Service",
-      "Podcast Addict",
-      "Intelligent Talk",
-      "NPR 24 Hour Program Stream",
-      "BBC Radio 4"
     ],
     "college": [
       "KXLU",
@@ -3450,10 +3441,6 @@
     "workout": [
       "Fitness & Energy",
       "High Energy Dance"
-    ],
-    "podcast talk": [
-      "TED Talks Radio",
-      "BBC World Service"
     ],
     "college": [
       "KEXP Seattle",
