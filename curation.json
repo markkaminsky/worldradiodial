@@ -147,6 +147,7 @@
     "breakbeat era",
     "boom bap",
     "trap",
+    "synthwave",
     "blues",
     "stax motown soul",
     "workout",
@@ -245,6 +246,10 @@
     "trap": [
       "Urban Radio - Hip Hop",
       "WHBX"
+    ],
+    "synthwave": [
+      "Synthwave Radio",
+      "SomaFM Vaporwaves (128k AAC)"
     ],
     "oasis": [
       "Virgin Radio Rockstar: Oasis",
