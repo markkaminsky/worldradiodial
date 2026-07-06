@@ -145,7 +145,7 @@
     "country",
     "rap",
     "blues",
-    "soul",
+    "stax motown soul",
     "workout",
     "vibes",
     "latin",
@@ -246,19 +246,10 @@
       "Radio Rumba",
       "Chocolate FM"
     ],
-    "soul": [
-      "Retro Soul Radio",
-      "CLASSIC HITS RADIO 70 80 DiscoFunk",
-      "70s 80s Disco Funk ModernSoul Boogie",
-      "Jazz Radio Funk",
-      "Rhythm & Blues Radio",
-      "Soul Music Radio",
-      "Stevie Wonder",
-      "FUNKY RADIO",
+    "stax motown soul": [
+      "SOUL RADIO Classics",
       "Motown Radio",
-      "Stax and Motown",
-      "Funky Corner",
-      "WHUR 96.3"
+      "Stax and Motown"
     ],
     "rap": [
       "Skyrock",
