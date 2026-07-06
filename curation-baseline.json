@@ -122,7 +122,8 @@
     "east lansing",
     "talk",
     "jazz",
-    "bebop"
+    "bebop",
+    "pop"
   ],
   "pinnedWebDialCategories": [
     "top 40",
@@ -3487,7 +3488,6 @@
     "am radio": 180,
     "talk": 170,
     "news": 160,
-    "pop": 150,
     "top 40": 140,
     "hits": 140,
     "charts": 120,
