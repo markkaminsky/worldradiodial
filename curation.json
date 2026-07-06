@@ -151,6 +151,7 @@
     "latin",
     "reggae",
     "ska",
+    "alt gen 1",
     "mexico",
     "jazz",
     "frank sinatra",
@@ -416,8 +417,11 @@
       "80s80s Prince",
       "Exclusively Prince",
       "Prince Hits",
-      "1000 HITS 80s",
       "__80s HITS"
+    ],
+    "90s": [
+      "Virgin Radio Rock '90",
+      "90s90s HipHop & Rap"
     ],
     "electronic": [
       "Radio FG Techno",
@@ -489,10 +493,18 @@
       "The Other Side of Midnight"
     ],
     "reggae": [
-      "Bobs Ska Radio"
+    ],
+    "ska": [
+      "Bob's Ska Radio",
+      "Ska World",
+      "REAL PUNK RADIO"
     ],
     "hits": [
       "Power POP"
+    ],
+    "alt gen 1": [
+      "TMM 1",
+      "D1 Alternative"
     ]
   },
   "blockedNames": [
@@ -1312,7 +1324,9 @@
     "Heart 90s",
     "Radio Dancefloor 90s",
     "Intense Radio - We love Dance #HQ# FLAC",
-    "Intense Radio - We love Dance 256k"
+    "Intense Radio - We love Dance 256k",
+    "Play 90's",
+    "1000 Hits 90s"
   ],
   "excludedCountryCodes": [
     "RU",
