@@ -255,10 +255,7 @@
       "Motown Radio",
       "SOUL RADIO Classics"
     ],
-    "oasis": [
-      "Virgin Radio Rockstar: Oasis",
-      "Radio X"
-    ],
+    "oasis": [],
     "frank sinatra": [
       "Classic Vinyl",
       "The Great American Songbook",
@@ -461,7 +458,8 @@
       "KMYZ The Edge",
       "DIE NEUE 107.7",
       "Guerrilla Radio",
-      "Bandit Rock"
+      "Virgin Radio Rockstar: Oasis",
+      "Radio X"
     ],
     "art bell": [
       "Art Bell",
