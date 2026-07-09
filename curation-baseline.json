@@ -365,13 +365,8 @@
     ],
     "classic rock": [
       "Virgin Radio Rockstar: Aerosmith",
-      "Virgin Radio Rockstar: AC/DC",
-      "Exclusively Creedence",
-      "- 0 N - Classic Rock",
-      "St Louis Classic Rock",
-      "Radio GÖD",
       "Exclusively Led Zeppelin",
-      "70 80 90 Vibrazioni Rock Radio"
+      "Classic Hits 109"
     ],
     "oldies": [
       "Radio Caroline",
@@ -676,6 +671,7 @@
     "CKWD",
     "CKYE-FM 93.1",
     "Classical 96.3",
+    "Classical KDFC",
     "Classical KUSC",
     "Concierto FM 90.5",
     "Concierto FM 95.1",
@@ -865,6 +861,7 @@
     "Olímpica",
     "Parapolitika",
     "Plus 93.1",
+    "Positively Baroque",
     "Power 97.9",
     "Power 98.7",
     "Proud FM",
@@ -1020,6 +1017,7 @@
     "WGUC",
     "WHAM",
     "WHOP-FM",
+    "WHPK",
     "Whoopee",
     "WHTZ",
     "WHUR",
@@ -1300,8 +1298,7 @@
     "LITE FM Malaysia",
     "LITE FM (Malaysia)",
     "Lite FM Malaysia",
-    "NORA Oldies",
-    "Classical KDFC"
+    "NORA Oldies"
   ],
   "excludedCountryCodes": [
     "RU",

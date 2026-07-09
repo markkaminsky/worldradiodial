@@ -142,7 +142,6 @@
     "rock ii",
     "country",
     "east coast '90s",
-    "breakbeat era",
     "boom bap",
     "trap",
     "synthwave",
@@ -225,10 +224,6 @@
       "BBC Radio 1Xtra",
       "Eminem",
       "Rap Classics"
-    ],
-    "breakbeat era": [
-      "HOT 93.5 Old School",
-      "Klassic Joints"
     ],
     "boom bap": [
       "All Underground Hip Hop Radio",
@@ -341,13 +336,8 @@
     ],
     "classic rock": [
       "Virgin Radio Rockstar: Aerosmith",
-      "Virgin Radio Rockstar: AC/DC",
-      "Classic Hits 109",
-      "Exclusively Creedence",
-      "Radio GÖD",
       "Exclusively Led Zeppelin",
-      "70 80 90 Vibrazioni Rock Radio",
-      "ROCK FM Classic Rock"
+      "Classic Hits 109"
     ],
     "oldies": [
       "70 80 90 Vibrazioni Rock Radio",
@@ -518,6 +508,7 @@
     "Bayern 3",
     "Beatles Radio (MP3)",
     "Classic Vinyl HD",
+    "Classical KDFC",
     "Caspian Business Radio BOSS",
     "Christmas Vinyl HD",
     "CKJR",
@@ -1107,6 +1098,7 @@
     "Parapolitika",
     "Play 90's",
     "Plus 93.1",
+    "Positively Baroque",
     "Power 105.1",
     "Power 97.9",
     "Power 98.7",
@@ -1271,6 +1263,7 @@
     "WGUC",
     "WHAM",
     "WHOP-FM",
+    "WHPK",
     "WHTZ",
     "WHUR",
     "WHUR 96.3",
