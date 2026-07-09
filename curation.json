@@ -3,7 +3,6 @@
   "updatedAt": "2026-07-06T01:00:00Z",
   "excludedWebCategories": [
     "information",
-    "local",
     "local news",
     "religious",
     "kids",
@@ -123,6 +122,7 @@
     "talk"
   ],
   "pinnedWebDialCategories": [
+    "local",
     "top 40",
     "hits",
     "80s",
@@ -4067,6 +4067,7 @@
     "Bloomberg Radio"
   ],
   "webCategoryEmojis": {
+    "local": "🏘️",
     "pop": "💎",
     "top 40": "💎",
     "top40": "💎",
