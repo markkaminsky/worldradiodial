@@ -132,7 +132,7 @@
     "electronic",
     "house",
     "ambient",
-    "oasis",
+    "world cup",
     "grunge",
     "new wave",
     "rock",
@@ -274,6 +274,14 @@
       "Antenne Bayern - Workout",
       "FFH Workout",
       "Sunshine Live - Workout"
+    ],
+    "world cup": [
+      "Radio La Red AM 910. Ciudad de Buenos Aires",
+      "Radio Marca Madrid",
+      "RMC FR",
+      "ESPN Radio 106.3",
+      "KKGK Fox Sports 98.9/1340",
+      "CJCL Sportsnet 590 The Fan"
     ],
     "podcast talk": [
       "TED Talks Radio",
@@ -481,6 +489,8 @@
     "0R - SOFT ROCK",
     "100.7 WMMS",
     "1000 Hits 90s",
+    "Addicted 2 Oldies Music",
+    "CKJR",
     "101.9 KISS FM",
     "102.1 The Edge",
     "102.5 The Game",
@@ -3398,7 +3408,6 @@
     ],
     "news": [
       "NPR Newscast",
-      "BBC Radio 5 Live",
       "Fox News Radio",
       "CNN",
       "MSNBC",
@@ -4136,6 +4145,7 @@
     "michael jackson": "🕺",
     "frank sinatra": "🎤",
     "workout": "💪",
+    "world cup": "⚽",
     "podcast talk": "🎙️",
     "college": "🎓",
     "whatever": "🎲",
