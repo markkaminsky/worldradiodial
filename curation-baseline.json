@@ -129,7 +129,6 @@
     "top 40",
     "charts",
     "hits",
-    "60s",
     "70s",
     "80s",
     "90s",
@@ -403,10 +402,6 @@
       "BBC World Service",
       "Radio Vaticana English",
       "Cadena SER España"
-    ],
-    "60s": [
-      "-ON- 60s Radio",
-      "Exclusively Beach Boys"
     ],
     "70s": [
       "Exclusively Carole King"
