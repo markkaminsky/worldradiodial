@@ -130,7 +130,7 @@
     "electronic",
     "house",
     "ambient",
-    "world sport",
+    "world cup",
     "grunge",
     "new wave",
     "rock",
@@ -263,6 +263,14 @@
       "Antenne Bayern - Workout",
       "FFH Workout",
       "Sunshine Live - Workout"
+    ],
+    "world cup": [
+      "Radio La Red AM 910. Ciudad de Buenos Aires",
+      "Radio Marca Madrid",
+      "RMC FR",
+      "ESPN Radio 106.3",
+      "KKGK Fox Sports 98.9/1340",
+      "CJCL Sportsnet 590 The Fan"
     ],
     "podcast talk": [
       "TED Talks Radio",
@@ -468,13 +476,6 @@
     ],
     "christian": [
       "DOC Radio: Contemporary Christian Music"
-    ],
-    "world sport": [
-      "Radio La Red AM 910. Ciudad de Buenos Aires",
-      "Radio Marca Madrid",
-      "ESPN Radio 106.3",
-      "KKGK Fox Sports 98.9/1340",
-      "CJCL Sportsnet 590 The Fan"
     ]
   },
   "blockedNames": [
