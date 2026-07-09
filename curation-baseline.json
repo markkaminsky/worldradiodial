@@ -165,20 +165,16 @@
     "public radio",
     "art bell",
     "sports",
+    "world sport",
     "news",
     "financial",
     "whatever"
   ],
   "stationCategoryRemappings": {
     "country": [
-      "Today's Hot Country",
       "Outlaw Country Radio",
-      "90's Country Music Radio",
-      "2000's Country Music Radio",
-      "The Outlaw",
-      "Music City Roadhouse",
-      "ER Willie Nelson",
-      "Exclusively Dolly Parton"
+      "Exclusively Dolly Parton",
+      "Music City Roadhouse"
     ],
     "beatles": [
       "Beatles",
@@ -3372,7 +3368,6 @@
     ],
     "classic rock": [
       "Q104.3",
-      "102.5 WDVE",
       "100.7 WZLX",
       "Exclusively Creedence"
     ],
@@ -4197,7 +4192,6 @@
     "90s": "oldies",
     "classic hits": "oldies",
     "alternative rock": "rock",
-    "pop rock": "rock",
     "classic rock": "rock",
     "adult contemporary": "lounge",
     "music": "pop",

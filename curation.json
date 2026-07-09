@@ -165,6 +165,7 @@
     "podcast talk",
     "art bell",
     "sports",
+    "world sport",
     "news",
     "financial",
     "whatever"
@@ -172,11 +173,8 @@
   "stationCategoryRemappings": {
     "country": [
       "Outlaw Country Radio",
-      "The Outlaw",
-      "Music City Roadhouse",
-      "ER Willie Nelson",
       "Exclusively Dolly Parton",
-      "HPR1: Traditional Classic Country"
+      "Music City Roadhouse"
     ],
     "beatles": [
       "Exclusively The Beatles",
@@ -4265,7 +4263,6 @@
     "90s": "oldies",
     "classic hits": "oldies",
     "alternative rock": "rock",
-    "pop rock": "rock",
     "classic rock": "rock",
     "adult contemporary": "lounge",
     "music": "pop",
