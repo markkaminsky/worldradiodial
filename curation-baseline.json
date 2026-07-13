@@ -1,8 +1,9 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-06T01:00:00Z",
+  "updatedAt": "2026-07-12T15:00:00Z",
   "excludedWebCategories": [
     "information",
+    "local",
     "local news",
     "religious",
     "kids",
@@ -32,6 +33,9 @@
     "norteamérica",
     "radio",
     "pop music",
+    "pop",
+    "charts",
+    "top charts",
     "news talk",
     "fm",
     "culture",
@@ -77,10 +81,11 @@
     "funk",
     "smooth jazz",
     "electronica",
+    "50s",
+    "60s",
     "80's",
     "90's",
     "70's",
-    "60's",
     "00's",
     "00s",
     "80er",
@@ -119,17 +124,11 @@
     "chill",
     "decades",
     "east lansing",
-    "talk",
-    "jazz",
-    "bebop",
-    "pop",
-    "podcast talk"
+    "talk"
   ],
   "pinnedWebDialCategories": [
     "top 40",
-    "charts",
-    "hits",
-    "70s",
+    "miami",
     "80s",
     "90s",
     "2000s",
@@ -144,66 +143,74 @@
     "classic rock",
     "beatles",
     "rolling stones",
-    "guns n roses",
     "metal",
     "hard rock",
     "country",
-    "rap",
+    "east coast '90s",
+    "old joints",
+    "boom bap",
+    "synthwave",
+    "jackson 5",
+    "radio free phoenix",
     "blues",
-    "soul",
+    "stax motown soul",
     "workout",
     "vibes",
-    "latin",
     "reggae",
+    "ska",
+    "alt gen 1",
     "mexico",
+    "jazz",
     "frank sinatra",
     "oldies",
     "college",
     "classical",
     "soundtracks",
     "public radio",
+    "podcast talk",
     "art bell",
     "sports",
     "world sport",
     "news",
     "financial",
-    "whatever"
+    "paradise"
   ],
   "stationCategoryRemappings": {
-    "country": [
+    "bluegrass country": [
+      "Bluegrass Country",
       "Outlaw Country Radio",
+      "Music City Roadhouse",
+      "ER Willie Nelson",
       "Exclusively Dolly Parton",
-      "Music City Roadhouse"
+      "HPR1: Traditional Classic Country"
     ],
     "beatles": [
-      "Beatles",
       "Exclusively The Beatles",
       "Beatles Radio",
       "MopTop Radio - The Beatles"
+    ],
+    "goldies": [
+      "Exclusively Creedence Clearwater Revival",
+      "FUNKY RADIO - Only Funk Music",
+      "Radiostorm - Rock 104"
     ],
     "grunge": [
       "Big R Radio - Grunge FM",
       "Best Of Rock.FM Alternative Rock",
       "KEXP 90.3",
-      "100.7 WMMS",
-      "Kroq 106.7",
       "Indie X FM",
-      "Nu Metal Radio",
       "Nirvana",
       "Soundgarden",
       "Pearl Jam"
+    ],
+    "house": [
+      "Deeper Shades of House"
     ],
     "rolling stones": [
       "Virgin Radio Rockstar: Rolling Stones",
       "Radio ROCKS Kyiv",
       "RdMix Classic Rock 70s 80s 90s",
       "Classic Rock 70s"
-    ],
-    "guns n roses": [
-      "Virgin Radio Rockstar: Guns N' Roses",
-      "Hard Rock Radio FM",
-      "Hair Metal Radio",
-      "80s Metal Radio"
     ],
     "2000s": [
       "iHeart2000s Radio",
@@ -212,7 +219,6 @@
       "Sunshine Live - Classics"
     ],
     "metal": [
-      "Nu Metal Radio",
       "Rock Antenne - Heavy Metal",
       "Big R Radio - 80s Metal FM",
       "80s Metal",
@@ -222,59 +228,31 @@
       "Metallica",
       "J-Rock Powerplay"
     ],
-    "latin": [
-      "La 100 - 99.9 FM Buenos Aires",
-      "La Mega Medellín 92.9 FM",
-      "104.5 Latino Hits",
-      "Mega 97.1 Latino Hits",
-      "Z 92 Miami 92.3 FM",
-      "Concierto FM",
-      "Radiograma",
-      "Planeta FM",
-      "Romance FM",
-      "Sonidero",
-      "Latina Salsa",
-      "Olímpica Stereo",
-      "Top Latino",
-      "Candela Estéreo",
-      "Radio Art - Flamenco",
-      "Radio Sevillanas",
-      "Radio Andina",
-      "Radio Rumba",
-      "Chocolate FM"
+    "stax motown soul": [
+      "Stax and Motown"
     ],
-    "soul": [
-      "Retro Soul Radio",
-      "CLASSIC HITS RADIO 70 80 DiscoFunk",
-      "70s 80s Disco Funk ModernSoul Boogie",
-      "Jazz Radio Funk",
-      "Rhythm & Blues Radio",
-      "Soul Music Radio",
-      "Stevie Wonder",
-      "FUNKY RADIO",
-      "Motown Radio",
-      "Stax and Motown",
-      "Funky Corner",
-      "WHUR 96.3"
-    ],
-    "rap": [
-      "Skyrock",
+    "east coast '90s": [
       "90s90s HipHop & Rap",
-      "All Underground Hip Hop Radio",
-      "HOT 93.5 Old School",
-      "98.8 Kiss FM Urban Beats",
-      "SomaFM Fluid",
-      "Hot 97",
       "BBC Radio 1Xtra",
-      "SiriusXM Hip-Hop Nation",
-      "Rap Classics",
       "Eminem",
-      "Urban Radio - Hip Hop",
-      "Klassic Joints",
-      "98.8 Kiss FM Oldshool",
-      "Power 105.1",
-      "98.8 Kiss FM Trap Beats",
-      "WHBX"
+      "Rap Classics"
+    ],
+    "old joints": [
+      "HOT 93.5 Old School",
+      "Old School Hip Hop - Urbanradio.com",
+      "Klassic Joints"
+    ],
+    "boom bap": [
+      "All Underground Hip Hop Radio",
+      "SomaFM Fluid"
+    ],
+    "synthwave": [
+      "Synthwave Radio",
+      "SomaFM Vaporwaves (128k AAC)"
+    ],
+    "jackson 5": [
+      "Motown Radio",
+      "SOUL RADIO Classics"
     ],
     "oasis": [
       "Virgin Radio Rockstar: Oasis",
@@ -289,14 +267,24 @@
       "WGHQ 920"
     ],
     "workout": [
+      "Sunshine Live - Workout",
       "Hip Hop Workout Radio",
       "WorkoutTime USA",
       "1A Fitness Hits",
       "Antenne Bayern - Workout",
-      "FFH Workout",
-      "Sunshine Live - Workout"
+      "FFH Workout"
+    ],
+    "podcast talk": [
+      "TED Talks Radio",
+      "NPR World",
+      "BBC World Service",
+      "Podcast Addict",
+      "Intelligent Talk",
+      "NPR 24 Hour Program Stream",
+      "BBC Radio 4"
     ],
     "college": [
+      "Obong University Radio",
       "KXLU",
       "WHRB",
       "WPRB",
@@ -325,7 +313,7 @@
       "WFDD",
       "WAER"
     ],
-    "whatever": [
+    "paradise": [
       "Winnipeg's Bounce 99.9",
       "SomaFM Drone Zone",
       "SomaFM Space Station Soma",
@@ -338,13 +326,11 @@
       "Radio Nova France"
     ],
     "vibes": [
-      "KISS - The Best Vibes",
       "SomaFM Groove Salad",
       "Positive Hits Radio",
       "Feel Good Station",
       "Good Vibes Radio",
       "Chillwave Radio",
-      "The Alternate Side",
       "Los 40 Cataluna",
       "bigFM LoFi",
       "Smooth Chill",
@@ -358,26 +344,29 @@
       "Shonan Beach"
     ],
     "classic rock": [
+      "HD Radio - Classic Rock (USA) 128k mp3",
       "Virgin Radio Rockstar: Aerosmith",
-      "Exclusively Led Zeppelin",
-      "Classic Hits 109"
+      "Virgin Radio Rockstar: AC/DC",
+      "Exclusively Creedence",
+      "Radio GÖD",
+      "Exclusively Led Zeppelin"
     ],
     "oldies": [
       "Radio Caroline",
       "OLDIE ANTENNE",
-      "Radiostorm - Oldies 104",
       "Oldies Internet Radio",
       "Elvis Presley",
       "Radio Arabella",
-      "Nostalgie New York",
-      "Scott Shannon's True Oldies",
-      "WGNY - Fox Oldies",
-      "WABC Oldies Time Machine",
       "Antenne Bayern - Oldies but Goldies",
       "Magic Fm",
       "LOVE RADIO Only Love Songs",
       "Antenne Sachsen",
       "Radio Armisa"
+    ],
+    "ska": [
+      "Bob's Ska Radio",
+      "Ska World",
+      "REAL PUNK RADIO"
     ],
     "top 40": [
       "Capital FM London",
@@ -387,22 +376,6 @@
       "WJOX",
       "WFAN"
     ],
-    "world sport": [
-      "Radio La Red AM 910. Ciudad de Buenos Aires",
-      "Radio Marca Madrid",
-      "RMC FR",
-      "ESPN Radio 106.3",
-      "KKGK Fox Sports 98.9/1340",
-      "CJCL Sportsnet 590 The Fan"
-    ],
-    "world music": [
-      "ESKA - Gorąca 20",
-      "Radio Canada Ici Musique",
-      "RFI Monde",
-      "BBC World Service",
-      "Radio Vaticana English",
-      "Cadena SER España"
-    ],
     "70s": [
       "Exclusively Carole King"
     ],
@@ -411,23 +384,25 @@
       "80s80s Prince",
       "Exclusively Prince",
       "Prince Hits",
-      "1000 HITS 80s",
-      "__80 HITS",
-      "__80s HITS"
+      "__80s HITS",
+      "The Big 80s Station"
     ],
     "90s": [
-      "90s90s Grunge Germany"
+      "Virgin Radio Rock '90"
     ],
     "electronic": [
       "Radio FG Techno",
       "SomaFM Dub Step Beyond",
       "Sunshine Live - Drum N Bass",
-      "Daft Punk",
-      "Intense Radio"
+      "Daft Punk"
+    ],
+    "jazz": [
+      "Smooth Jazz 247",
+      "WWOZ",
+      "Jazz Radio Classic Jazz"
     ],
     "other": [
-      "Kancheeravam Radio",
-      "COOL FM Best Hits Ever"
+      "Kancheeravam Radio"
     ],
     "financial": [
       "Bloomberg",
@@ -457,7 +432,8 @@
     ],
     "soundtracks": [
       "Cinemix",
-      "Classic FM at the Movies"
+      "Classic FM at the Movies",
+      "StreamingSoundtracks.com Hi"
     ],
     "ambient": [
       "Your Classical",
@@ -472,32 +448,65 @@
     "indie": [
       "FM4"
     ],
-    "rock": [
-      "KMYZ The Edge",
-      "DIE NEUE 107.7",
-      "Guerrilla Radio",
-      "Bandit Rock"
-    ],
     "art bell": [
       "Art Bell",
       "NYE Underground",
       "Fade to Black with Jimmy Church",
       "The Other Side of Midnight"
     ],
-    "reggae": [
-      "Bobs Ska Radio"
-    ],
-    "hits": [
+    "reggae": [],
+    "miami": [
       "Power POP"
+    ],
+    "alt gen 1": [
+      "SomaFM Indie Pop Rocks! (128k AAC)",
+      "TMM 1",
+      "D1 Alternative"
+    ],
+    "world sport": [
+      "Radio Marca Madrid",
+      "Ovación",
+      "Carve Deportiva",
+      "RPP Mundial",
+      "Rádio Grenal",
+      "Tele Radio Stereo",
+      "Radio CRC",
+      "talkSPORT",
+      "Fox Sports Radio",
+      "CBS Sports Radio",
+      "101.9WFAN",
+      "CHUM TSN 1050",
+      "Sport Nation"
+    ],
+    "pet shop": [
+      "bigFM Deutschland",
+      "Energy Basel",
+      "Antenne Bayern Top 100",
+      "Sunshine Live - Charts",
+      "I Love Radio"
+    ],
+    "pop world": [
+      "102.7 KIIS FM",
+      "Bayern 3",
+      "Radio Kiss Kiss",
+      "KAYA FM",
+      "Jacaranda FM",
+      "Radio Eins",
+      "Radio Nova",
+      "Süper FM",
+      "MNM",
+      "SRF 3",
+      "Radio Swiss Pop",
+      "RMC Radio Monte Carlo",
+      "LOS 40 Principales España"
     ]
   },
   "blockedNames": [
     "Radio Hamrah",
     ".977 80s",
     ".977 Hitz",
-    ".977 Smooth Jazz",
     ".977 The Mix",
-    ".100 Hip hop and RNB FM",
+    ".977 Country",
     "=101 SMOOTH JAZZ",
     "101.9 KISS FM",
     "102.1 The Edge",
@@ -521,6 +530,7 @@
     "2SM Sydney",
     "2SM Sydney 1269",
     "3MP",
+    "33-1/3 Canada's Album Radio",
     "4BC Brisbane 882",
     "6PR Perth 882",
     "88.7 The Bridge",
@@ -585,6 +595,7 @@
     "Big Country 93",
     "Big Country 93.1",
     "Big R Radio - 80s Metal FM",
+    "Big R Radio - 90s Alternative Rock",
     "BIG HEART FM",
     "Big Heart FM",
     "Bio-Bio",
@@ -599,6 +610,7 @@
     "C-SPAN Radio",
     "Cadena Radial del Centro",
     "Calm Radio",
+    "Classical KDFC",
     "Candela Casanare 94.7",
     "Caracol Radio",
     "CBC Radio One London",
@@ -625,6 +637,7 @@
     "CHBW",
     "CHDI",
     "CHFX",
+    "CHHA 1610",
     "CHKG-FM",
     "CHKT",
     "CHMX",
@@ -645,10 +658,9 @@
     "CIRV",
     "CIRV-FM",
     "CIRX-FM",
-    "CISM 89.3",
-    "CISM 89.9",
     "CJAB",
     "CJCB",
+    "CJCL Sportsnet 590",
     "CJCQ-FM",
     "CJJR",
     "CJLR",
@@ -663,6 +675,7 @@
     "CJXL",
     "CJXX",
     "CJXX-FM",
+    "CINB-FM Oldies96",
     "CKBE",
     "CKCE",
     "CKCE-FM",
@@ -672,7 +685,6 @@
     "CKIS",
     "CKLN",
     "CKMP",
-    "CKMS-FM",
     "CKMX",
     "CKOB",
     "CKUT",
@@ -682,10 +694,8 @@
     "CKPE",
     "CKWD",
     "CKYE-FM 93.1",
-    "Christmas Vinyl HD",
-    "Classic Vinyl HD",
+    "Cinemix",
     "Classical 96.3",
-    "Classical KDFC",
     "Classical KUSC",
     "Concierto FM 90.5",
     "Concierto FM 95.1",
@@ -718,7 +728,9 @@
     "Faro Del Caribe",
     "Fasching",
     "Feeling FM",
+    "Femmetal Classics Radio",
     "Flow 93.5",
+    "Frank Sinatra Radio",
     "FM 88.9 Toronto",
     "FM 90 Saladillo",
     "FM 97.9 Vida",
@@ -747,6 +759,7 @@
     "iHeartCountry",
     "iHeartLatino",
     "iHeartRadio",
+    "irock24/7",
     "Indie 102.3",
     "Indie 88.1",
     "Indie88",
@@ -829,7 +842,6 @@
     "La Maxima 89.1",
     "La Mega 97.9",
     "La Máxima 89.1",
-    "La Noventera",
     "La Popu",
     "La Red 106.1",
     "La Red Guatemala",
@@ -848,6 +860,7 @@
     "Live 88.5",
     "LOS 40 SANTA FE",
     "Los 40 Santa Fe",
+    "LYNX CLASSIC ROCK",
     "m2o",
     "Master's Touch",
     "MBC Loud",
@@ -866,6 +879,7 @@
     "Mucha Radio 94.7",
     "Mundo Retro",
     "National Radio of Kampuchea",
+    "Non-Stop Oldies",
     "New Country 92",
     "New Country 96.9",
     "News Radio 1090",
@@ -874,12 +888,14 @@
     "Now! Radio",
     "Olimpica",
     "Olímpica",
+    "ORF Hitradio",
     "Parapolitika",
     "Plus 93.1",
     "Positively Baroque",
     "Power 97.9",
     "Power 98.7",
     "Proud FM",
+    "Pure Rock KNAC.COM",
     "Q107.5",
     "Q98 97.9",
     "Radio 4 Rock & Pop",
@@ -894,8 +910,10 @@
     "Radio Auténtica",
     "Radio Band FM",
     "Radio BandNews",
+    "Radio Beatles (MP3)",
     "Radio Bob",
     "RADIO BOB",
+    "Radio Bizzz",
     "Radio Bochum",
     "Radio Brocken",
     "RADIO CAKRA",
@@ -908,8 +926,11 @@
     "Radio Fulbe",
     "Radio Globo 88.5 HN",
     "Radio Itatiaia",
+    "Radio K Real College Radio",
     "Radio Kampus",
     "Radio Kassara Barika",
+    "Radio Kiss Kiss Italia",
+    "Radio Kiss Kiss Napoli",
     "Radio Latina FM 101.1",
     "Radio m2o",
     "Radio M2O",
@@ -933,13 +954,16 @@
     "REPLAY NEWS",
     "Rewind Radio",
     "RFI Kiswahili",
+    "RFM POP-ROCK",
     "Rio FM 96.9",
     "River Rat Radio",
     "Rock and Pop 95.9",
     "Rock And Pop FM 95.9",
     "Rock FM 96.9",
+    "Rock FM Classic Rock",
     "RPR1",
     "RTL 102.5",
+    "=RTL2",
     "RTS Tambacounda",
     "Russkoe Radio",
     "Rythmos 89.2",
@@ -958,8 +982,8 @@
     "señal nacional",
     "Simplesmente Diferente",
     "simplesmente diferente",
+    "Soulfunky Radio",
     "Sonic 102.9",
-    "Soft Classic Rock Radio",
     "Spor FM 95.0",
     "Stereo Cafe",
     "Stereo Exitos",
@@ -969,6 +993,7 @@
     "Studio Brussel",
     "Studio Bruxelles",
     "Suno Sharda",
+    "Sunday Baroque",
     "Super Radio Tupi",
     "Sveriges Radio",
     "Sydney 873",
@@ -989,6 +1014,7 @@
     "The Goat 97.5",
     "The Local Current",
     "The New Classical",
+    "The Outlaw - Legends",
     "The Promise 100.7",
     "The War Room With Owen Shroyer",
     "The Wolf 99.5",
@@ -1049,6 +1075,7 @@
     "WKSC-FM",
     "WKTU",
     "WKXP",
+    "Urban Radio - Hip Hop",
     "WLAV",
     "WLIT",
     "WLRD 96.9",
@@ -1084,11 +1111,13 @@
     "WVRX",
     "WWOZ",
     "WXPN",
+    "WeRave Music Radio",
     "XEB",
     "XEB La B grande",
     "XL Country 100.7",
     "XY 90.5",
     "Y100 Country",
+    "=Y100",
     "Yedyni novyny",
     "YLFM",
     "Z 92 (Miami)",
@@ -1168,7 +1197,6 @@
     "=Adroit Jazz Underground HD Opus",
     "=Classic Vinyl HD Opus",
     "Oldies Internet Radio (Monterrey",
-    "Old School Hip Hop - Urbanradio.com",
     "=Christian Talk FM",
     "=Christian Hard Rock Dot Net",
     "=BBS Radio 2",
@@ -1222,7 +1250,6 @@
     "=WNYC",
     "=KFI LA",
     "=CKNW",
-    "=CJCL Sportsnet 590 The Fan (Alt Stream)",
     "=WKAR Jazz - East Lansing, MI",
     "=WABC Oldies Time Machine airchecks",
     "=101.1 WJRR Orlando's Rock Station",
@@ -1305,17 +1332,46 @@
     "= BBC RADIO 1 DANCE UK: The biggest current, future and classic dance vibes. Londres, Inglaterra",
     "=BBC Radio 1 Dance",
     "=BBC Radio One Dance",
-    "Small Town",
-    "Sonic Binary (Italy)",
-    "CKJR 1440",
-    "50s 60s retro hots italy",
-    "Romantica Radio Italy",
-    "Schwarzwaldradio",
-    "Radio Volami nel Cuore",
-    "LITE FM Malaysia",
-    "LITE FM (Malaysia)",
-    "Lite FM Malaysia",
-    "NORA Oldies"
+    "Virgin Radio Vancouver",
+    "Radiostorm - Oldies 104",
+    "_Funky Corner Radio (USA)",
+    "_Radio Energy Classic (Italy)",
+    "_Radio Energy(USA)",
+    "__1 oldies",
+    "__80 HITS",
+    "__80s HITS",
+    "__CHARTHITS.FM__ by rautemusik (rm.fm)",
+    "__DEUTSCHRAP CHARTS__ by rautemusik (rm.fm)",
+    "__ROCK__ by rautemusik (rm.fm)",
+    "__TOP40__ by rautemusik (rm.fm)",
+    "__WACKENRADIO__ by rautemusik (rm.fm)",
+    ".977 90s",
+    "Heart 90s",
+    "Radio Dancefloor 90s",
+    "Intense Radio - We love Dance #HQ# FLAC",
+    "Intense Radio - We love Dance 256k",
+    "Play 90's",
+    "1000 Hits 90s",
+    "Skyrock",
+    "Hot 97",
+    "Power 105.1",
+    "98.8 Kiss FM Urban Beats",
+    "98.8 Kiss FM Oldshool",
+    "98.8 Kiss FM Trap Beats",
+    "SiriusXM Hip-Hop Nation",
+    "KISS - The Best Vibes",
+    "Nostalgie New York",
+    "Scott Shannon's True Oldies",
+    "WGNY - Fox Oldies",
+    "WABC Oldies Time Machine",
+    "100.7 WMMS",
+    "Kroq 106.7",
+    "Today's Hot Country",
+    "90's Country Music Radio",
+    "2000's Country Music Radio",
+    "- 0 N - Classic Rock",
+    "St Louis Classic Rock",
+    "=CJCL Sportsnet 590 The Fan (Alt Stream)"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -3373,6 +3429,16 @@
     "80s": [
       "The Big 80s Station"
     ],
+    "world sport": [
+      "Radio Marca Madrid",
+      "Ovación",
+      "Carve Deportiva",
+      "RPP Mundial",
+      "Rádio Grenal",
+      "Tele Radio Stereo",
+      "Radio CRC",
+      "talkSPORT"
+    ],
     "90s": [
       "Big R Radio - Grunge FM",
       "Nirvana",
@@ -3380,6 +3446,7 @@
     ],
     "classic rock": [
       "Q104.3",
+      "102.5 WDVE",
       "100.7 WZLX",
       "Exclusively Creedence"
     ],
@@ -3446,24 +3513,23 @@
       "Michael Jackson Radio",
       "The King of Pop"
     ],
-    "frank sinatra": [
-      "Frank Sinatra Radio",
-      "Classic Standards"
-    ],
     "workout": [
       "Fitness & Energy",
       "High Energy Dance"
+    ],
+    "podcast talk": [
+      "TED Talks Radio",
+      "BBC World Service"
     ],
     "college": [
       "KEXP Seattle",
       "WFUV New York"
     ],
-    "whatever": [
+    "paradise": [
       "Winnipeg's Bounce 99.9",
       "Radio Paradise"
     ],
     "sports": [
-      "CJCL Sportsnet 590",
       "TalkSPORT",
       "97.1 The Ticket"
     ]
@@ -3487,9 +3553,11 @@
     "am radio": 180,
     "talk": 170,
     "news": 160,
+    "pop": 150,
+    "pop world": 150,
     "top 40": 140,
-    "hits": 140,
-    "charts": 120,
+    "miami": 140,
+    "pet shop": 120,
     "christian": 140,
     "gospel": 140,
     "financial": 120,
@@ -3499,7 +3567,8 @@
     "ufo": 120,
     "oldies": 160,
     "classic rock": 130,
-    "sports": 120
+    "sports": 120,
+    "world sport": 120
   },
   "catalogNameFragments": [
     "Dark Matter Radio",
@@ -4016,7 +4085,11 @@
   "coldStartPool": [
     {
       "band": "web",
-      "freq": 1
+      "freq": 2
+    },
+    {
+      "band": "web",
+      "freq": 55
     }
   ],
   "defaultFavoriteNames": [
@@ -4038,10 +4111,11 @@
   ],
   "webCategoryEmojis": {
     "pop": "💎",
+    "pop world": "🎤",
     "top 40": "💎",
     "top40": "💎",
-    "hits": "💎",
-    "charts": "💎",
+    "miami": "💎",
+    "pet shop": "💎",
     "rock": "🎸",
     "alternative": "🎸",
     "indie": "🎸",
@@ -4104,12 +4178,14 @@
     "public radio": "📻",
     "npr": "📻",
     "information": "ℹ️",
+    "local": "📍",
     "christian": "✝️",
     "religious": "✝️",
     "gospel": "✝️",
     "faith": "✝️",
     "worship": "✝️",
     "sports": "🏟️",
+    "world sport": "🌍",
     "business": "📈",
     "financial": "📈",
     "finance": "📈",
@@ -4121,7 +4197,6 @@
     "international": "🌍",
     "beatles": "🎵",
     "rolling stones": "🎸",
-    "guns n roses": "🎸",
     "pearl jam": "🎸",
     "oasis": "🎸",
     "grunge": "🎸",
@@ -4133,10 +4208,11 @@
     "workout": "💪",
     "podcast talk": "🎙️",
     "college": "🎓",
-    "whatever": "🎲",
+    "paradise": "🎲",
     "vibes": "✨",
     "new wave": "🕶️",
     "60s": "✌️",
+    "goldies": "✌️",
     "hard rock": "⚡",
     "mexico": "🇲🇽",
     "soundtracks": "🎬",
@@ -4144,10 +4220,11 @@
   },
   "webCategoryIcons": {
     "pop": "pop",
+    "pop world": "pop",
     "top 40": "pop",
     "top40": "pop",
-    "hits": "pop",
-    "charts": "pop",
+    "miami": "pop",
+    "pet shop": "pop",
     "rock": "rock",
     "alternative": "rock",
     "indie": "rock",
@@ -4198,12 +4275,14 @@
     "lounge": "lounge",
     "easy listening": "lounge",
     "oldies": "oldies",
+    "goldies": "oldies",
     "retro": "oldies",
     "70s": "oldies",
     "80s": "oldies",
     "90s": "oldies",
     "classic hits": "oldies",
     "alternative rock": "rock",
+    "pop rock": "rock",
     "classic rock": "rock",
     "adult contemporary": "lounge",
     "music": "pop",
@@ -4214,12 +4293,14 @@
     "public radio": "public-radio",
     "npr": "public-radio",
     "information": "information",
+    "local": "world",
     "christian": "christian",
     "religious": "christian",
     "gospel": "christian",
     "faith": "christian",
     "worship": "christian",
     "sports": "sports",
+    "world sport": "sports",
     "business": "financial",
     "financial": "financial",
     "finance": "financial",
@@ -4231,7 +4312,6 @@
     "international": "world",
     "beatles": "rock",
     "rolling stones": "rock",
-    "guns n roses": "rock",
     "pearl jam": "rock",
     "oasis": "rock",
     "grunge": "rock",
@@ -4242,7 +4322,7 @@
     "workout": "electronic",
     "podcast talk": "news",
     "college": "jazz",
-    "whatever": "jazz",
+    "paradise": "jazz",
     "vibes": "pop"
   },
   "countryExclusionExemptNames": [
