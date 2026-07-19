@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-12T15:00:00Z",
+  "updatedAt": "2026-07-19T19:46:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -370,7 +370,8 @@
     ],
     "top 40": [
       "Capital FM London",
-      "Virgin Radio UK"
+      "Virgin Radio UK",
+      "SWR 3"
     ],
     "sports": [
       "WJOX",
@@ -1167,10 +1168,8 @@
     "=Radio Paradise Main Mix (EU) FLAC+meta",
     "=Radio Paradise Main Mix 128 AAC",
     "=Radio Paradise Main Mix FLAC",
-    "=Radio Paradise Mellow Mix FLAC",
-    "=Radio Paradise Mellow Mix FLAC+meta",
-    "=Radio Paradise Mellow Mix 128k AAC",
-    "=Radio Paradise Mellow Mix",
+    "Radio Paradise Mellow",
+    "=#1 HITS 80s",
     "=Radio Paradise Rock Mix FLAC",
     "=Radio Paradise Global Mix 128k AAC",
     "=Radio Paradise World/etc FLAC+meta",
