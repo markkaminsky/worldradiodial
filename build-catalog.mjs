@@ -26,6 +26,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { probeStations } from "./probe-live.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -206,7 +207,7 @@ async function main() {
   // appearance wins. Per-nation slices run before tag/needle slices, which gives
   // country-tagged metadata the strongest source of truth.
   const seen = new Set();
-  const merged = [];
+  let merged = [];
   for (const slice of slices) {
     if (!Array.isArray(slice)) continue;
     for (const row of slice) {
@@ -232,6 +233,20 @@ async function main() {
   });
 
   console.log(`[merge] ${merged.length} unique stations after dedup`);
+
+  // First-party liveness probe — a station only ships if its stream answers.
+  // radio-browser's hidebroken flag lags reality; this closes the gap.
+  // Curated stations are exempt (see probe-live.mjs). Skip with --no-probe.
+  let deadReport = [];
+  if (!("no-probe" in args)) {
+    const { kept, dropped } = await probeStations(merged, curation);
+    merged = kept;
+    deadReport = dropped;
+    await writeFile(
+      resolve(__dirname, "dead-stations-report.json"),
+      JSON.stringify({ probedAt: new Date().toISOString(), dropped }, null, 2),
+    );
+  }
 
   if (merged.length < MIN_HEALTHY_STATION_COUNT) {
     console.error(

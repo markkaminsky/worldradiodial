@@ -28,7 +28,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 40 # liveness probe of ~4k streams can add ~15-20 min
 
     steps:
       - name: Checkout curation source (main)
