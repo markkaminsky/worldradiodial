@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T12:00:00Z",
+  "updatedAt": "2026-07-31T12:15:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1415,7 +1415,9 @@
     "metalrock.fm",
     "Calm Radio - Solo Piano",
     "Clam Radio - Solo Piano",
-    "Gentle Praise"
+    "Gentle Praise",
+    "Hit FM (UKraine)",
+    "Los 40 Urban"
   ],
   "excludedCountryCodes": [
     "RU",
