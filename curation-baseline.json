@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T09:40:00Z",
+  "updatedAt": "2026-07-31T09:55:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1385,7 +1385,10 @@
     "Michael Jackson Radio",
     "100% Radio 80",
     "Chante France",
-    "FM 80s FUNKY MUSIC"
+    "FM 80s FUNKY MUSIC",
+    "Radio Eurodance Classic",
+    "Nostalgic Dance 90",
+    "LaNoventera"
   ],
   "excludedCountryCodes": [
     "RU",
