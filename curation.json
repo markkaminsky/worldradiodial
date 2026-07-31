@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T08:45:00Z",
+  "updatedAt": "2026-07-31T08:55:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1379,7 +1379,10 @@
     "100hitz The Mix",
     "Free FM New York",
     "Free FM 80s New York",
-    "Free FM 80s San Francisco"
+    "Free FM 80s San Francisco",
+    "1980s.FM",
+    "RSE Freestyle Radio",
+    "Michael Jackson Radio"
   ],
   "excludedCountryCodes": [
     "RU",
