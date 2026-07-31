@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T13:50:00Z",
+  "updatedAt": "2026-07-31T14:00:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -161,7 +161,7 @@
     "alt gen 1",
     "mexico",
     "jazz",
-    "frank sinatra",
+    "classic vinyl",
     "oldies",
     "college",
     "classical",
@@ -251,14 +251,6 @@
     "oasis": [
       "Virgin Radio Rockstar: Oasis",
       "Radio X"
-    ],
-    "frank sinatra": [
-      "Classic Vinyl",
-      "The Great American Songbook",
-      "WLML",
-      "Radio Dismuke",
-      "WJEJ 1240",
-      "WGHQ 920"
     ],
     "workout": [
       "Sunshine Live - Workout",
@@ -499,6 +491,14 @@
       "90s90s HipHop & Rap",
       "Eminem",
       "Rap Classics"
+    ],
+    "classic vinyl": [
+      "Classic Vinyl",
+      "The Great American Songbook",
+      "WLML",
+      "Radio Dismuke",
+      "WJEJ 1240",
+      "WGHQ 920"
     ]
   },
   "blockedNames": [
