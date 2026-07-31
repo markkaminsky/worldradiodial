@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T10:05:00Z",
+  "updatedAt": "2026-07-31T10:20:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1390,7 +1390,10 @@
     "Nostalgic Dance 90",
     "La Noventera",
     "Elise Radio",
-    "Radio Elise"
+    "Radio Elise",
+    "CLUB CHARTS",
+    "DJ CHARTS",
+    "FM Okey"
   ],
   "excludedCountryCodes": [
     "RU",
