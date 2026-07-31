@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T12:55:00Z",
+  "updatedAt": "2026-07-31T13:15:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1422,7 +1422,11 @@
     "=SLAM!",
     "CAPITAL DANCE",
     "Jovem Pan FM - Florian",
-    "Energy NRJ Bulgaria"
+    "Energy NRJ Bulgaria",
+    "Radio Asharq",
+    "BNR Nieuwsradio",
+    "Informa Radio",
+    "Atlantic Radio Maroc"
   ],
   "excludedCountryCodes": [
     "RU",
