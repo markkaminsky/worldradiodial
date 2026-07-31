@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T11:15:00Z",
+  "updatedAt": "2026-07-31T11:30:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1405,7 +1405,8 @@
     "=FM80",
     "Studio Flashback",
     "MopTop Radio",
-    "=The Beatles Radio (MP3)"
+    "=The Beatles Radio (MP3)",
+    "RMF24"
   ],
   "excludedCountryCodes": [
     "RU",
