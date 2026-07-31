@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T11:00:00Z",
+  "updatedAt": "2026-07-31T11:15:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1402,7 +1402,10 @@
     "NIUS LIVE",
     "NIUS Radio",
     "=FM 80",
-    "=FM80"
+    "=FM80",
+    "Studio Flashback",
+    "MopTop Radio",
+    "=The Beatles Radio (MP3)"
   ],
   "excludedCountryCodes": [
     "RU",
