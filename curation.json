@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T15:45:00Z",
+  "updatedAt": "2026-07-31T16:40:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -405,7 +405,6 @@
       "WFED"
     ],
     "soundtracks": [
-      "Cinemix",
       "Classic FM at the Movies",
       "StreamingSoundtracks.com Hi"
     ],
@@ -1441,7 +1440,8 @@
     "=100hitz - Indie",
     "Gangstaville Radio",
     "FM4 | ORF",
-    "=Power POP"
+    "=Power POP",
+    "CBC Radio One - Vancouver"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -4131,7 +4131,6 @@
     "Radio Art - Flamenco",
     "Radio Sevillanas",
     "J-Rock Powerplay",
-    "Cinemix",
     "Classic FM at the Movies",
     "Exclusively Creedence",
     "WWOZ",
