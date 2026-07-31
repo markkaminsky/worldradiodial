@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T14:25:00Z",
+  "updatedAt": "2026-07-31T14:35:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1434,7 +1434,9 @@
     "Radio Express FM",
     "Caspian Business Radio",
     "Virgin Radio Rockstar: Queen",
-    "Virgin Radio Rockstar: Guns N"
+    "Virgin Radio Rockstar: Guns N",
+    "Radio Radical HN",
+    "Top Latino"
   ],
   "excludedCountryCodes": [
     "RU",
