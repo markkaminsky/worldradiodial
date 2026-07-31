@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T11:30:00Z",
+  "updatedAt": "2026-07-31T11:50:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1406,7 +1406,13 @@
     "Studio Flashback",
     "MopTop Radio",
     "=The Beatles Radio (MP3)",
-    "RMF24"
+    "RMF24",
+    "50s 60s RETRO HITS",
+    "Klassik Radio - Live",
+    "NHK-FM",
+    "TRT3",
+    "TRT 3",
+    "metalrock.fm"
   ],
   "excludedCountryCodes": [
     "RU",
