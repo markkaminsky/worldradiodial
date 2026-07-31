@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T14:00:00Z",
+  "updatedAt": "2026-07-31T14:15:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -137,7 +137,7 @@
     "house",
     "ambient",
     "oasis",
-    "grunge",
+    "alt rock",
     "new wave",
     "rock",
     "classic rock",
@@ -193,15 +193,6 @@
       "Exclusively Creedence Clearwater Revival",
       "FUNKY RADIO - Only Funk Music",
       "Radiostorm - Rock 104"
-    ],
-    "grunge": [
-      "Big R Radio - Grunge FM",
-      "Best Of Rock.FM Alternative Rock",
-      "KEXP 90.3",
-      "Indie X FM",
-      "Nirvana",
-      "Soundgarden",
-      "Pearl Jam"
     ],
     "house": [
       "Deeper Shades of House"
@@ -499,6 +490,17 @@
       "Radio Dismuke",
       "WJEJ 1240",
       "WGHQ 920"
+    ],
+    "alt rock": [
+      "Big R Radio - Grunge FM",
+      "Best Of Rock.FM Alternative Rock",
+      "KEXP 90.3",
+      "Indie X FM",
+      "Nirvana",
+      "Soundgarden",
+      "Pearl Jam",
+      "DrGnu - Metallica",
+      "MaximusRockFM"
     ]
   },
   "blockedNames": [
