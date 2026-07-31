@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T14:45:00Z",
+  "updatedAt": "2026-07-31T15:00:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1438,7 +1438,9 @@
     "Radio Radical HN",
     "Top Latino",
     "COS REGGAETON",
-    "Radio 105 Network"
+    "Radio 105 Network",
+    "OnlyHit K-Pop",
+    "=Imagina"
   ],
   "excludedCountryCodes": [
     "RU",
