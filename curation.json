@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T09:58:00Z",
+  "updatedAt": "2026-07-31T10:05:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1388,7 +1388,9 @@
     "FM 80s FUNKY MUSIC",
     "Radio Eurodance Classic",
     "Nostalgic Dance 90",
-    "La Noventera"
+    "La Noventera",
+    "Elise Radio",
+    "Radio Elise"
   ],
   "excludedCountryCodes": [
     "RU",
