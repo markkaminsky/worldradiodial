@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T09:20:00Z",
+  "updatedAt": "2026-07-31T09:40:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1384,7 +1384,8 @@
     "RSE Freestyle Radio",
     "Michael Jackson Radio",
     "100% Radio 80",
-    "Chante France 80's"
+    "Chante France",
+    "FM 80s FUNKY MUSIC"
   ],
   "excludedCountryCodes": [
     "RU",
