@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T10:40:00Z",
+  "updatedAt": "2026-07-31T11:00:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1397,7 +1397,12 @@
     "1047 Jack FM",
     "104.7 Jack FM",
     "RdMix Love Songs",
-    "La Bonita X101"
+    "La Bonita X101",
+    "=NIUS",
+    "NIUS LIVE",
+    "NIUS Radio",
+    "=FM 80",
+    "=FM80"
   ],
   "excludedCountryCodes": [
     "RU",
