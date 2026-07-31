@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T08:55:00Z",
+  "updatedAt": "2026-07-31T09:10:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1382,7 +1382,8 @@
     "Free FM 80s San Francisco",
     "1980s.FM",
     "RSE Freestyle Radio",
-    "Michael Jackson Radio"
+    "Michael Jackson Radio",
+    "100% Radio 80"
   ],
   "excludedCountryCodes": [
     "RU",
