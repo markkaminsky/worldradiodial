@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T13:40:00Z",
+  "updatedAt": "2026-07-31T13:50:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1429,7 +1429,8 @@
     "Radio 24 il sole",
     "BFM Business",
     "MEDI 1 RADIO",
-    "Radio Express FM"
+    "Radio Express FM",
+    "Caspian Business Radio"
   ],
   "excludedCountryCodes": [
     "RU",
