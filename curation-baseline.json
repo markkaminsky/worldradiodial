@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T15:00:00Z",
+  "updatedAt": "2026-07-31T15:20:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -150,7 +150,7 @@
     "old joints",
     "boom bap",
     "synthwave",
-    "jackson 5",
+    "motown",
     "radio free phoenix",
     "blues",
     "stax motown soul",
@@ -234,10 +234,6 @@
     "synthwave": [
       "Synthwave Radio",
       "SomaFM Vaporwaves (128k AAC)"
-    ],
-    "jackson 5": [
-      "Motown Radio",
-      "SOUL RADIO Classics"
     ],
     "oasis": [
       "Virgin Radio Rockstar: Oasis",
@@ -501,6 +497,10 @@
       "Pearl Jam",
       "DrGnu - Metallica",
       "MaximusRockFM"
+    ],
+    "motown": [
+      "Motown Radio",
+      "SOUL RADIO Classics"
     ]
   },
   "blockedNames": [
@@ -1440,7 +1440,10 @@
     "COS REGGAETON",
     "Radio 105 Network",
     "OnlyHit K-Pop",
-    "=Imagina"
+    "=Imagina",
+    "=100hitz - Indie",
+    "Gangstaville Radio",
+    "FM4 | ORF"
   ],
   "excludedCountryCodes": [
     "RU",
