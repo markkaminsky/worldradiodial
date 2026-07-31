@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T13:15:00Z",
+  "updatedAt": "2026-07-31T13:40:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -146,7 +146,7 @@
     "metal",
     "hard rock",
     "country",
-    "east coast '90s",
+    "rap legends",
     "old joints",
     "boom bap",
     "synthwave",
@@ -230,12 +230,6 @@
     ],
     "stax motown soul": [
       "Stax and Motown"
-    ],
-    "east coast '90s": [
-      "90s90s HipHop & Rap",
-      "BBC Radio 1Xtra",
-      "Eminem",
-      "Rap Classics"
     ],
     "old joints": [
       "HOT 93.5 Old School",
@@ -500,6 +494,11 @@
       "Radio Swiss Pop",
       "RMC Radio Monte Carlo",
       "LOS 40 Principales España"
+    ],
+    "rap legends": [
+      "90s90s HipHop & Rap",
+      "Eminem",
+      "Rap Classics"
     ]
   },
   "blockedNames": [
@@ -1426,13 +1425,19 @@
     "Radio Asharq",
     "BNR Nieuwsradio",
     "Informa Radio",
-    "Atlantic Radio Maroc"
+    "Atlantic Radio Maroc",
+    "Radio 24 il sole",
+    "BFM Business",
+    "MEDI 1 RADIO",
+    "Radio Express FM"
   ],
   "excludedCountryCodes": [
     "RU",
     "AU",
     "MX",
-    "BY"
+    "BY",
+    "MA",
+    "TN"
   ],
   "religiousTagKeys": [
     "religious",
