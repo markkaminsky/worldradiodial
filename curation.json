@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T12:15:00Z",
+  "updatedAt": "2026-07-31T12:25:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1417,7 +1417,9 @@
     "Clam Radio - Solo Piano",
     "Gentle Praise",
     "Hit FM (UKraine)",
-    "Los 40 Urban"
+    "Los 40 Urban",
+    "=Hits 1",
+    "=SLAM!"
   ],
   "excludedCountryCodes": [
     "RU",
