@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-23T19:54:00Z",
+  "updatedAt": "2026-07-31T00:00:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1373,7 +1373,12 @@
     "=CJCL Sportsnet 590 The Fan (Alt Stream)",
     "Mundo Beatles Radio",
     "Radio AnimeNight",
-    "Slow Rock 90'"
+    "Slow Rock 90'",
+    "Bandit Rock",
+    "Star 104",
+    "100hitz The Mix",
+    "Free FM New York",
+    "Free FM 80s New York"
   ],
   "excludedCountryCodes": [
     "RU",
