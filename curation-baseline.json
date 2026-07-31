@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T14:35:00Z",
+  "updatedAt": "2026-07-31T14:45:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1436,7 +1436,9 @@
     "Virgin Radio Rockstar: Queen",
     "Virgin Radio Rockstar: Guns N",
     "Radio Radical HN",
-    "Top Latino"
+    "Top Latino",
+    "COS REGGAETON",
+    "Radio 105 Network"
   ],
   "excludedCountryCodes": [
     "RU",
