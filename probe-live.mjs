@@ -48,7 +48,21 @@ async function probeOnce(url) {
   } catch (err) {
     // AbortError after headers already returned above; an abort here means timeout.
     const name = err?.name === "AbortError" ? "timeout" : (err?.cause?.code ?? err?.message ?? "error");
-    return { ok: false, detail: String(name) };
+    const code = String(name);
+    // Only verdicts that prove nothing is listening count as dead. Everything
+    // else — ICY "200 OK" replies (HPE_INVALID_CONSTANT), servers that push
+    // audio without clean HTTP (UND_ERR_SOCKET), TLS cert quirks — is a live
+    // server that fetch() can't parse but a media player handles fine.
+    const DEAD_CODES = new Set([
+      "timeout",
+      "UND_ERR_CONNECT_TIMEOUT",
+      "ENOTFOUND",
+      "EAI_AGAIN",
+      "ENETUNREACH",
+      "EHOSTUNREACH",
+      "ECONNREFUSED",
+    ]);
+    return { ok: !DEAD_CODES.has(code), detail: code };
   } finally {
     clearTimeout(timer);
   }
