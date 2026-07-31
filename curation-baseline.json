@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T12:45:00Z",
+  "updatedAt": "2026-07-31T12:55:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1421,7 +1421,8 @@
     "=Hits 1",
     "=SLAM!",
     "CAPITAL DANCE",
-    "Jovem Pan FM - Florian"
+    "Jovem Pan FM - Florian",
+    "Energy NRJ Bulgaria"
   ],
   "excludedCountryCodes": [
     "RU",
