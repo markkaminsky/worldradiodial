@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T14:15:00Z",
+  "updatedAt": "2026-07-31T14:25:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1432,7 +1432,9 @@
     "BFM Business",
     "MEDI 1 RADIO",
     "Radio Express FM",
-    "Caspian Business Radio"
+    "Caspian Business Radio",
+    "Virgin Radio Rockstar: Queen",
+    "Virgin Radio Rockstar: Guns N"
   ],
   "excludedCountryCodes": [
     "RU",
