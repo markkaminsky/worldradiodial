@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T15:20:00Z",
+  "updatedAt": "2026-07-31T15:45:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -128,7 +128,7 @@
   ],
   "pinnedWebDialCategories": [
     "top 40",
-    "miami",
+    "power pop",
     "80s",
     "90s",
     "2000s",
@@ -429,9 +429,6 @@
       "The Other Side of Midnight"
     ],
     "reggae": [],
-    "miami": [
-      "Power POP"
-    ],
     "alt gen 1": [
       "SomaFM Indie Pop Rocks! (128k AAC)",
       "TMM 1",
@@ -1443,7 +1440,8 @@
     "=Imagina",
     "=100hitz - Indie",
     "Gangstaville Radio",
-    "FM4 | ORF"
+    "FM4 | ORF",
+    "=Power POP"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -3630,7 +3628,6 @@
     "pop": 150,
     "pop world": 150,
     "top 40": 140,
-    "miami": 140,
     "pet shop": 120,
     "christian": 140,
     "gospel": 140,
@@ -3642,7 +3639,8 @@
     "oldies": 160,
     "classic rock": 130,
     "sports": 120,
-    "world sport": 120
+    "world sport": 120,
+    "power pop": 140
   },
   "catalogNameFragments": [
     "Dark Matter Radio",
