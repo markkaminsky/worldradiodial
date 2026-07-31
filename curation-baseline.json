@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T00:00:00Z",
+  "updatedAt": "2026-07-31T08:45:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1378,7 +1378,8 @@
     "Star 104",
     "100hitz The Mix",
     "Free FM New York",
-    "Free FM 80s New York"
+    "Free FM 80s New York",
+    "Free FM 80s San Francisco"
   ],
   "excludedCountryCodes": [
     "RU",
