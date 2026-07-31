@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-07-31T11:50:00Z",
+  "updatedAt": "2026-07-31T12:00:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -1412,7 +1412,10 @@
     "NHK-FM",
     "TRT3",
     "TRT 3",
-    "metalrock.fm"
+    "metalrock.fm",
+    "Calm Radio - Solo Piano",
+    "Clam Radio - Solo Piano",
+    "Gentle Praise"
   ],
   "excludedCountryCodes": [
     "RU",
