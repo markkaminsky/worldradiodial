@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-01T23:30:00Z",
+  "updatedAt": "2026-08-01T23:35:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -376,7 +376,8 @@
       "Jazz Radio Classic Jazz"
     ],
     "other": [
-      "Kancheeravam Radio"
+      "Kancheeravam Radio",
+      "Radio TropiConce"
     ],
     "financial": [
       "Bloomberg",
@@ -3521,7 +3522,9 @@
     "90s": [
       "Big R Radio - Grunge FM",
       "Nirvana",
-      "Soundgarden"
+      "Soundgarden",
+      "Virgin Radio Rock '90",
+      "Virgin Radio Rock ’90"
     ],
     "classic rock": [
       "Q104.3",
