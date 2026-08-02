@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-02T15:01:00Z",
+  "updatedAt": "2026-08-02T22:17:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -378,6 +378,7 @@
     "other": [
       "Kancheeravam Radio",
       "Radio TropiConce",
+      "disco",
       "راديو عالبال",
       "Panamericana Latino Refrescante",
       "Radio La Vaca",
@@ -389,7 +390,6 @@
       "Allzic Radio 2000s",
       "Allzic Radio 80s",
       "Allzic Radio 90s",
-      "Allzic Radio Disco",
       "Awfully Awesome 80s",
       "B4B DISCO FUNK",
       "Boombox Radio",
