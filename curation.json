@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-02T05:45:00Z",
+  "updatedAt": "2026-08-02T05:46:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -377,7 +377,8 @@
     ],
     "other": [
       "Kancheeravam Radio",
-      "Radio TropiConce"
+      "Radio TropiConce",
+      "راديو عالبال"
     ],
     "financial": [
       "Bloomberg",
