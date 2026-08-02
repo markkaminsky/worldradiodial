@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-01T23:35:00Z",
+  "updatedAt": "2026-08-02T05:45:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -467,7 +467,8 @@
       "SRF 3",
       "Radio Swiss Pop",
       "RMC Radio Monte Carlo",
-      "LOS 40 Principales España"
+      "LOS 40 Principales España",
+      "Aktuelle HITS - 24H"
     ],
     "rap legends": [
       "Eminem",
@@ -1349,6 +1350,8 @@
     "Heart 80s",
     "FM 80 Funky Music",
     "Made in 80",
+    "Platine 45",
+    "Toulouse FM",
     "Retro Rádió",
     "Radio Dancefloor 90s",
     "Intense Radio - We love Dance #HQ# FLAC",
