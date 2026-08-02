@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-02T22:38:00Z",
+  "updatedAt": "2026-08-02T22:41:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -4210,7 +4210,7 @@
     "Exclusively Daft Punk",
     "Kroq 106.7"
   ],
-  "perSlotStationCap": 20,
+  "perSlotStationCap": 8,
   "actionFetchSizes": {
     "regionDefault": 260,
     "userEnglishLanguage": 260,
