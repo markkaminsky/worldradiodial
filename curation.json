@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-02T05:52:00Z",
+  "updatedAt": "2026-08-02T06:56:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -382,7 +382,8 @@
       "Panamericana Latino Refrescante",
       "Radio La Vaca",
       "Señal Pirata Radio",
-      "Vinilo ¡Tu radio retro!"
+      "Vinilo ¡Tu radio retro!",
+      "80s80s Italo Disco"
     ],
     "financial": [
       "Bloomberg",
@@ -3519,7 +3520,8 @@
   "featuredByTag": {
     "80s": [
       "The Big 80s Station",
-      "Mason Dixon"
+      "Mason Dixon",
+      "0R - 80s ROCK"
     ],
     "world sport": [
       "Radio Marca Madrid",
