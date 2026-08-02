@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-02T07:00:00Z",
+  "updatedAt": "2026-08-02T15:01:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -383,7 +383,6 @@
       "Radio La Vaca",
       "Señal Pirata Radio",
       "Vinilo ¡Tu radio retro!",
-      "80s80s Italo Disco",
       "100% Radio 80",
       "1000 Hits 90s",
       "AkroRadio",
@@ -1401,6 +1400,9 @@
     "Made in 80",
     "Platine 45",
     "Toulouse FM",
+    "80s80s Italo Disco",
+    "RdMix Italo Disco",
+    "100 GREATEST OF THE",
     "Panamericana Retro Rock",
     "Rock and Pop Classics",
     "Wonderjaren - Stream",
