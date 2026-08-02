@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-02T05:46:00Z",
+  "updatedAt": "2026-08-02T05:52:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -378,7 +378,11 @@
     "other": [
       "Kancheeravam Radio",
       "Radio TropiConce",
-      "راديو عالبال"
+      "راديو عالبال",
+      "Panamericana Latino Refrescante",
+      "Radio La Vaca",
+      "Señal Pirata Radio",
+      "Vinilo ¡Tu radio retro!"
     ],
     "financial": [
       "Bloomberg",
@@ -1353,6 +1357,10 @@
     "Made in 80",
     "Platine 45",
     "Toulouse FM",
+    "Panamericana Retro Rock",
+    "Rock and Pop Classics",
+    "Wonderjaren - Stream",
+    "Wonderjaren Stream",
     "Retro Rádió",
     "Radio Dancefloor 90s",
     "Intense Radio - We love Dance #HQ# FLAC",
@@ -3567,6 +3575,7 @@
     "2000s": [
       "iHeart2000s Radio",
       "SomaFM Indie Pop Rocks",
+      "Radio WoW",
       "KEXP 90.3 Seattle"
     ],
     "latin": [
