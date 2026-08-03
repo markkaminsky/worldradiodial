@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-03T01:53:00Z",
+  "updatedAt": "2026-08-03T04:32:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -3568,7 +3568,10 @@
     "80s": [
       "The Big 80s Station",
       "Mason Dixon",
-      "0R - 80s ROCK"
+      "0R - 80s ROCK",
+      "Rhythm 98",
+      "Virgin Radio Rock '80",
+      "Virgin Radio Rock ’80"
     ],
     "world sport": [
       "Radio Marca Madrid",
