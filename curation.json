@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-03T04:32:00Z",
+  "updatedAt": "2026-08-03T04:58:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -355,7 +355,6 @@
     ],
     "80s": [
       "Michael Jackson",
-      "80s80s Prince",
       "Exclusively Prince",
       "Prince Hits",
       "__80s HITS",
@@ -1400,7 +1399,7 @@
     "Made in 80",
     "Platine 45",
     "Toulouse FM",
-    "80s80s Italo Disco",
+    "80s80s",
     "RdMix Italo Disco",
     "100 GREATEST OF THE",
     "Big R Radio",
@@ -3571,7 +3570,10 @@
       "0R - 80s ROCK",
       "Rhythm 98",
       "Virgin Radio Rock '80",
-      "Virgin Radio Rock ’80"
+      "Virgin Radio Rock ’80",
+      "SomaFM Underground 80s",
+      "0R - 80s ||",
+      "0 N - 80s"
     ],
     "world sport": [
       "Radio Marca Madrid",
