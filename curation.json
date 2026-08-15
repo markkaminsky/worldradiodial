@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-14T23:00:00Z",
+  "updatedAt": "2026-08-15T00:00:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -4051,6 +4051,546 @@
       "callSign": "KXGN 1400 AM",
       "band": "am",
       "freq": 1400
+    },
+    {
+      "callSign": "WPIC \"News Talk 790\" Sharon, PA",
+      "band": "am",
+      "freq": 790
+    },
+    {
+      "callSign": "KFGO \"The Mighty 790\" Fargo, ND",
+      "band": "am",
+      "freq": 790
+    },
+    {
+      "callSign": "790 AM - KCAM Glennallen Alaska",
+      "band": "am",
+      "freq": 790
+    },
+    {
+      "callSign": "WKNR 850 Cleveland",
+      "band": "am",
+      "freq": 850
+    },
+    {
+      "callSign": "850 WFTL",
+      "band": "am",
+      "freq": 850
+    },
+    {
+      "callSign": "WRUF - AM 850",
+      "band": "am",
+      "freq": 850
+    },
+    {
+      "callSign": "WSBA \"News Talk 93.9 & 910\" York, PA",
+      "band": "am",
+      "freq": 910
+    },
+    {
+      "callSign": "CKDQ \"910 CFCW\" Drumheller, AB",
+      "band": "am",
+      "freq": 910
+    },
+    {
+      "callSign": "WJCW 910 \"Tri-Cities Talk Radio\" Johnson City, TN",
+      "band": "am",
+      "freq": 910
+    },
+    {
+      "callSign": "910 ESPN Billings KBLG",
+      "band": "am",
+      "freq": 910
+    },
+    {
+      "callSign": "CJME News/Talk 980 (Regina, SK)",
+      "band": "am",
+      "freq": 980
+    },
+    {
+      "callSign": "CFPL-AM 980 London, ON",
+      "band": "am",
+      "freq": 980
+    },
+    {
+      "callSign": "WTOB 980 AM",
+      "band": "am",
+      "freq": 980
+    },
+    {
+      "callSign": "CFRB News/Talk 1010 (Toronto, ON)",
+      "band": "am",
+      "freq": 1010
+    },
+    {
+      "callSign": "CBC Radio 1 Calgary (CBR - 1010 AM, 99.1 FM)",
+      "band": "am",
+      "freq": 1010
+    },
+    {
+      "callSign": "1010 XL",
+      "band": "am",
+      "freq": 1010
+    },
+    {
+      "callSign": "1010 KSIR",
+      "band": "am",
+      "freq": 1010
+    },
+    {
+      "callSign": "AM 1100 The Flag",
+      "band": "am",
+      "freq": 1100
+    },
+    {
+      "callSign": "WMBR 88.1 - Cambridge, MA",
+      "band": "fm",
+      "freq": 88.1
+    },
+    {
+      "callSign": "KCEP 88.1 \"Power 88\" Las Vegas, NV",
+      "band": "fm",
+      "freq": 88.1
+    },
+    {
+      "callSign": "KVOD 88.1 Colorado Public Radio - Classical - Denver, CO  AAC+",
+      "band": "fm",
+      "freq": 88.1
+    },
+    {
+      "callSign": "Radioactive.FM 88.6",
+      "band": "fm",
+      "freq": 88.6
+    },
+    {
+      "callSign": "Radio Guyana Inc - Georgetown 89.5 FM | Essequibo 89.3 FM | Berbice 89.7 FM",
+      "band": "fm",
+      "freq": 89.5
+    },
+    {
+      "callSign": "KBAQ 89.5 \"K-Bach\" Classical - Phoenix, AZ",
+      "band": "fm",
+      "freq": 89.5
+    },
+    {
+      "callSign": "KPOO 89.5 San Francisco, CA",
+      "band": "fm",
+      "freq": 89.5
+    },
+    {
+      "callSign": "KNHC \"C89.5\" Seattle, WA",
+      "band": "fm",
+      "freq": 89.5
+    },
+    {
+      "callSign": "Public Radio 90",
+      "band": "fm",
+      "freq": 90.0
+    },
+    {
+      "callSign": "Antigua Observer Radio 91.1 St. John's",
+      "band": "fm",
+      "freq": 91.1
+    },
+    {
+      "callSign": "Smooth FM 91.5 - Melbourne - 91.5 FM (AAC+ 320k)",
+      "band": "fm",
+      "freq": 91.5
+    },
+    {
+      "callSign": "CKBT 91.5 \"The Beat\" Kitchener, ON",
+      "band": "fm",
+      "freq": 91.5
+    },
+    {
+      "callSign": "NewsRadio 1150 WGOW",
+      "band": "am",
+      "freq": 1150
+    },
+    {
+      "callSign": "News talk 1150 KQQQ",
+      "band": "am",
+      "freq": 1150
+    },
+    {
+      "callSign": "CJSL \"CJ-1150\" Estevan SK",
+      "band": "am",
+      "freq": 1150
+    },
+    {
+      "callSign": "KWSN \"Sports Radio\" 1230 & 98.1 Sioux Falls, SD",
+      "band": "am",
+      "freq": 1230
+    },
+    {
+      "callSign": "WBOK 1230AM",
+      "band": "am",
+      "freq": 1230
+    },
+    {
+      "callSign": "WBLQ 1230 Westerly, RI",
+      "band": "am",
+      "freq": 1230
+    },
+    {
+      "callSign": "WHIR Newstalk Sports 1230",
+      "band": "am",
+      "freq": 1230
+    },
+    {
+      "callSign": "Country Classics KOUU 1290 AM 96.5 FM",
+      "band": "am",
+      "freq": 1290
+    },
+    {
+      "callSign": "WNBF News Radio 1290 AM & 92.1 FM",
+      "band": "am",
+      "freq": 1290
+    },
+    {
+      "callSign": "WLBY AM 1290",
+      "band": "am",
+      "freq": 1290
+    },
+    {
+      "callSign": "KADI 1340AM \"The Ozark's Big Talker\" Springfield, MO",
+      "band": "am",
+      "freq": 1340
+    },
+    {
+      "callSign": "WLVL 1340 & 105.3 Lockport, NY",
+      "band": "am",
+      "freq": 1340
+    },
+    {
+      "callSign": "KKGK Fox Sports 98.9/1340",
+      "band": "am",
+      "freq": 1340
+    },
+    {
+      "callSign": "KTOX 1340",
+      "band": "am",
+      "freq": 1340
+    },
+    {
+      "callSign": "WGNS 1450 AM Murfreesboro, TN",
+      "band": "am",
+      "freq": 1450
+    },
+    {
+      "callSign": "WIZS 1450 Henderson, NC",
+      "band": "am",
+      "freq": 1450
+    },
+    {
+      "callSign": "WHTC 1450 & 99.7 \"Real News Now\" Holland, MI",
+      "band": "am",
+      "freq": 1450
+    },
+    {
+      "callSign": "WFMB-AM \"Sports Radio 1450\" Springfield, IL",
+      "band": "am",
+      "freq": 1450
+    },
+    {
+      "callSign": "WFXY - Foxy 1490 AM",
+      "band": "am",
+      "freq": 1490
+    },
+    {
+      "callSign": "WMBM 1490 AM",
+      "band": "am",
+      "freq": 1490
+    },
+    {
+      "callSign": "CJSN 1490 Shaunavon, SK",
+      "band": "am",
+      "freq": 1490
+    },
+    {
+      "callSign": "KDRO AM 1490 / FM 101.3",
+      "band": "am",
+      "freq": 1490
+    },
+    {
+      "callSign": "KMEZ \"Old School 106.7\" New Orleans, LA",
+      "band": "fm",
+      "freq": 106.7
+    },
+    {
+      "callSign": "PBS FM - Melbourne - 106.7 FM (AAC+)",
+      "band": "fm",
+      "freq": 106.7
+    },
+    {
+      "callSign": "WNFN \"i106.7\" Millersville, TN",
+      "band": "fm",
+      "freq": 106.7
+    },
+    {
+      "callSign": "CCFM 107.5",
+      "band": "fm",
+      "freq": 107.5
+    },
+    {
+      "callSign": "KHYT \"K-Hit 107.5\" Tucson, AZ",
+      "band": "fm",
+      "freq": 107.5
+    },
+    {
+      "callSign": "Fraser Coast FM - Hervey Bay - 107.5 FM (AAC+)",
+      "band": "fm",
+      "freq": 107.5
+    },
+    {
+      "callSign": "CJDV 107.5 \"Dave Rocks\" Kitchener, ON",
+      "band": "fm",
+      "freq": 107.5
+    },
+    {
+      "callSign": "ABC Local Radio 540 Western Queensland, Longreach, QLD  (MP3)",
+      "band": "am",
+      "freq": 540
+    },
+    {
+      "callSign": "Album Rock 540 WXYG",
+      "band": "am",
+      "freq": 540
+    },
+    {
+      "callSign": "540 WRGC The River",
+      "band": "am",
+      "freq": 540
+    },
+    {
+      "callSign": "KWMT True Country AM 540",
+      "band": "am",
+      "freq": 540
+    },
+    {
+      "callSign": "CJWW \"Country 600\" Saskatoon, SK",
+      "band": "am",
+      "freq": 600
+    },
+    {
+      "callSign": "CKAT \"Country 600\" North Bay, ON",
+      "band": "am",
+      "freq": 600
+    },
+    {
+      "callSign": "CFFR \"660 News\" Calgary, AB",
+      "band": "am",
+      "freq": 660
+    },
+    {
+      "callSign": "KAPS 102.1 FM 660 AM",
+      "band": "am",
+      "freq": 660
+    },
+    {
+      "callSign": "WNOP 740 Sacred Heart Radio - Newport, KY",
+      "band": "am",
+      "freq": 740
+    },
+    {
+      "callSign": "WDGY 740, 92.1, 103.7 Hudson, WI",
+      "band": "am",
+      "freq": 740
+    },
+    {
+      "callSign": "Sports Radio 740",
+      "band": "am",
+      "freq": 740
+    },
+    {
+      "callSign": "Zoomer Radio (CFZM AM 740 / 96.7 FM)",
+      "band": "am",
+      "freq": 740
+    },
+    {
+      "callSign": "CITI 92.1 Winnipeg, MB",
+      "band": "fm",
+      "freq": 92.1
+    },
+    {
+      "callSign": "KCHE Classic Hits 92.1",
+      "band": "fm",
+      "freq": 92.1
+    },
+    {
+      "callSign": "ALT 92.1 Reno",
+      "band": "fm",
+      "freq": 92.1
+    },
+    {
+      "callSign": "RTR FM 92.1",
+      "band": "fm",
+      "freq": 92.1
+    },
+    {
+      "callSign": "Beach 95.1",
+      "band": "fm",
+      "freq": 95.1
+    },
+    {
+      "callSign": "CFCY 95.1 Charlottetown, PE",
+      "band": "fm",
+      "freq": 95.1
+    },
+    {
+      "callSign": "95.1 The Fox",
+      "band": "fm",
+      "freq": 95.1
+    },
+    {
+      "callSign": "WDZQ 95.1 \"Q 95\" Decatur, IL",
+      "band": "fm",
+      "freq": 95.1
+    },
+    {
+      "callSign": "Heart Essex 96.3 & 102.6",
+      "band": "fm",
+      "freq": 96.3
+    },
+    {
+      "callSign": "CKRA 96.3 \"Capital 96.3\" Edmonton, AB",
+      "band": "fm",
+      "freq": 96.3
+    },
+    {
+      "callSign": "96.3 WDVD",
+      "band": "fm",
+      "freq": 96.3
+    },
+    {
+      "callSign": "ABC Local Radio 97.3 Illawarra, NSW",
+      "band": "fm",
+      "freq": 97.3
+    },
+    {
+      "callSign": "WMNX \"Coast 97.3\" Wilmington, NC",
+      "band": "fm",
+      "freq": 97.3
+    },
+    {
+      "callSign": "WFMT 98.7 Chicago, IL",
+      "band": "fm",
+      "freq": 98.7
+    },
+    {
+      "callSign": "CKXD 98.7 \"K Rock\" Gander, NL",
+      "band": "fm",
+      "freq": 98.7
+    },
+    {
+      "callSign": "Global 99.5 FM",
+      "band": "fm",
+      "freq": 99.5
+    },
+    {
+      "callSign": "WBAI 99.5 New York, NY",
+      "band": "fm",
+      "freq": 99.5
+    },
+    {
+      "callSign": "99.5 WZPL",
+      "band": "fm",
+      "freq": 99.5
+    },
+    {
+      "callSign": "CHTN 100.3 \"Ocean 100\" Charlottetown, PE",
+      "band": "fm",
+      "freq": 100.3
+    },
+    {
+      "callSign": "WKIT 100.3 FM",
+      "band": "fm",
+      "freq": 100.3
+    },
+    {
+      "callSign": "WXNA 101.5 Nashville, TN \"Low Power, High Voltage\"",
+      "band": "fm",
+      "freq": 101.5
+    },
+    {
+      "callSign": "Alt 101.5 - The Desert's Alternative",
+      "band": "fm",
+      "freq": 101.5
+    },
+    {
+      "callSign": "WQUT 101.5 Johnson City, TN",
+      "band": "fm",
+      "freq": 101.5
+    },
+    {
+      "callSign": "101.5 Hank FM",
+      "band": "fm",
+      "freq": 101.5
+    },
+    {
+      "callSign": "CJDJ 102.1 \"Rock 102\" Saskatoon, SK",
+      "band": "fm",
+      "freq": 102.1
+    },
+    {
+      "callSign": "CBC Music Mountain (Calgary, CBR-FM, 102.1 FM, formerly CBC Radio 2)",
+      "band": "fm",
+      "freq": 102.1
+    },
+    {
+      "callSign": "KAPS 102.1 FM 660 AM",
+      "band": "fm",
+      "freq": 102.1
+    },
+    {
+      "callSign": "Heart Sussex 102.4 &103.5",
+      "band": "fm",
+      "freq": 103.5
+    },
+    {
+      "callSign": "Big Dog 103.5",
+      "band": "fm",
+      "freq": 103.5
+    },
+    {
+      "callSign": "CKCH \"New Country 103.5\" Sydney, NS",
+      "band": "fm",
+      "freq": 103.5
+    },
+    {
+      "callSign": "Classic Hits 104.5 WJJK",
+      "band": "fm",
+      "freq": 104.5
+    },
+    {
+      "callSign": "WGFX \"The Zone\" 104.5 FM Gallatin, TN",
+      "band": "fm",
+      "freq": 104.5
+    },
+    {
+      "callSign": "CJSB 104.5 \"CJ104\" Swan River, MB",
+      "band": "fm",
+      "freq": 104.5
+    },
+    {
+      "callSign": "105.9 FM WMAL",
+      "band": "fm",
+      "freq": 105.9
+    },
+    {
+      "callSign": "105.9 Academy FM (Folkestone)",
+      "band": "fm",
+      "freq": 105.9
+    },
+    {
+      "callSign": "Seaside FM 105.9 - CFEP-FM - Eastern Passage",
+      "band": "fm",
+      "freq": 105.9
+    },
+    {
+      "callSign": "CJRY 105.9 Shinefm",
+      "band": "fm",
+      "freq": 105.9
     }
   ],
   "featuredByTag": {
@@ -4248,37 +4788,58 @@
   ],
   "catalogBrandNeedles": [
     "10 Radio 105.3 - Wiveliscombe",
+    "101.5 Hank FM",
+    "1010 KSIR",
+    "1010 XL",
     "104.9 Max Country",
+    "105.9 Academy FM (Folkestone)",
+    "105.9 FM WMAL",
     "1116 SEN Melbourne",
     "1460 ESPN Deportes",
     "3AW 693 Melbourne",
     "538 TOP 50",
+    "540 WRGC The River",
     "680 News",
     "680 News Toronto",
     "702 Johannesburg",
+    "790 AM - KCAM Glennallen Alaska",
     "80s80s Prince",
+    "850 WFTL",
     "90.3 AMP Radio",
+    "910 ESPN Billings KBLG",
     "92 CITI",
     "94.7",
+    "95.1 The Fox",
+    "96.3 WDVD",
     "97.1 AMP",
     "97.3fm Brisbane",
     "98.1 KBEAR",
     "98.5 The Sports Hub",
     "98.7 The Fan",
+    "99.5 WZPL",
     "ABC Local Radio 1233 Newcastle",
+    "ABC Local Radio 540 Western Queensland, Longreach, QLD  (MP3)",
     "ABC Local Radio 612 Brisbane",
     "ABC Local Radio 702 Sydney",
     "ABC Local Radio 720 Perth",
     "ABC Local Radio 774 Melbourne",
     "ABC Local Radio 891 Adelaide",
     "ABC Local Radio 91.7 Gold Coast",
+    "ABC Local Radio 97.3 Illawarra, NSW",
+    "Album Rock 540 WXYG",
+    "Alt 101.5 - The Desert's Alternative",
+    "ALT 92.1 Reno",
+    "AM 1100 The Flag",
     "American Public Media",
     "Antenne Bayern - Workout",
+    "Antigua Observer Radio 91.1 St. John's",
     "B96",
     "BBC 6 Music",
     "BBC Radio",
     "BBC World Service",
+    "Beach 95.1",
     "Bear 96.3",
+    "Big Dog 103.5",
     "Bloomberg",
     "Bloomberg 99.1/105.7 HD2",
     "Bob FM 99.9",
@@ -4288,7 +4849,9 @@
     "Capital Xtra",
     "CBC 98.3",
     "CBC Music",
+    "CBC Music Mountain (Calgary, CBR-FM, 102.1 FM, formerly CBC Radio 2)",
     "CBC Radio",
+    "CBC Radio 1 Calgary (CBR - 1010 AM, 99.1 FM)",
     "CBC Radio 1 Toronto 99.1 FM",
     "CBC Winnipeg",
     "CBS News Radio",
@@ -4296,15 +4859,20 @@
     "CBS Sports Radio on AM 1500",
     "CBW",
     "CBW-FM",
+    "CCFM 107.5",
     "CDN Deportes",
     "CDN La Radio",
     "CFAX",
     "CFCO \"Country 92.9 & 630\" - Chatham, ON",
+    "CFCY 95.1 Charlottetown, PE",
+    "CFFR \"660 News\" Calgary, AB",
     "CFGO",
     "CFIQ 640 \"Global News Radio\" Toronto, ON",
     "CFOX 99.3 Vancouver, BC",
+    "CFPL-AM 980 London, ON",
     "CFRA",
     "CFRB",
+    "CFRB News/Talk 1010 (Toronto, ON)",
     "CFRC",
     "CFRW",
     "CFSL",
@@ -4322,18 +4890,32 @@
     "CHOK",
     "CHQR",
     "CHQT",
+    "CHTN 100.3 \"Ocean 100\" Charlottetown, PE",
     "CHUM",
     "CHUP \"Soft Rock 97.7\" Calgary, AB",
     "CIIT-FM",
     "CILQ 107.1 \"Q107\" Toronto",
     "CIMX-FM",
+    "CITI 92.1 Winnipeg, MB",
     "CITI-FM",
     "CJAD 800",
     "CJAX \"Jack 96.9\"  Vancouver, BC",
     "CJBC",
+    "CJDJ 102.1 \"Rock 102\" Saskatoon, SK",
+    "CJDV 107.5 \"Dave Rocks\" Kitchener, ON",
     "CJKR-FM",
+    "CJME News/Talk 980 (Regina, SK)",
     "CJOB",
+    "CJRY 105.9 Shinefm",
+    "CJSB 104.5 \"CJ104\" Swan River, MB",
+    "CJSL \"CJ-1150\" Estevan SK",
+    "CJSN 1490 Shaunavon, SK",
+    "CJWW \"Country 600\" Saskatoon, SK",
+    "CKAT \"Country 600\" North Bay, ON",
+    "CKBT 91.5 \"The Beat\" Kitchener, ON",
+    "CKCH \"New Country 103.5\" Sydney, NS",
     "CKDO",
+    "CKDQ \"910 CFCW\" Drumheller, AB",
     "CKEC",
     "CKFM",
     "CKGM",
@@ -4344,17 +4926,21 @@
     "CKNW 980 New Westminster, BC",
     "CKOM",
     "CKOM News/Talk 650 (Saskatoon, SK)",
+    "CKRA 96.3 \"Capital 96.3\" Edmonton, AB",
     "CKST",
     "CKUW",
     "CKWS-FM",
     "CKWX",
+    "CKXD 98.7 \"K Rock\" Gander, NL",
     "CKYC 93.7 \"Country 93\" Owen Sound, ON",
     "Classic FM at the Movies",
+    "Classic Hits 104.5 WJJK",
     "CLASSIC HITS RADIO 70 80",
     "CNN Radio",
     "Concierto FM",
     "Cool 106.3",
     "Country 100",
+    "Country Classics KOUU 1290 AM 96.5 FM",
     "Defected",
     "Deutschlandfunk",
     "Dolfijn",
@@ -4374,17 +4960,21 @@
     "Fox News Radio",
     "Fox Sports Radio",
     "France Inter",
+    "Fraser Coast FM - Hervey Bay - 107.5 FM (AAC+)",
     "Fresh 92.7",
     "Fresh Air",
     "Fresh Radio 104.3",
     "FUNKY RADIO",
+    "Global 99.5 FM",
     "Gold 104.3",
     "Gold AM 1548 London",
     "Got Radio",
     "Greatest Hits 103.5",
+    "Heart Essex 96.3 & 102.6",
     "Heart FM",
     "Heart London",
     "Heart London 106.2",
+    "Heart Sussex 102.4 &103.5",
     "Hola 95.7 FM 1 Costa Calma",
     "Hot 103",
     "Hot 96.9",
@@ -4403,16 +4993,22 @@
     "K-Earth",
     "KAAY",
     "KABC",
+    "KADI 1340AM \"The Ozark's Big Talker\" Springfield, MO",
     "KAJM",
     "KAMP",
+    "KAPS 102.1 FM 660 AM",
+    "KBAQ 89.5 \"K-Bach\" Classical - Phoenix, AZ",
     "KCBQ",
     "KCBS",
+    "KCEP 88.1 \"Power 88\" Las Vegas, NV",
+    "KCHE Classic Hits 92.1",
     "KCKK",
     "KCRW 89.9",
     "KCRW Eclectic 24",
     "KCRW Eclectic24",
     "KCRW Music",
     "KDKA",
+    "KDRO AM 1490 / FM 101.3",
     "KDWB",
     "KEGL",
     "KEIB",
@@ -4426,6 +5022,7 @@
     "KFAQ",
     "KFAX",
     "KFGO",
+    "KFGO \"The Mighty 790\" Fargo, ND",
     "KFI",
     "KFNN",
     "KFNX",
@@ -4437,6 +5034,7 @@
     "KGON",
     "KGYN",
     "KHMX",
+    "KHYT \"K-Hit 107.5\" Tucson, AZ",
     "KIIS 101.1",
     "KIIS 106.5",
     "KIIS FM",
@@ -4456,6 +5054,7 @@
     "KKAA",
     "KKBT",
     "KKDA-FM",
+    "KKGK Fox Sports 98.9/1340",
     "KKGO",
     "KKLZ",
     "KKNW 1150 \"Alternative Talk\" Seattle, WA",
@@ -4467,6 +5066,7 @@
     "KLVE",
     "KMBZ",
     "KMEL",
+    "KMEZ \"Old School 106.7\" New Orleans, LA",
     "KMHD",
     "KMPS",
     "KMRY",
@@ -4475,12 +5075,14 @@
     "KNBR",
     "KNBR 680 AM San Francisco, CA",
     "KNDD",
+    "KNHC \"C89.5\" Seattle, WA",
     "KNX",
     "KOA",
     "KOAN",
     "KOFI",
     "KOIL",
     "KOMO",
+    "KPOO 89.5 San Francisco, CA",
     "KPSI",
     "KPWR",
     "KQAM",
@@ -4502,9 +5104,13 @@
     "KTCT",
     "KTKZ",
     "KTOK",
+    "KTOX 1340",
     "KTUC 1400 Tucson, AZ",
     "KTWV",
+    "KVOD 88.1 Colorado Public Radio - Classical - Denver, CO  AAC+",
     "KWKH",
+    "KWMT True Country AM 540",
+    "KWSN \"Sports Radio\" 1230 & 98.1 Sioux Falls, SD",
     "KXEL",
     "KXGN 1400 AM",
     "KXLU",
@@ -4531,9 +5137,11 @@
     "MSNBC",
     "Music City Roadhouse",
     "New Country 96.3",
+    "News talk 1150 KQQQ",
     "News Talk 1400 KFRU",
     "News Talk 630 WPRO",
     "News/Talk 1400 KFRU",
+    "NewsRadio 1150 WGOW",
     "Newstalk 1010",
     "North Country 1320 WCVR",
     "Nova 91.9",
@@ -4542,11 +5150,13 @@
     "NRJ Paris",
     "NTS Live",
     "NTS Radio",
+    "PBS FM - Melbourne - 106.7 FM (AAC+)",
     "Planet Rock",
     "Power 105",
     "Power 106",
     "Power 96",
     "Power 97",
+    "Public Radio 90",
     "Q104.3",
     "Q107",
     "Radio 1 Dance",
@@ -4558,20 +5168,26 @@
     "Radio Chinese FM 90.6 Auckland",
     "Radio COCO",
     "Radio FG",
+    "Radio Guyana Inc - Georgetown 89.5 FM | Essequibo 89.3 FM | Berbice 89.7 FM",
     "Radio New Zealand",
     "Radio Rebelde",
     "Radio Rumba",
     "Radio Sevillanas",
     "Radio74 88.8 MHz",
+    "Radioactive.FM 88.6",
     "RadioZ 95.8 MHZ Community Radio Nürnberg",
     "Redroad FM 102.4",
     "Resonance FM 104.4 - London",
     "Rock & Pop",
     "Rock and Pop",
     "Rocksteller",
+    "RTR FM 92.1",
+    "Seaside FM 105.9 - CFEP-FM - Eastern Passage",
     "SiriusXM",
+    "Smooth FM 91.5 - Melbourne - 91.5 FM (AAC+ 320k)",
     "Smooth Radio London 102.2",
     "Soul 106.3",
+    "Sports Radio 740",
     "Studio Brussel",
     "Sunshine 106.8",
     "SUNSHINE LIVE",
@@ -4598,6 +5214,7 @@
     "WAXQ",
     "WAXY",
     "WBAB",
+    "WBAI 99.5 New York, NY",
     "WBAL",
     "WBAP",
     "WBBM",
@@ -4608,11 +5225,13 @@
     "WBEZ",
     "WBGO",
     "WBLI",
+    "WBLQ 1230 Westerly, RI",
     "WBLS",
     "WBMP",
     "WBNS",
     "WBNW",
     "WBOB",
+    "WBOK 1230AM",
     "WBOS",
     "WBQT",
     "WBSM",
@@ -4630,12 +5249,14 @@
     "WCRB",
     "WCSX",
     "WDAS-FM",
+    "WDGY 740, 92.1, 103.7 Hudson, WI",
     "WDIA",
     "WDJX",
     "WDOK",
     "WDRV",
     "WDVD",
     "WDVE",
+    "WDZQ 95.1 \"Q 95\" Decatur, IL",
     "WEBN",
     "WEDR",
     "WEEI",
@@ -4651,18 +5272,23 @@
     "WFED",
     "WFLA",
     "WFLZ",
+    "WFMB-AM \"Sports Radio 1450\" Springfield, IL",
     "WFMT",
+    "WFMT 98.7 Chicago, IL",
     "WFMU",
     "WFTU 1570 Five Towns College - Riverhead, NY",
+    "WFXY - Foxy 1490 AM",
     "WFYI 90.1 Indianapolis, IN",
     "WGAM",
     "WGCI-FM",
     "WGEE",
     "WGEM-FM",
+    "WGFX \"The Zone\" 104.5 FM Gallatin, TN",
     "WGH",
     "WGIR",
     "WGN",
     "WGN 720 Chicago, IL",
+    "WGNS 1450 AM Murfreesboro, TN",
     "WGNY",
     "WGOK Gospel 900 Mobile, AL",
     "WGR",
@@ -4676,6 +5302,7 @@
     "WHBC",
     "WHCU",
     "WHIO",
+    "WHIR Newstalk Sports 1230",
     "WHJJ",
     "WHKW",
     "WHNZ",
@@ -4685,6 +5312,7 @@
     "WHRB",
     "WHTA",
     "WHTC",
+    "WHTC 1450 & 99.7 \"Real News Now\" Holland, MI",
     "WHUR",
     "WHYI",
     "WHYY-FM",
@@ -4701,9 +5329,11 @@
     "WIXI",
     "WIXY",
     "WIYY",
+    "WIZS 1450 Henderson, NC",
     "WJAS",
     "WJBN",
     "WJBO",
+    "WJCW 910 \"Tri-Cities Talk Radio\" Johnson City, TN",
     "WJEJ",
     "WJKK",
     "WJOL",
@@ -4719,13 +5349,16 @@
     "WKBN",
     "WKBO",
     "WKFR",
+    "WKIT 100.3 FM",
     "WKJK",
     "WKLB",
+    "WKNR 850 Cleveland",
     "WKQI",
     "WKRC",
     "WKRS",
     "WKYS",
     "WLAC",
+    "WLBY AM 1290",
     "WLIB",
     "WLIT",
     "WLLD",
@@ -4733,23 +5366,30 @@
     "WLS-AM 890 Chicago, IL",
     "WLS-FM",
     "WLTW",
+    "WLVL 1340 & 105.3 Lockport, NY",
     "WLW",
     "WLYF",
     "WMBD",
+    "WMBM 1490 AM",
+    "WMBR 88.1 - Cambridge, MA",
     "WMC-FM",
     "WMGK",
     "WMIB",
     "WMKT",
     "WMMR",
     "WMMS",
+    "WMNX \"Coast 97.3\" Wilmington, NC",
     "WMTR",
     "WMVN",
     "WMVP",
     "WMYI",
     "WNAM",
+    "WNBF News Radio 1290 AM & 92.1 FM",
     "WNCX",
     "WNDE",
+    "WNFN \"i106.7\" Millersville, TN",
     "WNNX",
+    "WNOP 740 Sacred Heart Radio - Newport, KY",
     "WNSS",
     "WNYC",
     "WNYC-FM 93.9 New York Public Radio",
@@ -4766,11 +5406,13 @@
     "WPGP",
     "WPHM",
     "WPHT",
+    "WPIC \"News Talk 790\" Sharon, PA",
     "WPLJ",
     "WPOW",
     "WPRB",
     "WPRO",
     "WQHT",
+    "WQUT 101.5 Johnson City, TN",
     "WQXR",
     "WRAZ-FM",
     "WRIF",
@@ -4778,10 +5420,12 @@
     "WROR",
     "WROW",
     "WRQX",
+    "WRUF - AM 850",
     "WRVA",
     "WSAI",
     "WSB",
     "WSBA",
+    "WSBA \"News Talk 93.9 & 910\" York, PA",
     "WSBT",
     "WSCR",
     "WSDZ",
@@ -4798,6 +5442,7 @@
     "WTLC",
     "WTMJ",
     "WTMX",
+    "WTOB 980 AM",
     "WTOP 820",
     "WTSN",
     "WTSO",
@@ -4810,6 +5455,7 @@
     "WWPR",
     "WWVA",
     "WWWQ 99.7 \"Q100\" Atlanta, GA",
+    "WXNA 101.5 Nashville, TN \"Low Power, High Voltage\"",
     "WXRT",
     "WXRV \"92.5 The River\" Andover, MA",
     "WXTB",
@@ -4818,7 +5464,8 @@
     "WZAN",
     "WZLX",
     "Y100",
-    "Zoomer Radio"
+    "Zoomer Radio",
+    "Zoomer Radio (CFZM AM 740 / 96.7 FM)"
   ],
   "perSlotStationCap": 20,
   "actionFetchSizes": {
