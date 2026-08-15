@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-14T22:30:00Z",
+  "updatedAt": "2026-08-14T23:00:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -4026,6 +4026,31 @@
       "callSign": "Mix 93.8 FM",
       "band": "fm",
       "freq": 93.8
+    },
+    {
+      "callSign": "News Talk 1400 KFRU",
+      "band": "am",
+      "freq": 1400
+    },
+    {
+      "callSign": "KTUC 1400 Tucson, AZ",
+      "band": "am",
+      "freq": 1400
+    },
+    {
+      "callSign": "News/Talk 1400 KFRU",
+      "band": "am",
+      "freq": 1400
+    },
+    {
+      "callSign": "KIXR AM 1400 and FM 94.5 the talk of Utah County",
+      "band": "am",
+      "freq": 1400
+    },
+    {
+      "callSign": "KXGN 1400 AM",
+      "band": "am",
+      "freq": 1400
     }
   ],
   "featuredByTag": {
@@ -4426,6 +4451,7 @@
     "KISW",
     "KIT",
     "KIXI",
+    "KIXR AM 1400 and FM 94.5 the talk of Utah County",
     "KJR",
     "KKAA",
     "KKBT",
@@ -4476,9 +4502,11 @@
     "KTCT",
     "KTKZ",
     "KTOK",
+    "KTUC 1400 Tucson, AZ",
     "KTWV",
     "KWKH",
     "KXEL",
+    "KXGN 1400 AM",
     "KXLU",
     "KYSR",
     "KYW",
@@ -4503,7 +4531,9 @@
     "MSNBC",
     "Music City Roadhouse",
     "New Country 96.3",
+    "News Talk 1400 KFRU",
     "News Talk 630 WPRO",
+    "News/Talk 1400 KFRU",
     "Newstalk 1010",
     "North Country 1320 WCVR",
     "Nova 91.9",
