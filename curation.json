@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-14T21:00:00Z",
+  "updatedAt": "2026-08-14T22:30:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -581,6 +581,7 @@
     "=FOX Sports Radio 1380",
     "=Fox Sports Radio 1400",
     "=HOT 93.5 Old School",
+    "iHeart",
     "=Iheart Alternative Rewind",
     "=iHeart Cool Oldies",
     "=iHeart Country Classics",
@@ -861,7 +862,6 @@
     "Hot 97.1 FM SVG",
     "Hot 97.1 SVG",
     "HRYW",
-    "iHeart",
     "iHeartCountry",
     "iHeartLatino",
     "iHeartRadio",
@@ -879,7 +879,6 @@
     "JOE mp3",
     "JR Country",
     "K Country",
-    "K-Rock 105.7",
     "K-Rock 97.5",
     "KAAY",
     "KALX",
@@ -890,7 +889,6 @@
     "Karneval",
     "KBVU",
     "KCMP",
-    "KCRW",
     "KCSM",
     "90.1 Edmonton",
     "KCFR 90.1",
@@ -931,7 +929,6 @@
     "KRMG",
     "Kroq 106.7",
     "kroq 106.7",
-    "KSAN",
     "KSAN-FM",
     "KSBJ",
     "KTU 103.5",
@@ -1097,7 +1094,6 @@
     "Stereo Éxitos",
     "StuBru",
     "Studio 92",
-    "Studio Brussel",
     "Studio Bruxelles",
     "Suno Sharda",
     "Sunday Baroque",
@@ -1152,7 +1148,6 @@
     "WBGO Jazz",
     "WBGO-FM",
     "WBLS Radio",
-    "WBUR",
     "WBTA 1490",
     "WCJK",
     "WCSP",
@@ -1163,7 +1158,6 @@
     "WFCR",
     "WFMU",
     "WFUS",
-    "WFUV",
     "WGBH",
     "WGNV",
     "WGUC",
@@ -1192,7 +1186,6 @@
     "WLIT",
     "=WLIT 93.9 FM - Chicago, IL",
     "WLRD 96.9",
-    "WLTW",
     "WLVR",
     "WLVU",
     "WMVP",
@@ -1297,14 +1290,11 @@
     "WUAL-HD3",
     "=KEXP 90.3",
     "=KEXP 90.3 FM Seattle, WA",
-    "=KEXP 90.3 FM Seattle",
     "=KEXP 90.3 Seattle, WA (AAC 160K)",
     "=KXLU 320mbps",
     "=KXLU lo",
     "=KXLU-hi",
-    "=WQXR",
     "=WQXR Web Live",
-    "=Q104.3",
     "=WAXQ 104.3 New York",
     "=WGHQ-AM 920/W223CR 92.5 FM Kingston, NY",
     "=HPR1 Traditional Classic Country (32kbs Low Quality)",
@@ -1361,14 +1351,10 @@
     "=99.7 & 1450 WHTC",
     "=CHOK 1070 & 103.9 Sarnia, ON",
     "=WNYC FM",
-    "=WNYC",
     "=KFI LA",
-    "=CKNW",
     "=WKAR Jazz - East Lansing, MI",
     "=WABC Oldies Time Machine airchecks",
     "=101.1 WJRR Orlando's Rock Station",
-    "=WABC",
-    "=KEXP",
     "=Radio Canada Ici Musique  - Québec City, QC",
     "=Radio Canada Ici Musique (Mauricie-Centre-du-Québec) Trois-Rivieres, QC",
     "=Radio Canada Ici Musique - Bas-Saint-Laurent, Côte-Nord, Gaspésie-Îles-de-la-Madeleine (Rimouski, QC)",
@@ -1469,7 +1455,6 @@
     "80s80s",
     "RdMix Italo Disco",
     "100 GREATEST OF THE",
-    "Big R Radio",
     "India X FM",
     "Panamericana Retro Rock",
     "Rock and Pop Classics",
@@ -1493,7 +1478,6 @@
     "Scott Shannon's True Oldies",
     "WGNY - Fox Oldies",
     "WABC Oldies Time Machine",
-    "100.7 WMMS",
     "Kroq 106.7",
     "Today's Hot Country",
     "90's Country Music Radio",
@@ -1563,7 +1547,6 @@
     "Radio Express FM",
     "Caspian Business Radio",
     "Virgin Radio Rockstar: Queen",
-    "Virgin Radio Rockstar: Guns N",
     "Radio Radical HN",
     "Top Latino",
     "COS REGGAETON",
@@ -3628,6 +3611,421 @@
       "callSign": "Cool FM 88.8",
       "band": "fm",
       "freq": 88.8
+    },
+    {
+      "callSign": "WEOW FM 92.7",
+      "band": "fm",
+      "freq": 92.7
+    },
+    {
+      "callSign": "WNYC-FM 93.9 New York Public Radio",
+      "band": "fm",
+      "freq": 93.9
+    },
+    {
+      "callSign": "98.1 KBEAR",
+      "band": "fm",
+      "freq": 98.1
+    },
+    {
+      "callSign": "KEXP 90.3 Seattle, WA",
+      "band": "fm",
+      "freq": 90.3
+    },
+    {
+      "callSign": "Bloomberg 99.1/105.7 HD2",
+      "band": "fm",
+      "freq": 99.1
+    },
+    {
+      "callSign": "104.9 Max Country",
+      "band": "fm",
+      "freq": 104.9
+    },
+    {
+      "callSign": "WWWQ 99.7 \"Q100\" Atlanta, GA",
+      "band": "fm",
+      "freq": 99.7
+    },
+    {
+      "callSign": "WXRV \"92.5 The River\" Andover, MA",
+      "band": "fm",
+      "freq": 92.5
+    },
+    {
+      "callSign": "WIBC 93.1 Indianapolis, IN",
+      "band": "fm",
+      "freq": 93.1
+    },
+    {
+      "callSign": "La Mega 105.7",
+      "band": "fm",
+      "freq": 105.7
+    },
+    {
+      "callSign": "WFYI 90.1 Indianapolis, IN",
+      "band": "fm",
+      "freq": 90.1
+    },
+    {
+      "callSign": "680 News Toronto",
+      "band": "am",
+      "freq": 680.0
+    },
+    {
+      "callSign": "CILQ 107.1 \"Q107\" Toronto",
+      "band": "fm",
+      "freq": 107.1
+    },
+    {
+      "callSign": "CKYC 93.7 \"Country 93\" Owen Sound, ON",
+      "band": "fm",
+      "freq": 93.7
+    },
+    {
+      "callSign": "CFIQ 640 \"Global News Radio\" Toronto, ON",
+      "band": "am",
+      "freq": 640.0
+    },
+    {
+      "callSign": "CHUP \"Soft Rock 97.7\" Calgary, AB",
+      "band": "fm",
+      "freq": 97.7
+    },
+    {
+      "callSign": "CBC Radio 1 Toronto 99.1 FM",
+      "band": "fm",
+      "freq": 99.1
+    },
+    {
+      "callSign": "CHES 91.7 Erin Radio, ON",
+      "band": "fm",
+      "freq": 91.7
+    },
+    {
+      "callSign": "CKOM News/Talk 650 (Saskatoon, SK)",
+      "band": "am",
+      "freq": 650.0
+    },
+    {
+      "callSign": "CFOX 99.3 Vancouver, BC",
+      "band": "fm",
+      "freq": 99.3
+    },
+    {
+      "callSign": "CKGY \"Real Country 95.5\"  Red Deer, AB",
+      "band": "fm",
+      "freq": 95.5
+    },
+    {
+      "callSign": "CFCO \"Country 92.9 & 630\" - Chatham, ON",
+      "band": "fm",
+      "freq": 92.9
+    },
+    {
+      "callSign": "CKNW 980 New Westminster, BC",
+      "band": "am",
+      "freq": 980.0
+    },
+    {
+      "callSign": "CFVR \"Mix 103.7\" Fort McMurray, AB",
+      "band": "fm",
+      "freq": 103.7
+    },
+    {
+      "callSign": "CJAX \"Jack 96.9\"  Vancouver, BC",
+      "band": "fm",
+      "freq": 96.9
+    },
+    {
+      "callSign": "Radio74 88.8 MHz",
+      "band": "fm",
+      "freq": 88.8
+    },
+    {
+      "callSign": "Heart London 106.2",
+      "band": "fm",
+      "freq": 106.2
+    },
+    {
+      "callSign": "Smooth Radio London 102.2",
+      "band": "fm",
+      "freq": 102.2
+    },
+    {
+      "callSign": "Gold AM 1548 London",
+      "band": "am",
+      "freq": 1548.0
+    },
+    {
+      "callSign": "Resonance FM 104.4 - London",
+      "band": "fm",
+      "freq": 104.4
+    },
+    {
+      "callSign": "Redroad FM 102.4",
+      "band": "fm",
+      "freq": 102.4
+    },
+    {
+      "callSign": "Sunshine 106.8",
+      "band": "fm",
+      "freq": 106.8
+    },
+    {
+      "callSign": "Capital FM South Coast 103.2",
+      "band": "fm",
+      "freq": 103.2
+    },
+    {
+      "callSign": "Wired FM - FM 99.9 - Limerick, Ireland",
+      "band": "fm",
+      "freq": 99.9
+    },
+    {
+      "callSign": "10 Radio 105.3 - Wiveliscombe",
+      "band": "fm",
+      "freq": 105.3
+    },
+    {
+      "callSign": "Fantasy Radio 97.0 - Devizes",
+      "band": "fm",
+      "freq": 97.0
+    },
+    {
+      "callSign": "WBBR 1130 \"Bloomberg Radio\" New York, NY",
+      "band": "am",
+      "freq": 1130.0
+    },
+    {
+      "callSign": "1460 ESPN Deportes",
+      "band": "am",
+      "freq": 1460.0
+    },
+    {
+      "callSign": "WGN 720 Chicago, IL",
+      "band": "am",
+      "freq": 720.0
+    },
+    {
+      "callSign": "WLS-AM 890 Chicago, IL",
+      "band": "am",
+      "freq": 890.0
+    },
+    {
+      "callSign": "KSFO 560 AM San Francisco, CA",
+      "band": "am",
+      "freq": 560.0
+    },
+    {
+      "callSign": "CBS Sports Radio on AM 1500",
+      "band": "am",
+      "freq": 1500.0
+    },
+    {
+      "callSign": "WJR 760 Detroit, MI",
+      "band": "am",
+      "freq": 760.0
+    },
+    {
+      "callSign": "KNBR 680 AM San Francisco, CA",
+      "band": "am",
+      "freq": 680.0
+    },
+    {
+      "callSign": "WGOK Gospel 900 Mobile, AL",
+      "band": "am",
+      "freq": 900.0
+    },
+    {
+      "callSign": "CBS Sports 1430 AM",
+      "band": "am",
+      "freq": 1430.0
+    },
+    {
+      "callSign": "KSCO \"Talk Back Radio\" 1080 AM Santa Cruz, CA",
+      "band": "am",
+      "freq": 1080.0
+    },
+    {
+      "callSign": "News Talk 630 WPRO",
+      "band": "am",
+      "freq": 630.0
+    },
+    {
+      "callSign": "WABC 770 AM - NewYork, NY",
+      "band": "am",
+      "freq": 770.0
+    },
+    {
+      "callSign": "WKAR AM 870 NewsTalk - East Lansing, MI",
+      "band": "am",
+      "freq": 870.0
+    },
+    {
+      "callSign": "KRPI 1550 \"Sher-E-Punjab Radio\" Ferndale, WA",
+      "band": "am",
+      "freq": 1550.0
+    },
+    {
+      "callSign": "KFYO 790 AM Lubbock, TX",
+      "band": "am",
+      "freq": 790.0
+    },
+    {
+      "callSign": "WFTU 1570 Five Towns College - Riverhead, NY",
+      "band": "am",
+      "freq": 1570.0
+    },
+    {
+      "callSign": "KKNW 1150 \"Alternative Talk\" Seattle, WA",
+      "band": "am",
+      "freq": 1150.0
+    },
+    {
+      "callSign": "WCPT 820 Heartland Signal Progresive Talk, Willow Springs IL",
+      "band": "am",
+      "freq": 820.0
+    },
+    {
+      "callSign": "North Country 1320 WCVR",
+      "band": "am",
+      "freq": 1320.0
+    },
+    {
+      "callSign": "Kiss FM 88.0 Melbourne",
+      "band": "fm",
+      "freq": 88.0
+    },
+    {
+      "callSign": "Gold 104.3",
+      "band": "fm",
+      "freq": 104.3
+    },
+    {
+      "callSign": "ABC Local Radio 774 Melbourne",
+      "band": "am",
+      "freq": 774.0
+    },
+    {
+      "callSign": "ABC Local Radio 702 Sydney",
+      "band": "am",
+      "freq": 702.0
+    },
+    {
+      "callSign": "Fresh 92.7",
+      "band": "fm",
+      "freq": 92.7
+    },
+    {
+      "callSign": "ABC Local Radio 612 Brisbane",
+      "band": "am",
+      "freq": 612.0
+    },
+    {
+      "callSign": "KIIS 106.5",
+      "band": "fm",
+      "freq": 106.5
+    },
+    {
+      "callSign": "ABC Local Radio 720 Perth",
+      "band": "am",
+      "freq": 720.0
+    },
+    {
+      "callSign": "ABC Local Radio 91.7 Gold Coast",
+      "band": "fm",
+      "freq": 91.7
+    },
+    {
+      "callSign": "KIIS 101.1",
+      "band": "fm",
+      "freq": 101.1
+    },
+    {
+      "callSign": "FBi Radio 94.5 Sydney",
+      "band": "fm",
+      "freq": 94.5
+    },
+    {
+      "callSign": "Nova 91.9",
+      "band": "fm",
+      "freq": 91.9
+    },
+    {
+      "callSign": "Radio Chinese FM 90.6 Auckland",
+      "band": "fm",
+      "freq": 90.6
+    },
+    {
+      "callSign": "Triple R 102.7 Melbourne",
+      "band": "fm",
+      "freq": 102.7
+    },
+    {
+      "callSign": "ABC Local Radio 891 Adelaide",
+      "band": "am",
+      "freq": 891.0
+    },
+    {
+      "callSign": "3AW 693 Melbourne",
+      "band": "am",
+      "freq": 693.0
+    },
+    {
+      "callSign": "ABC Local Radio 1233 Newcastle",
+      "band": "am",
+      "freq": 1233.0
+    },
+    {
+      "callSign": "JOY 94.9 Melbourne",
+      "band": "fm",
+      "freq": 94.9
+    },
+    {
+      "callSign": "Mix 102.3",
+      "band": "fm",
+      "freq": 102.3
+    },
+    {
+      "callSign": "1116 SEN Melbourne",
+      "band": "am",
+      "freq": 1116.0
+    },
+    {
+      "callSign": "97.3fm Brisbane",
+      "band": "fm",
+      "freq": 97.3
+    },
+    {
+      "callSign": "RadioZ 95.8 MHZ Community Radio Nürnberg",
+      "band": "fm",
+      "freq": 95.8
+    },
+    {
+      "callSign": "MRS 90.5 Stockholm",
+      "band": "fm",
+      "freq": 90.5
+    },
+    {
+      "callSign": "Hola 95.7 FM 1 Costa Calma",
+      "band": "fm",
+      "freq": 95.7
+    },
+    {
+      "callSign": "94.7",
+      "band": "fm",
+      "freq": 94.7
+    },
+    {
+      "callSign": "702 Johannesburg",
+      "band": "am",
+      "freq": 702.0
+    },
+    {
+      "callSign": "Mix 93.8 FM",
+      "band": "fm",
+      "freq": 93.8
     }
   ],
   "featuredByTag": {
@@ -3694,7 +4092,6 @@
       "WBUR Boston"
     ],
     "2000s": [
-      "iHeart2000s Radio",
       "SomaFM Indie Pop Rocks",
       "Radio WoW",
       "KEXP 90.3 Seattle"
@@ -3825,14 +4222,31 @@
     "WPR"
   ],
   "catalogBrandNeedles": [
+    "10 Radio 105.3 - Wiveliscombe",
+    "104.9 Max Country",
+    "1116 SEN Melbourne",
+    "1460 ESPN Deportes",
+    "3AW 693 Melbourne",
     "538 TOP 50",
     "680 News",
+    "680 News Toronto",
+    "702 Johannesburg",
     "80s80s Prince",
     "90.3 AMP Radio",
     "92 CITI",
+    "94.7",
     "97.1 AMP",
+    "97.3fm Brisbane",
+    "98.1 KBEAR",
     "98.5 The Sports Hub",
     "98.7 The Fan",
+    "ABC Local Radio 1233 Newcastle",
+    "ABC Local Radio 612 Brisbane",
+    "ABC Local Radio 702 Sydney",
+    "ABC Local Radio 720 Perth",
+    "ABC Local Radio 774 Melbourne",
+    "ABC Local Radio 891 Adelaide",
+    "ABC Local Radio 91.7 Gold Coast",
     "American Public Media",
     "Antenne Bayern - Workout",
     "B96",
@@ -3841,29 +4255,39 @@
     "BBC World Service",
     "Bear 96.3",
     "Bloomberg",
+    "Bloomberg 99.1/105.7 HD2",
     "Bob FM 99.9",
     "Boom 97.3",
     "Capital FM",
+    "Capital FM South Coast 103.2",
     "Capital Xtra",
     "CBC 98.3",
     "CBC Music",
     "CBC Radio",
+    "CBC Radio 1 Toronto 99.1 FM",
     "CBC Winnipeg",
     "CBS News Radio",
+    "CBS Sports 1430 AM",
+    "CBS Sports Radio on AM 1500",
     "CBW",
     "CBW-FM",
     "CDN Deportes",
     "CDN La Radio",
     "CFAX",
+    "CFCO \"Country 92.9 & 630\" - Chatham, ON",
     "CFGO",
+    "CFIQ 640 \"Global News Radio\" Toronto, ON",
+    "CFOX 99.3 Vancouver, BC",
     "CFRA",
     "CFRB",
     "CFRC",
     "CFRW",
     "CFSL",
     "CFTR",
+    "CFVR \"Mix 103.7\" Fort McMurray, AB",
     "CFWM",
     "CHED",
+    "CHES 91.7 Erin Radio, ON",
     "CHFI",
     "Chillhop",
     "Chillsky",
@@ -3874,10 +4298,13 @@
     "CHQR",
     "CHQT",
     "CHUM",
+    "CHUP \"Soft Rock 97.7\" Calgary, AB",
     "CIIT-FM",
+    "CILQ 107.1 \"Q107\" Toronto",
     "CIMX-FM",
     "CITI-FM",
     "CJAD 800",
+    "CJAX \"Jack 96.9\"  Vancouver, BC",
     "CJBC",
     "CJKR-FM",
     "CJOB",
@@ -3885,14 +4312,18 @@
     "CKEC",
     "CKFM",
     "CKGM",
+    "CKGY \"Real Country 95.5\"  Red Deer, AB",
     "CKLW",
     "CKMM",
     "CKNW",
+    "CKNW 980 New Westminster, BC",
     "CKOM",
+    "CKOM News/Talk 650 (Saskatoon, SK)",
     "CKST",
     "CKUW",
     "CKWS-FM",
     "CKWX",
+    "CKYC 93.7 \"Country 93\" Owen Sound, ON",
     "Classic FM at the Movies",
     "CLASSIC HITS RADIO 70 80",
     "CNN Radio",
@@ -3911,18 +4342,25 @@
     "Exclusively Daft Punk",
     "Exclusively Dolly Parton",
     "Exclusively Prince",
+    "Fantasy Radio 97.0 - Devizes",
+    "FBi Radio 94.5 Sydney",
     "FFH Workout",
     "Fitness Hits",
     "Fox News Radio",
     "Fox Sports Radio",
     "France Inter",
+    "Fresh 92.7",
     "Fresh Air",
     "Fresh Radio 104.3",
     "FUNKY RADIO",
+    "Gold 104.3",
+    "Gold AM 1548 London",
     "Got Radio",
     "Greatest Hits 103.5",
     "Heart FM",
     "Heart London",
+    "Heart London 106.2",
+    "Hola 95.7 FM 1 Costa Calma",
     "Hot 103",
     "Hot 96.9",
     "Hot 97",
@@ -3936,6 +4374,7 @@
     "Jazz FM",
     "Jazz Radio Stax and Motown",
     "JAZZ.FM91",
+    "JOY 94.9 Melbourne",
     "K-Earth",
     "KAAY",
     "KABC",
@@ -3955,6 +4394,7 @@
     "KENI",
     "KEX",
     "KEXP",
+    "KEXP 90.3 Seattle, WA",
     "KEZW",
     "KFAB",
     "KFAN",
@@ -3966,17 +4406,21 @@
     "KFNX",
     "KFTI",
     "KFXX",
+    "KFYO 790 AM Lubbock, TX",
     "KGMZ",
     "KGO",
     "KGON",
     "KGYN",
     "KHMX",
+    "KIIS 101.1",
+    "KIIS 106.5",
     "KIIS FM",
     "KILT-FM",
     "KING",
     "KION",
     "KIRO",
     "Kiss 100",
+    "Kiss FM 88.0 Melbourne",
     "KISS Toronto",
     "KISS-FM",
     "KISW",
@@ -3988,6 +4432,7 @@
     "KKDA-FM",
     "KKGO",
     "KKLZ",
+    "KKNW 1150 \"Alternative Talk\" Seattle, WA",
     "KKRZ",
     "KKZX",
     "KLAA",
@@ -4002,6 +4447,7 @@
     "KMVP",
     "KMVQ",
     "KNBR",
+    "KNBR 680 AM San Francisco, CA",
     "KNDD",
     "KNX",
     "KOA",
@@ -4017,10 +4463,13 @@
     "KRLD",
     "KROQ",
     "Kroq 106.7",
+    "KRPI 1550 \"Sher-E-Punjab Radio\" Ferndale, WA",
     "KRTH",
     "KRVN",
     "KSAN",
+    "KSCO \"Talk Back Radio\" 1080 AM Santa Cruz, CA",
     "KSCS",
+    "KSFO 560 AM San Francisco, CA",
     "KSHE",
     "KSL",
     "KSOO",
@@ -4037,20 +4486,27 @@
     "KZPS",
     "La 100",
     "La Mega",
+    "La Mega 105.7",
     "LBC",
     "Lite FM",
     "Marketplace",
     "Metallica",
     "Michael Jackson",
+    "Mix 102.3",
     "Mix 104",
+    "Mix 93.8 FM",
     "Mix 96.3",
     "Mix 96.5",
     "Motown Radio",
     "Move 90.3",
+    "MRS 90.5 Stockholm",
     "MSNBC",
     "Music City Roadhouse",
     "New Country 96.3",
+    "News Talk 630 WPRO",
     "Newstalk 1010",
+    "North Country 1320 WCVR",
+    "Nova 91.9",
     "NPR",
     "NRJ France",
     "NRJ Paris",
@@ -4069,18 +4525,25 @@
     "Radio Andina",
     "Radio Art - Flamenco",
     "Radio Canada",
+    "Radio Chinese FM 90.6 Auckland",
     "Radio COCO",
     "Radio FG",
     "Radio New Zealand",
     "Radio Rebelde",
     "Radio Rumba",
     "Radio Sevillanas",
+    "Radio74 88.8 MHz",
+    "RadioZ 95.8 MHZ Community Radio Nürnberg",
+    "Redroad FM 102.4",
+    "Resonance FM 104.4 - London",
     "Rock & Pop",
     "Rock and Pop",
     "Rocksteller",
     "SiriusXM",
+    "Smooth Radio London 102.2",
     "Soul 106.3",
     "Studio Brussel",
+    "Sunshine 106.8",
     "SUNSHINE LIVE",
     "Sunshine Live - Workout",
     "The Bone",
@@ -4089,11 +4552,13 @@
     "The Lot Radio",
     "The Outlaw",
     "Thunder 106.3",
+    "Triple R 102.7 Melbourne",
     "TSN 1050",
     "TSN 1290",
     "TSN Radio",
     "Virgin Radio",
     "WABC",
+    "WABC 770 AM - NewYork, NY",
     "WADO",
     "WAFS",
     "WAGI",
@@ -4107,6 +4572,7 @@
     "WBAP",
     "WBBM",
     "WBBR",
+    "WBBR 1130 \"Bloomberg Radio\" New York, NY",
     "WBEB",
     "WBEN",
     "WBEZ",
@@ -4130,6 +4596,7 @@
     "WCHS",
     "WCKY",
     "WCLV",
+    "WCPT 820 Heartland Signal Progresive Talk, Willow Springs IL",
     "WCRB",
     "WCSX",
     "WDAS-FM",
@@ -4144,6 +4611,7 @@
     "WEEI",
     "WELI",
     "WENE",
+    "WEOW FM 92.7",
     "WEPN-FM",
     "WERS",
     "WFAN",
@@ -4155,6 +4623,8 @@
     "WFLZ",
     "WFMT",
     "WFMU",
+    "WFTU 1570 Five Towns College - Riverhead, NY",
+    "WFYI 90.1 Indianapolis, IN",
     "WGAM",
     "WGCI-FM",
     "WGEE",
@@ -4162,7 +4632,9 @@
     "WGH",
     "WGIR",
     "WGN",
+    "WGN 720 Chicago, IL",
     "WGNY",
+    "WGOK Gospel 900 Mobile, AL",
     "WGR",
     "WGRR",
     "WGUC",
@@ -4187,10 +4659,12 @@
     "WHYI",
     "WHYY-FM",
     "WIBA",
+    "WIBC 93.1 Indianapolis, IN",
     "WIBM",
     "WINS",
     "WIP",
     "WIPR",
+    "Wired FM - FM 99.9 - Limerick, Ireland",
     "WIRL",
     "WIRY",
     "WISN",
@@ -4207,9 +4681,11 @@
     "WJOX",
     "WJOY",
     "WJR",
+    "WJR 760 Detroit, MI",
     "WJZ-FM",
     "WKAQ",
     "WKAR",
+    "WKAR AM 870 NewsTalk - East Lansing, MI",
     "WKBN",
     "WKBO",
     "WKFR",
@@ -4224,6 +4700,7 @@
     "WLIT",
     "WLLD",
     "WLS",
+    "WLS-AM 890 Chicago, IL",
     "WLS-FM",
     "WLTW",
     "WLW",
@@ -4245,6 +4722,7 @@
     "WNNX",
     "WNSS",
     "WNYC",
+    "WNYC-FM 93.9 New York Public Radio",
     "WNYM",
     "WOAI",
     "WOGL",
@@ -4301,7 +4779,9 @@
     "WWOZ",
     "WWPR",
     "WWVA",
+    "WWWQ 99.7 \"Q100\" Atlanta, GA",
     "WXRT",
+    "WXRV \"92.5 The River\" Andover, MA",
     "WXTB",
     "WXYT",
     "WYLL",
@@ -4568,5 +5048,13 @@
     "Cumbias Inmortales Radio (Monterrey) - Online - www.cumbiasinmortales.com - Grupo Digital Retroland - Monterrey, Nuevo León",
     "XHEXA \"Exa FM\" 104.9 FM Mexico City, DF",
     "La Ranchera de Monterrey - 1050 AM - XEG-AM - Núcleo Radio Monterrey - Monterrey, NL"
+  ],
+  "blockedStreamHosts": [],
+  "adHeavyStreamHosts": [
+    "ihrhls",
+    "revma",
+    "adhandler",
+    "adswizz",
+    "adserver"
   ]
 }
