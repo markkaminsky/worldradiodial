@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-15T00:00:00Z",
+  "updatedAt": "2026-08-15T00:30:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -4591,6 +4591,106 @@
       "callSign": "CJRY 105.9 Shinefm",
       "band": "fm",
       "freq": 105.9
+    },
+    {
+      "callSign": "VOCM-AM 590 St. John's, NL",
+      "band": "am",
+      "freq": 590
+    },
+    {
+      "callSign": "CJOB 680 Winnipeg, MB",
+      "band": "am",
+      "freq": 680
+    },
+    {
+      "callSign": "CKWX \"News 1130\" Vancouver, BC",
+      "band": "am",
+      "freq": 1130
+    },
+    {
+      "callSign": "CHQR 770 Global News Radio - Calgary, AB",
+      "band": "am",
+      "freq": 770
+    },
+    {
+      "callSign": "CFRA \"News Talk Radio 580\" Ottawa, ON",
+      "band": "am",
+      "freq": 580
+    },
+    {
+      "callSign": "CFTR \"City News 680\" Toronto, ON",
+      "band": "am",
+      "freq": 680
+    },
+    {
+      "callSign": "CHQR 770 (Calgary, AB)",
+      "band": "am",
+      "freq": 770
+    },
+    {
+      "callSign": "CFAX 1070 (Victoria, BC)",
+      "band": "am",
+      "freq": 1070
+    },
+    {
+      "callSign": "NewsTalk 770 AM Calgary",
+      "band": "am",
+      "freq": 770
+    },
+    {
+      "callSign": "CJNI \"News 95.7\" Halifax, NS",
+      "band": "fm",
+      "freq": 95.7
+    },
+    {
+      "callSign": "CFAC \"Sportsnet 960\" Calgary, AB",
+      "band": "am",
+      "freq": 960
+    },
+    {
+      "callSign": "CFLN 97.9 \"Big Land - Labrador's FM\" Happy Valley-Goose Bay, NL",
+      "band": "fm",
+      "freq": 97.9
+    },
+    {
+      "callSign": "CISF 107.7 \"Pulse FM\" Surrey, BC",
+      "band": "fm",
+      "freq": 107.7
+    },
+    {
+      "callSign": "CJBQ 800 Belleville, ON",
+      "band": "am",
+      "freq": 800
+    },
+    {
+      "callSign": "CJAD 800",
+      "band": "am",
+      "freq": 800
+    },
+    {
+      "callSign": "CHED 630 \"Global News Radio\" Edmonton, AB",
+      "band": "am",
+      "freq": 630
+    },
+    {
+      "callSign": "CKLW \"AM 800\" Windsor, ON",
+      "band": "am",
+      "freq": 800
+    },
+    {
+      "callSign": "570 News Kitchener",
+      "band": "am",
+      "freq": 570
+    },
+    {
+      "callSign": "CKGL \"City News 570\" Kitchener, ON",
+      "band": "am",
+      "freq": 570
+    },
+    {
+      "callSign": "CFGO \"TSN 1200\" Ottawa, ON",
+      "band": "am",
+      "freq": 1200
     }
   ],
   "featuredByTag": {
@@ -4799,6 +4899,7 @@
     "3AW 693 Melbourne",
     "538 TOP 50",
     "540 WRGC The River",
+    "570 News Kitchener",
     "680 News",
     "680 News Toronto",
     "702 Johannesburg",
@@ -4844,6 +4945,7 @@
     "Bloomberg 99.1/105.7 HD2",
     "Bob FM 99.9",
     "Boom 97.3",
+    "Business News Network Audio Channel",
     "Capital FM",
     "Capital FM South Coast 103.2",
     "Capital Xtra",
@@ -4853,6 +4955,16 @@
     "CBC Radio",
     "CBC Radio 1 Calgary (CBR - 1010 AM, 99.1 FM)",
     "CBC Radio 1 Toronto 99.1 FM",
+    "CBC Radio One - Calgary, AB (MP3 stream)",
+    "CBC Radio One - London, ON (MP3 stream)",
+    "CBC Radio One - Montreal, QC (MP3 stream)",
+    "CBC Radio One - Quebec City, QC (MP3)",
+    "CBC Radio One - Regina, SK (MP3 stream)",
+    "CBC Radio One - Sudbury, ON (MP3 stream)",
+    "CBC Radio One - Toronto, ON (MP3 stream)",
+    "CBC Radio One - Victoria, BC (MP3 stream)",
+    "CBC Radio One - Winnipeg, MB (MP3 stream)",
+    "CBC Radio One Edmonton",
     "CBC Winnipeg",
     "CBS News Radio",
     "CBS Sports 1430 AM",
@@ -4862,24 +4974,31 @@
     "CCFM 107.5",
     "CDN Deportes",
     "CDN La Radio",
+    "CFAC \"Sportsnet 960\" Calgary, AB",
     "CFAX",
+    "CFAX 1070 (Victoria, BC)",
     "CFCO \"Country 92.9 & 630\" - Chatham, ON",
     "CFCY 95.1 Charlottetown, PE",
     "CFFR \"660 News\" Calgary, AB",
     "CFGO",
+    "CFGO \"TSN 1200\" Ottawa, ON",
     "CFIQ 640 \"Global News Radio\" Toronto, ON",
+    "CFLN 97.9 \"Big Land - Labrador's FM\" Happy Valley-Goose Bay, NL",
     "CFOX 99.3 Vancouver, BC",
     "CFPL-AM 980 London, ON",
     "CFRA",
+    "CFRA \"News Talk Radio 580\" Ottawa, ON",
     "CFRB",
     "CFRB News/Talk 1010 (Toronto, ON)",
     "CFRC",
     "CFRW",
     "CFSL",
     "CFTR",
+    "CFTR \"City News 680\" Toronto, ON",
     "CFVR \"Mix 103.7\" Fort McMurray, AB",
     "CFWM",
     "CHED",
+    "CHED 630 \"Global News Radio\" Edmonton, AB",
     "CHES 91.7 Erin Radio, ON",
     "CHFI",
     "Chillhop",
@@ -4889,6 +5008,8 @@
     "CHML",
     "CHOK",
     "CHQR",
+    "CHQR 770 (Calgary, AB)",
+    "CHQR 770 Global News Radio - Calgary, AB",
     "CHQT",
     "CHTN 100.3 \"Ocean 100\" Charlottetown, PE",
     "CHUM",
@@ -4896,16 +5017,21 @@
     "CIIT-FM",
     "CILQ 107.1 \"Q107\" Toronto",
     "CIMX-FM",
+    "CISF 107.7 \"Pulse FM\" Surrey, BC",
     "CITI 92.1 Winnipeg, MB",
     "CITI-FM",
+    "CIWW CityNews Ottawa",
     "CJAD 800",
     "CJAX \"Jack 96.9\"  Vancouver, BC",
     "CJBC",
+    "CJBQ 800 Belleville, ON",
     "CJDJ 102.1 \"Rock 102\" Saskatoon, SK",
     "CJDV 107.5 \"Dave Rocks\" Kitchener, ON",
     "CJKR-FM",
     "CJME News/Talk 980 (Regina, SK)",
+    "CJNI \"News 95.7\" Halifax, NS",
     "CJOB",
+    "CJOB 680 Winnipeg, MB",
     "CJRY 105.9 Shinefm",
     "CJSB 104.5 \"CJ104\" Swan River, MB",
     "CJSL \"CJ-1150\" Estevan SK",
@@ -4918,9 +5044,11 @@
     "CKDQ \"910 CFCW\" Drumheller, AB",
     "CKEC",
     "CKFM",
+    "CKGL \"City News 570\" Kitchener, ON",
     "CKGM",
     "CKGY \"Real Country 95.5\"  Red Deer, AB",
     "CKLW",
+    "CKLW \"AM 800\" Windsor, ON",
     "CKMM",
     "CKNW",
     "CKNW 980 New Westminster, BC",
@@ -4931,6 +5059,7 @@
     "CKUW",
     "CKWS-FM",
     "CKWX",
+    "CKWX \"News 1130\" Vancouver, BC",
     "CKXD 98.7 \"K Rock\" Gander, NL",
     "CKYC 93.7 \"Country 93\" Owen Sound, ON",
     "Classic FM at the Movies",
@@ -4941,6 +5070,7 @@
     "Cool 106.3",
     "Country 100",
     "Country Classics KOUU 1290 AM 96.5 FM",
+    "CTV News Audio Channel",
     "Defected",
     "Deutschlandfunk",
     "Dolfijn",
@@ -5143,6 +5273,7 @@
     "News/Talk 1400 KFRU",
     "NewsRadio 1150 WGOW",
     "Newstalk 1010",
+    "NewsTalk 770 AM Calgary",
     "North Country 1320 WCVR",
     "Nova 91.9",
     "NPR",
@@ -5203,6 +5334,7 @@
     "TSN 1290",
     "TSN Radio",
     "Virgin Radio",
+    "VOCM-AM 590 St. John's, NL",
     "WABC",
     "WABC 770 AM - NewYork, NY",
     "WADO",
