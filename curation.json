@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-20T00:00:00Z",
+  "updatedAt": "2026-08-20T18:00:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -190,7 +190,8 @@
       "Exclusively Prince",
       "Prince Hits",
       "__80s HITS",
-      "24/7 MJ Radio"
+      "24/7 MJ Radio",
+      "Jack FM - Berlin"
     ],
     "90s": [
       "Virgin Radio Rock '90",
@@ -1578,7 +1579,11 @@
     "Bobs Ska",
     "CBN Classic Christian",
     "Midnite Radio - The Ori",
-    "=Classic Hits Radio CLASSIC HITS anni 70 80 90"
+    "=Classic Hits Radio CLASSIC HITS anni 70 80 90",
+    "Got Radio  The 80s",
+    "Got Radio The 80s",
+    "M80 Rádio – 80s",
+    "M80 Radio - 80s"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -5117,7 +5122,6 @@
   ],
   "featuredByTag": {
     "80s": [
-      "Got Radio",
       "Oxygen The 80s Hits",
       "Mason Dixon",
       "0R - 80s ROCK",
