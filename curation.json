@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-15T02:30:00Z",
+  "updatedAt": "2026-08-20T00:00:00Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -18,7 +18,6 @@
     "alternative rock",
     "christian",
     "chillout",
-    "classic hits",
     "eclectic",
     "estación",
     "méxico",
@@ -124,11 +123,15 @@
     "chill",
     "decades",
     "east lansing",
-    "talk"
+    "talk",
+    "old joints",
+    "ska",
+    "alt gen 1"
   ],
   "pinnedWebDialCategories": [
     "top 40",
     "power pop",
+    "70s",
     "80s",
     "90s",
     "2000s",
@@ -147,7 +150,6 @@
     "hard rock",
     "country",
     "rap legends",
-    "old joints",
     "boom bap",
     "synthwave",
     "motown",
@@ -157,8 +159,6 @@
     "workout",
     "vibes",
     "reggae",
-    "ska",
-    "alt gen 1",
     "mexico",
     "jazz",
     "classic vinyl",
@@ -177,44 +177,35 @@
   ],
   "stationCategoryRemappings": {
     "2000s": [
-      "iHeart2000s Radio",
-      "Decada FM 100.1",
-      "Retro Rádio",
-      "Sunshine Live - Classics"
+      "* 2000s || 2000er"
     ],
     "70s": [
-      "CLASSIC HITS RADIO 70 80",
-      "Exclusively Carole King"
+      "My70sRadio",
+      "Now 70s",
+      "Antenne Vorarlberg 70er Hits"
     ],
     "80s": [
       "Michael Jackson",
       "Exclusively Prince",
       "Prince Hits",
-      "__80s HITS"
+      "__80s HITS",
+      "24/7 MJ Radio"
     ],
     "90s": [
-      "Virgin Radio Rock '90"
-    ],
-    "alt gen 1": [
-      "SomaFM Indie Pop Rocks! (128k AAC)",
-      "TMM 1",
-      "D1 Alternative"
-    ],
-    "alt rock": [
+      "Virgin Radio Rock '90",
+      "Nirvana",
+      "Pearl Jam",
+      "Soundgarden",
       "Big R Radio - Grunge FM",
       "Best Of Rock.FM Alternative Rock",
       "KEXP 90.3",
-      "Indie X FM",
-      "Nirvana",
-      "Soundgarden",
-      "Pearl Jam",
-      "DrGnu - Metallica",
       "MaximusRockFM"
     ],
-    "ambient": [
-      "Your Classical",
-      "YourClassical",
-      "Whisperings Solo Piano"
+    "alt rock": [
+      "Indie X FM",
+      "SomaFM Indie Pop Rocks! (128k AAC)",
+      "TMM 1",
+      "D1 Alternative"
     ],
     "art bell": [
       "Art Bell",
@@ -336,11 +327,6 @@
       "Virgin Radio Rockstar: Oasis",
       "Radio X"
     ],
-    "old joints": [
-      "HOT 93.5 Old School",
-      "Old School Hip Hop - Urbanradio.com",
-      "Klassic Joints"
-    ],
     "oldies": [
       "Radio Caroline",
       "OLDIE ANTENNE",
@@ -351,7 +337,8 @@
       "Magic Fm",
       "LOVE RADIO Only Love Songs",
       "Antenne Sachsen",
-      "Radio Armisa"
+      "Radio Armisa",
+      "CLASSIC HITS RADIO 70 80"
     ],
     "other": [
       "100% Radio 80",
@@ -477,11 +464,6 @@
       "RdMix Classic Rock 70s 80s 90s",
       "Classic Rock 70s"
     ],
-    "ska": [
-      "Bob's Ska Radio",
-      "Ska World",
-      "REAL PUNK RADIO"
-    ],
     "soundtracks": [
       "Classic FM at the Movies",
       "StreamingSoundtracks.com Hi"
@@ -542,6 +524,15 @@
       "101.9WFAN",
       "CHUM TSN 1050",
       "Sport Nation"
+    ],
+    "dance": [
+      "Eurodance",
+      "Euro Dance",
+      "CHARTS <3 EINFACH"
+    ],
+    "classical": [
+      "Your Classical",
+      "YourClassical"
     ]
   },
   "blockedNames": [
@@ -1535,7 +1526,58 @@
     "Gangstaville Radio",
     "FM4 | ORF",
     "=Power POP",
-    "CBC Radio One - Vancouver"
+    "CBC Radio One - Vancouver",
+    "=Sunshine Live - Classics",
+    "=SUNSHINE LIVE - 2000s",
+    "Carole King",
+    "70s All Hits",
+    "Your Classical - Peaceful Piano",
+    "Chill Lounge Florida",
+    "Echoes of Bluemars",
+    "SomaFM Doomed",
+    "Your Classical Chamber Music",
+    "Whisperings",
+    "Hit FM 2000s HITS",
+    "=Hit FM Best Hits",
+    "=Hit FM Dance",
+    "=Hit Fm Drive Mode",
+    "=HIT FM Eurovision Hits",
+    "=Hit FM Hot Hits",
+    "=HIT FM K-Pop Hits",
+    "=HIT FM Latino Hits",
+    "=HIT FM Orchestral Classics",
+    "=Hit FM Summer Hits",
+    "=HIT FM Trance Hits",
+    "=HIT FM Tricolor de Hituri",
+    "=HIT FM Русский Хит",
+    "FUN Radio Romania",
+    "=Radio 10",
+    "RADIOGAIA",
+    "__80 EXITOS",
+    "Desi Hits 2000s",
+    "R101 Enjoy The Music",
+    "70s 80s 90s RdMix Network",
+    "=Radio WoW",
+    "=Radio Wow!",
+    "ITALIA Italia 90",
+    "Eurodance Classic ... Pure",
+    "Eurodance Classic - Pure and Addictive",
+    "#1 Splash 90s Dance",
+    "Radio Hotstar",
+    "FOREVER 90",
+    "Radio Aashiqanaa",
+    "0 N - 90s on Radio",
+    "RadioNev",
+    "My 90s Bengali",
+    "Radio 90s Eurodance",
+    "0R - 90s",
+    "Retro Album Rock",
+    "Classic Hits 109",
+    "CLASSIC HITS RADIO Italia",
+    "Bobs Ska",
+    "CBN Classic Christian",
+    "Midnite Radio - The Ori",
+    "=Classic Hits Radio CLASSIC HITS anni 70 80 90"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -1543,7 +1585,8 @@
     "MX",
     "BY",
     "MA",
-    "TN"
+    "TN",
+    "IN"
   ],
   "religiousTagKeys": [
     "religious",
@@ -5098,7 +5141,9 @@
       "Nirvana",
       "Soundgarden",
       "Virgin Radio Rock '90",
-      "Virgin Radio Rock ’90"
+      "Virgin Radio Rock ’90",
+      "Big R Radio - Grunge FM",
+      "Pearl Jam"
     ],
     "classic rock": [
       "Q104.3",
@@ -5135,9 +5180,7 @@
       "WBUR Boston"
     ],
     "2000s": [
-      "SomaFM Indie Pop Rocks",
-      "Radio WoW",
-      "KEXP 90.3 Seattle"
+      "* 2000s || 2000er"
     ],
     "latin": [
       "La 100",
@@ -5188,7 +5231,7 @@
       "TalkSPORT",
       "97.1 The Ticket"
     ],
-    "70s": [
+    "classic hits": [
       "CLASSIC HITS RADIO"
     ]
   },
@@ -6161,7 +6204,7 @@
     "Ö1 | ORF | HQ",
     "ČRo Vltava"
   ],
-  "perSlotStationCap": 20,
+  "perSlotStationCap": 12,
   "actionFetchSizes": {
     "regionDefault": 260,
     "userEnglishLanguage": 260,
@@ -6420,7 +6463,11 @@
     "XHEXA \"Exa FM\" 104.9 FM Mexico City, DF",
     "La Ranchera de Monterrey - 1050 AM - XEG-AM - Núcleo Radio Monterrey - Monterrey, NL"
   ],
-  "blockedStreamHosts": [],
+  "blockedStreamHosts": [
+    "classichitsradio.streamingmedia.it",
+    "zeno.fm",
+    "echoesofbluemars.org"
+  ],
   "adHeavyStreamHosts": [
     "ihrhls",
     "revma",
