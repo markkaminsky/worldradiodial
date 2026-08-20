@@ -126,7 +126,9 @@
     "talk",
     "old joints",
     "ska",
-    "alt gen 1"
+    "alt gen 1",
+    "classic hits",
+    "grunge"
   ],
   "pinnedWebDialCategories": [
     "top 40",
@@ -173,17 +175,28 @@
     "world sport",
     "news",
     "financial",
-    "paradise"
+    "paradise",
+    "indie",
+    "punk",
+    "progressive rock",
+    "old time radio",
+    "comedy",
+    "disco",
+    "folk",
+    "downtempo"
   ],
   "stationCategoryRemappings": {
     "2000s": [
       "* 2000s || 2000er",
-      "iHeart2000s Radio"
+      "iHeart2000s Radio",
+      "Decada FM 100.1",
+      "Retro Rádio"
     ],
     "70s": [
       "My70sRadio",
       "Now 70s",
-      "Antenne Vorarlberg 70er Hits"
+      "Antenne Vorarlberg 70er Hits",
+      "CLASSIC HITS RADIO 70 80"
     ],
     "80s": [
       "Michael Jackson",
@@ -207,7 +220,13 @@
       "Indie X FM",
       "SomaFM Indie Pop Rocks! (128k AAC)",
       "TMM 1",
-      "D1 Alternative"
+      "D1 Alternative",
+      "Big R Radio - Grunge FM",
+      "Best Of Rock.FM Alternative Rock",
+      "Nirvana",
+      "Soundgarden",
+      "Pearl Jam",
+      "MaximusRockFM"
     ],
     "art bell": [
       "Art Bell",
@@ -243,7 +262,8 @@
       "Virgin Radio Rockstar: AC/DC",
       "Exclusively Creedence",
       "Radio GÖD",
-      "Exclusively Led Zeppelin"
+      "Exclusively Led Zeppelin",
+      "0R - 80s ROCK"
     ],
     "classic vinyl": [
       "Classic Vinyl",
@@ -287,7 +307,9 @@
     "jazz": [
       "Smooth Jazz 247",
       "WWOZ",
-      "Jazz Radio Classic Jazz"
+      "Jazz Radio Classic Jazz",
+      "Suite Jazz Radio",
+      "Jazz Radio Blues"
     ],
     "metal": [
       "Rock Antenne - Heavy Metal",
@@ -297,7 +319,15 @@
       "Prog Rock and Metal",
       "Stone Radio",
       "Metallica",
-      "J-Rock Powerplay"
+      "J-Rock Powerplay",
+      "Megadeth",
+      "Slayer",
+      "Anthrax",
+      "Pantera",
+      "Sepultura",
+      "Testament",
+      "Exclusively Metallica",
+      "Thrash"
     ],
     "mexico": [
       "Los 40 Principales México",
@@ -457,7 +487,10 @@
     ],
     "rap legends": [
       "Eminem",
-      "Rap Classics"
+      "Rap Classics",
+      "Super Throwback Party Radio",
+      "GotRadio Hip Hop Stop",
+      "Hot 108 JAMZ"
     ],
     "reggae": [],
     "rolling stones": [
@@ -535,6 +568,25 @@
     "classical": [
       "Your Classical",
       "YourClassical"
+    ],
+    "country": [
+      "Bluegrass Country",
+      "Outlaw Country Radio",
+      "Music City Roadhouse",
+      "ER Willie Nelson",
+      "Exclusively Dolly Parton",
+      "HPR1: Traditional Classic Country"
+    ],
+    "progressive rock": [
+      "Pink Floyd",
+      "Progressive Rock",
+      "Prog Rock Radio",
+      "Exclusively Rush",
+      "Exclusively Genesis",
+      "Exclusively Yes"
+    ],
+    "disco": [
+      "70s 80s Disco Funk ModernSoul Boogie"
     ]
   },
   "blockedNames": [
@@ -5129,7 +5181,8 @@
       "Virgin Radio Rock ’80",
       "SomaFM Underground 80s",
       "0R - 80s ||",
-      "0 N - 80s"
+      "0 N - 80s",
+      "Got Radio"
     ],
     "world sport": [
       "Radio Marca Madrid",
@@ -5185,7 +5238,8 @@
       "WBUR Boston"
     ],
     "2000s": [
-      "* 2000s || 2000er"
+      "* 2000s || 2000er",
+      "SomaFM Indie Pop Rocks"
     ],
     "latin": [
       "La 100",
@@ -5237,6 +5291,9 @@
       "97.1 The Ticket"
     ],
     "classic hits": [
+      "CLASSIC HITS RADIO"
+    ],
+    "70s": [
       "CLASSIC HITS RADIO"
     ]
   },
@@ -5296,7 +5353,28 @@
     "talk": 170,
     "top 40": 200,
     "ufo": 120,
-    "world sport": 120
+    "world sport": 120,
+    "americana": 100,
+    "bluegrass": 100,
+    "blues": 150,
+    "country": 180,
+    "dancehall": 100,
+    "funk": 120,
+    "hard rock": 120,
+    "metal": 150,
+    "motown": 100,
+    "r&b": 150,
+    "reggae": 150,
+    "soul": 150,
+    "old time radio": 120,
+    "otr": 60,
+    "comedy": 120,
+    "disco": 150,
+    "folk": 150,
+    "downtempo": 120,
+    "thrash metal": 90,
+    "speed metal": 40,
+    "punk": 60
   },
   "catalogNameFragments": [
     "Dark Matter Radio",
@@ -5310,7 +5388,15 @@
     "Beatles Radio",
     "The Beatles",
     "Fab Four",
-    "WPR"
+    "WPR",
+    "Megadeth",
+    "Metallica",
+    "Slayer",
+    "Anthrax",
+    "Iron Maiden",
+    "Pantera",
+    "Thrash Metal",
+    "Thrash"
   ],
   "catalogBrandNeedles": [
     "10 Radio 105.3 - Wiveliscombe",
@@ -6352,7 +6438,8 @@
     "hard rock": "⚡",
     "mexico": "🇲🇽",
     "soundtracks": "🎬",
-    "art bell": "👽"
+    "art bell": "👽",
+    "thrash metal": "🤘"
   },
   "webCategoryIcons": {
     "pop": "pop",
