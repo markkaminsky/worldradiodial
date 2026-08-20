@@ -177,7 +177,8 @@
   ],
   "stationCategoryRemappings": {
     "2000s": [
-      "* 2000s || 2000er"
+      "* 2000s || 2000er",
+      "iHeart2000s Radio"
     ],
     "70s": [
       "My70sRadio",
