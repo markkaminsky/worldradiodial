@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-21T09:56:08Z",
+  "updatedAt": "2026-08-21T10:53:09Z",
   "excludedWebCategories": [
     "information",
     "local",
@@ -6487,7 +6487,12 @@
     "podcast talk": "news",
     "college": "jazz",
     "paradise": "jazz",
-    "vibes": "pop"
+    "vibes": "pop",
+    "alt rock": "alt-rock",
+    "art bell": "art-bell",
+    "classic vinyl": "classic-vinyl",
+    "old joints": "old-joints",
+    "synthwave": "synthwave"
   },
   "countryExclusionExemptNames": [
     "Los 40 Principales México",
