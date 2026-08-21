@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-21T16:33:39Z",
+  "updatedAt": "2026-08-21T16:46:10Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -131,6 +131,7 @@
     "pop rock",
     "pop world",
     "progressive rock",
+    "public radio",
     "public service",
     "punk",
     "radio",
@@ -193,7 +194,6 @@
     "college",
     "classical",
     "soundtracks",
-    "public radio",
     "podcast talk",
     "art bell",
     "sports",
@@ -365,6 +365,8 @@
       "راديو عالبال"
     ],
     "podcast talk": [
+      "KPBS",
+      "NPR Illinois",
       "TED Talks Radio",
       "NPR World",
       "BBC World Service",
@@ -372,21 +374,6 @@
       "Intelligent Talk",
       "NPR 24 Hour Program Stream",
       "BBC Radio 4"
-    ],
-    "public radio": [
-      "NPR Illinois",
-      "WFUV 90.7 Fordham University - New York, NY",
-      "KCRW 88.9 FM - Live",
-      "KEXP 90.3 Seattle, WA",
-      "WNYC-FM 93.9 New York Public Radio",
-      "WORT 89.9",
-      "CBC Music",
-      "Radio Canada Ici Musique",
-      "CBC Radio 1",
-      "WUSF",
-      "KTEP",
-      "WFDD",
-      "WAER"
     ],
     "rap legends": [
       "Eminem",
@@ -5280,7 +5267,6 @@
     "pop": 300,
     "pop rock": 160,
     "power pop": 140,
-    "public radio": 180,
     "rock": 300,
     "sports": 120,
     "talk": 170,
@@ -6319,8 +6305,6 @@
     "talk": "💬",
     "2000s": "📀",
     "talk radio": "💬",
-    "public radio": "📻",
-    "npr": "📻",
     "information": "ℹ️",
     "local": "📍",
     "christian": "✝️",
@@ -6431,8 +6415,6 @@
     "talk": "talk",
     "talk radio": "talk",
     "2000s": "pop",
-    "public radio": "public-radio",
-    "npr": "public-radio",
     "information": "information",
     "local": "world",
     "christian": "christian",
