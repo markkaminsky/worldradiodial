@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-21T16:46:10Z",
+  "updatedAt": "2026-08-21T16:55:18Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -439,6 +439,15 @@
     ]
   },
   "blockedNames": [
+    "=Teenage Kicks Radio",
+    "=punk irratia",
+    "=Bob's Ska Radio",
+    "=Guerrilla Radio",
+    "SomaFM PopTron",
+    "=Indie X FM",
+    "SomaFM Indie Pop Rocks",
+    "=24-7 Reggae",
+    "=GotRadio Hip Hop Stop",
     "LOVE RADIO Only Love Songs",
     "=Radiostorm - At Work 104",
     "=Radiostorm.com: At Work",
