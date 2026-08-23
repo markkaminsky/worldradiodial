@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-23T00:00:00Z",
+  "updatedAt": "2026-08-23T03:00:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -236,7 +236,6 @@
     ],
     "alt rock": [
       "Indie X FM",
-      "SomaFM Indie Pop Rocks! (128k AAC)",
       "TMM 1",
       "D1 Alternative",
       "Big R Radio - Grunge FM",
@@ -267,7 +266,6 @@
       "WHRB",
       "WPRB",
       "Radio K - Real College Radio",
-      "Shady Pines Radio",
       "KPCR 101.9",
       "WNYU",
       "KALX",
@@ -284,7 +282,6 @@
     ],
     "electronic": [
       "Radio FG Techno",
-      "SomaFM Dub Step Beyond",
       "Sunshine Live - Drum N Bass",
       "Daft Punk"
     ],
@@ -298,7 +295,6 @@
     "metal": [
       "Rock Antenne - Heavy Metal",
       "80s Metal",
-      "SomaFM Metal Detector (128k AAC)",
       "Prog Rock and Metal",
       "Metallica",
       "J-Rock Powerplay",
@@ -399,8 +395,7 @@
       "Stax and Motown"
     ],
     "synthwave": [
-      "Synthwave Radio",
-      "SomaFM Vaporwaves (128k AAC)"
+      "Synthwave Radio"
     ],
     "top 40": [
       "Capital FM London",
@@ -1592,7 +1587,16 @@
     "=Sláger FM",
     "ByteFM",
     "=SWR4 BW",
-    "=CNN International Audio"
+    "=CNN International Audio",
+    "Fritz",
+    "Shady Pines",
+    "SWR4 BW",
+    "=WREP",
+    "Génération JUL",
+    "=Generation JUL",
+    "SomaFM",
+    "Soma FM",
+    "Experimental"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -1601,7 +1605,10 @@
     "BY",
     "MA",
     "TN",
-    "IN"
+    "IN",
+    "TR",
+    "AZ",
+    "UZ"
   ],
   "religiousTagKeys": [
     "religious",
@@ -5135,7 +5142,6 @@
       "Mason Dixon",
       "Virgin Radio Rock '80",
       "Virgin Radio Rock ’80",
-      "SomaFM Underground 80s",
       "Got Radio"
     ],
     "world sport": [
@@ -5193,9 +5199,7 @@
       "CFRB News/Talk 1010",
       "WBUR Boston"
     ],
-    "2000s": [
-      "SomaFM Indie Pop Rocks"
-    ],
+    "2000s": [],
     "latin": [
       "La 100",
       "La Mega",
@@ -5902,7 +5906,6 @@
     "Smooth FM 91.5 - Melbourne - 91.5 FM (AAC+ 320k)",
     "Smooth Radio London 102.2",
     "Solar Radio 256",
-    "SomaFM Metal Detector",
     "Soul 106.3",
     "Sports Radio 740",
     "Strange Radio - Pumpkin FM",
@@ -6276,7 +6279,6 @@
     "WBZ",
     "KNBR",
     "Radio Paradise",
-    "SomaFM",
     "Bloomberg Radio"
   ],
   "webCategoryEmojis": {
