@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-21T16:55:18Z",
+  "updatedAt": "2026-08-23T00:00:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -166,18 +166,21 @@
     "workout",
     "world music",
     "world news",
-    "yacht rock"
+    "yacht rock",
+    "house",
+    "folk",
+    "financial",
+    "power pop"
   ],
   "pinnedWebDialCategories": [
     "top 40",
-    "power pop",
+    "pop",
     "70s",
     "80s",
     "90s",
     "2000s",
     "dance",
     "electronic",
-    "house",
     "oasis",
     "alt rock",
     "rock",
@@ -199,9 +202,7 @@
     "sports",
     "world sport",
     "news",
-    "financial",
     "indie",
-    "folk",
     "old joints",
     "funk"
   ],
@@ -267,20 +268,25 @@
       "WPRB",
       "Radio K - Real College Radio",
       "Shady Pines Radio",
-      "KPCR 101.9"
+      "KPCR 101.9",
+      "WNYU",
+      "KALX",
+      "WMBR",
+      "KDVS",
+      "WREK",
+      "KVRX",
+      "WSOU",
+      "WRAS",
+      "WVUM",
+      "KCPR",
+      "WUOG",
+      "WXYC"
     ],
     "electronic": [
       "Radio FG Techno",
       "SomaFM Dub Step Beyond",
       "Sunshine Live - Drum N Bass",
       "Daft Punk"
-    ],
-    "financial": [
-      "Bloomberg",
-      "KFLP"
-    ],
-    "house": [
-      "Deeper Shades of House"
     ],
     "indie": [],
     "jazz": [
@@ -312,7 +318,9 @@
     "news": [
       "LBC UK",
       "CJAD 800",
-      "WFED"
+      "WFED",
+      "Bloomberg Radio Boston",
+      "Bloomberg AM New York"
     ],
     "oasis": [
       "Virgin Radio Rockstar: Oasis",
@@ -376,11 +384,7 @@
       "BBC Radio 4"
     ],
     "rap legends": [
-      "Eminem",
-      "Rap Classics",
-      "Super Throwback Party Radio",
-      "GotRadio Hip Hop Stop",
-      "Hot 108 JAMZ"
+      "Exclusively - Eminem"
     ],
     "reggae": [],
     "soundtracks": [
@@ -436,6 +440,13 @@
       "Jazz Radio Funk",
       "70s 80s Disco Funk",
       "Radio Motown"
+    ],
+    "pop": [
+      "SRF 3",
+      "Radio Swiss Pop",
+      "MNM",
+      "DR P3",
+      "Studio Brussel"
     ]
   },
   "blockedNames": [
@@ -1577,7 +1588,11 @@
     "=J1 GOLD",
     "=Ethio Oldies",
     "=70 80 90 Vibrazioni Rock Radio",
-    "=Groovy Radio - 60's and 70's Oldies"
+    "=Groovy Radio - 60's and 70's Oldies",
+    "=Sláger FM",
+    "ByteFM",
+    "=SWR4 BW",
+    "=CNN International Audio"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -5166,6 +5181,8 @@
       "BBC Radio 5 Live",
       "Fox News Radio",
       "CNN",
+      "Bloomberg Radio Boston",
+      "Bloomberg AM New York",
       "MSNBC",
       "WNYC-FM 93.9",
       "CBC Radio One - Toronto",
@@ -5232,6 +5249,16 @@
     ],
     "funk": [
       "Generation Funk"
+    ],
+    "rap legends": [
+      "Exclusively - Eminem"
+    ],
+    "pop": [
+      "SRF 3",
+      "Radio Swiss Pop",
+      "MNM",
+      "DR P3",
+      "Studio Brussel"
     ]
   },
   "perNationFetchLimits": {
@@ -5265,9 +5292,7 @@
     "easy listening": 120,
     "eclectic": 100,
     "electronic": 180,
-    "financial": 120,
     "gospel": 140,
-    "house": 150,
     "jazz": 200,
     "mediumwave": 220,
     "music": 300,
@@ -5275,7 +5300,6 @@
     "paranormal": 160,
     "pop": 300,
     "pop rock": 160,
-    "power pop": 140,
     "rock": 300,
     "sports": 120,
     "talk": 170,
@@ -5288,11 +5312,12 @@
     "motown": 100,
     "r&b": 150,
     "reggae": 150,
-    "folk": 150,
     "thrash metal": 90,
     "speed metal": 40,
     "soundtracks": 120,
-    "funk": 120
+    "funk": 120,
+    "college": 150,
+    "college radio": 120
   },
   "catalogNameFragments": [
     "Dark Matter Radio",
@@ -6211,7 +6236,12 @@
     "Zoomer Radio",
     "Zoomer Radio (CFZM AM 740 / 96.7 FM)",
     "Ö1 | ORF | HQ",
-    "ČRo Vltava"
+    "ČRo Vltava",
+    "SRF 3",
+    "Radio Swiss Pop",
+    "MNM",
+    "Exclusively - Eminem",
+    "DR P3"
   ],
   "perSlotStationCap": 5,
   "actionFetchSizes": {
@@ -6271,7 +6301,6 @@
     "country": "🤠",
     "americana": "🤠",
     "bluegrass": "🤠",
-    "folk": "🪕",
     "hip hop": "🎤",
     "hip-hop": "🎤",
     "hiphop": "🎤",
@@ -6293,7 +6322,6 @@
     "electronic": "🪩",
     "edm": "🪩",
     "dance": "🪩",
-    "house": "🪩",
     "techno": "🪩",
     "trance": "🪩",
     "club": "🪩",
@@ -6324,7 +6352,6 @@
     "sports": "🏟️",
     "world sport": "🌍",
     "business": "📈",
-    "financial": "📈",
     "finance": "📈",
     "comedy": "😂",
     "humor": "😂",
@@ -6352,7 +6379,8 @@
     "mexico": "🇲🇽",
     "soundtracks": "🎬",
     "art bell": "👽",
-    "thrash metal": "🤘"
+    "thrash metal": "🤘",
+    "rap legends": "🎤"
   },
   "webCategoryIcons": {
     "pop": "pop",
@@ -6376,7 +6404,6 @@
     "country": "country",
     "americana": "country",
     "bluegrass": "country",
-    "folk": "folk",
     "hip hop": "hiphop",
     "hip-hop": "hiphop",
     "hiphop": "hiphop",
@@ -6398,7 +6425,6 @@
     "electronic": "electronic",
     "edm": "electronic",
     "dance": "electronic",
-    "house": "electronic",
     "techno": "electronic",
     "trance": "electronic",
     "club": "electronic",
@@ -6434,7 +6460,6 @@
     "sports": "sports",
     "world sport": "sports",
     "business": "financial",
-    "financial": "financial",
     "finance": "financial",
     "comedy": "comedy",
     "humor": "comedy",
@@ -6458,7 +6483,8 @@
     "alt rock": "alt-rock",
     "art bell": "art-bell",
     "old joints": "old-joints",
-    "synthwave": "synthwave"
+    "synthwave": "synthwave",
+    "rap legends": "hiphop"
   },
   "countryExclusionExemptNames": [
     "Los 40 Principales México",
