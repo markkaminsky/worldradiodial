@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-23T14:00:00Z",
+  "updatedAt": "2026-08-23T15:30:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -1638,13 +1638,19 @@
     "Folk Music Notebook",
     "Gundi FM",
     "Smooth Groove Radio",
-    "=.977 Smooth Jazz",
     "SMOOTH JAZZ 24/7",
     "=NonStop Oldies",
     "102,3 The Groove",
     "102.3 The Groove",
     "=Radio X",
-    "Old School Hip Hop - Urbanradio"
+    "Radio Eska Kraków",
+    "=Radio Eska Krakow",
+    "Hip Hop and RNB FM",
+    ".977",
+    "2000 FM - ",
+    "=Slow Jams Radio",
+    "Urban Radio - ",
+    "Urbanradio"
   ],
   "excludedCountryCodes": [
     "RU",
