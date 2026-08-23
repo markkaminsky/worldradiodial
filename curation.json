@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-23T22:00:00Z",
+  "updatedAt": "2026-08-23T23:30:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -267,6 +267,7 @@
       "WHRB",
       "WPRB",
       "Radio K - Real College Radio",
+      "Shady Pines Radio",
       "KPCR 101.9",
       "WNYU",
       "WMBR",
@@ -1599,7 +1600,6 @@
     "=SWR4 BW",
     "=CNN International Audio",
     "Fritz",
-    "Shady Pines",
     "SWR4 BW",
     "=WREP",
     "Génération JUL",
@@ -1619,7 +1619,6 @@
     "Costa del Mar",
     "Oxygen ",
     "Classic Hits 109",
-    "KMHD2 Adaptive",
     "DJFM.ca",
     "CINZ NET Radio",
     "EuroDance 90 radio",
@@ -1667,7 +1666,10 @@
     "=Los 40 Principales Espana",
     "Hit Radio FFH",
     "All Blues Radio",
-    "WALM"
+    "WALM",
+    "Classically Christian",
+    "8 Ball Radio",
+    "Adaptive"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -6343,7 +6345,8 @@
     "Greatest Hits Motown",
     "SOUL RADIO Classics",
     "Radio Swiss Jazz",
-    "Synthwave Radio"
+    "Synthwave Radio",
+    "Shady Pines Radio"
   ],
   "perSlotStationCap": 5,
   "actionFetchSizes": {
