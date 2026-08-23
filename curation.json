@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-23T15:30:00Z",
+  "updatedAt": "2026-08-23T17:00:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -293,7 +293,7 @@
       "Jazz Radio Blues"
     ],
     "metal": [
-      "Rock Antenne - Heavy Metal",
+      "metal rock radio",
       "80s Metal",
       "Prog Rock and Metal",
       "Metallica",
@@ -1650,7 +1650,10 @@
     "2000 FM - ",
     "=Slow Jams Radio",
     "Urban Radio - ",
-    "Urbanradio"
+    "Urbanradio",
+    "Hot 108 JAMZ",
+    "Rock Antenne",
+    "Rockantenne"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -5227,9 +5230,9 @@
       "Virgin Radio Rockstar: Guns N' Roses"
     ],
     "metal": [
+      "metal rock radio",
       "100.7 WMMS - Cleveland",
-      "BBC Radio 6 Music",
-      "Rock Antenne - Heavy Metal"
+      "BBC Radio 6 Music"
     ],
     "electronic": [
       "Digitally Imported - Hard Electronic",
