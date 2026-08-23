@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-23T19:30:00Z",
+  "updatedAt": "2026-08-23T20:30:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -1660,7 +1660,9 @@
     "Scifi",
     "SciFi.radio",
     "Cleveland Browns Radio",
-    "NEPA's ESPN"
+    "NEPA's ESPN",
+    "100hitz",
+    "=Top Hits"
   ],
   "excludedCountryCodes": [
     "RU",
