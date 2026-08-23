@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-23T19:00:00Z",
+  "updatedAt": "2026-08-23T19:30:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -5346,6 +5346,9 @@
       "SOUL RADIO Classics",
       "Motown Radio",
       "Greatest Hits Motown"
+    ],
+    "synthwave": [
+      "Synthwave Radio"
     ]
   },
   "perNationFetchLimits": {
@@ -6332,7 +6335,8 @@
     "Radio Paradise",
     "Greatest Hits Motown",
     "SOUL RADIO Classics",
-    "Radio Swiss Jazz"
+    "Radio Swiss Jazz",
+    "Synthwave Radio"
   ],
   "perSlotStationCap": 5,
   "actionFetchSizes": {
