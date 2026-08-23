@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-23T17:00:00Z",
+  "updatedAt": "2026-08-23T19:00:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -1653,7 +1653,14 @@
     "Urbanradio",
     "Hot 108 JAMZ",
     "Rock Antenne",
-    "Rockantenne"
+    "Rockantenne",
+    "Megarock",
+    "CleansingMusic",
+    "Cleansing Media",
+    "Scifi",
+    "SciFi.radio",
+    "Cleveland Browns Radio",
+    "NEPA's ESPN"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -5884,7 +5891,6 @@
     "LuxuriaMusic",
     "LYL Radio",
     "Marketplace",
-    "Megarock Radio",
     "metal rock radio",
     "Metallica",
     "Michael Jackson",
