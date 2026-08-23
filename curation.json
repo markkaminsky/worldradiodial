@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-23T04:00:00Z",
+  "updatedAt": "2026-08-23T10:15:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -169,7 +169,6 @@
     "yacht rock",
     "house",
     "folk",
-    "financial",
     "power pop"
   ],
   "pinnedWebDialCategories": [
@@ -180,6 +179,7 @@
     "90s",
     "2000s",
     "dance",
+    "drum and bass",
     "electronic",
     "oasis",
     "alt rock",
@@ -202,6 +202,7 @@
     "sports",
     "world sport",
     "news",
+    "financial",
     "indie",
     "old joints",
     "funk"
@@ -312,9 +313,7 @@
     "news": [
       "LBC UK",
       "CJAD 800",
-      "WFED",
-      "Bloomberg Radio Boston",
-      "Bloomberg AM New York"
+      "WFED"
     ],
     "oasis": [
       "Virgin Radio Rockstar: Oasis",
@@ -416,6 +415,7 @@
       "Sport Nation"
     ],
     "dance": [
+      "FUN Radio",
       "Eurodance",
       "Euro Dance",
       "CHARTS <3 EINFACH"
@@ -431,7 +431,6 @@
     "funk": [
       "Generation Funk",
       "Jazz Radio Funk",
-      "70s 80s Disco Funk",
       "Radio Motown"
     ],
     "pop": [
@@ -439,6 +438,13 @@
       "Radio Swiss Pop",
       "MNM",
       "DR P3"
+    ],
+    "drum and bass": [
+      "Bassdrive",
+      "fsr::"
+    ],
+    "financial": [
+      "Bloomberg"
     ]
   },
   "blockedNames": [
@@ -1593,7 +1599,38 @@
     "=Generation JUL",
     "SomaFM",
     "Soma FM",
-    "Experimental"
+    "Experimental",
+    "=Heart 70s",
+    "1000 HITS 80s",
+    "70s 80s Disco Funk",
+    "Deeper Shades",
+    "the Suburbs Radio",
+    "CHIRP Radio",
+    "Punnch",
+    "RNE Radio 3",
+    "SMOOTH JAZZ DELUXE",
+    "Costa del Mar",
+    "Oxygen ",
+    "Classic Hits 109",
+    "KMHD2 Adaptive",
+    "DJFM.ca",
+    "CINZ NET Radio",
+    "EuroDance 90 radio",
+    "=Eurodance 90",
+    "lumiRadio",
+    "Uturn Radio",
+    "DnB&EDM",
+    "I Hate Free Speech",
+    "Concertzender",
+    "aporee",
+    "Soundart Radio",
+    "Radio Nunc",
+    "Radio is a Foreign Country",
+    "Noise Radio",
+    "Field Recordings",
+    "Folk Music Notebook",
+    "Gundi FM",
+    "Smooth Groove Radio"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -5135,7 +5172,6 @@
   ],
   "featuredByTag": {
     "80s": [
-      "Oxygen The 80s Hits",
       "Mason Dixon",
       "Virgin Radio Rock '80",
       "Virgin Radio Rock ’80",
@@ -5184,8 +5220,6 @@
       "BBC Radio 5 Live",
       "Fox News Radio",
       "CNN",
-      "Bloomberg Radio Boston",
-      "Bloomberg AM New York",
       "MSNBC",
       "WNYC-FM 93.9",
       "CBC Radio One - Toronto",
@@ -5244,7 +5278,6 @@
       "CLASSIC HITS RADIO"
     ],
     "70s": [
-      "Classic Hits 109",
       "RdMix Classic Rock",
       "OLDIE ANTENNE"
     ],
@@ -5259,6 +5292,17 @@
       "Radio Swiss Pop",
       "MNM",
       "DR P3"
+    ],
+    "drum and bass": [
+      "Bassdrive",
+      "fsr::"
+    ],
+    "dance": [
+      "FUN Radio"
+    ],
+    "financial": [
+      "Bloomberg Radio Boston",
+      "Bloomberg AM New York"
     ]
   },
   "perNationFetchLimits": {
@@ -5317,7 +5361,9 @@
     "soundtracks": 120,
     "funk": 120,
     "college": 150,
-    "college radio": 120
+    "college radio": 120,
+    "drum and bass": 120,
+    "financial": 120
   },
   "catalogNameFragments": [
     "Dark Matter Radio",
@@ -5478,7 +5524,6 @@
     "Chillhop",
     "Chillsky",
     "CHIQ-FM",
-    "CHIRP Radio",
     "CHKS-FM",
     "CHML",
     "CHOK",
@@ -5546,8 +5591,6 @@
     "Classic Radio Network",
     "CNA 938 Singapore",
     "CNN Radio",
-    "Concertzender",
-    "Concertzender Baroque",
     "Concierto FM",
     "Cool 106.3",
     "CORE Radio!",
@@ -6240,7 +6283,9 @@
     "Radio Swiss Pop",
     "MNM",
     "Exclusively - Eminem",
-    "DR P3"
+    "DR P3",
+    "Bassdrive",
+    "fullspectrumradio"
   ],
   "perSlotStationCap": 5,
   "actionFetchSizes": {
@@ -6258,7 +6303,7 @@
   "coldStartPool": [
     {
       "band": "web",
-      "freq": 1
+      "freq": 10
     }
   ],
   "defaultFavoriteNames": [
@@ -6323,7 +6368,7 @@
     "techno": "🪩",
     "trance": "🪩",
     "club": "🪩",
-    "drum and bass": "🪩",
+    "drum and bass": "🥁",
     "dnb": "🪩",
     "ambient": "🌌",
     "chillout": "🌌",
@@ -6378,7 +6423,8 @@
     "soundtracks": "🎬",
     "art bell": "👽",
     "thrash metal": "🤘",
-    "rap legends": "🎤"
+    "rap legends": "🎤",
+    "financial": "📈"
   },
   "webCategoryIcons": {
     "pop": "pop",
@@ -6482,7 +6528,8 @@
     "art bell": "art-bell",
     "old joints": "old-joints",
     "synthwave": "synthwave",
-    "rap legends": "hiphop"
+    "rap legends": "hiphop",
+    "financial": "financial"
   },
   "countryExclusionExemptNames": [
     "Los 40 Principales México",
