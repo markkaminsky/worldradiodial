@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-23T03:00:00Z",
+  "updatedAt": "2026-08-23T04:00:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -235,7 +235,6 @@
       "MaximusRockFM"
     ],
     "alt rock": [
-      "Indie X FM",
       "TMM 1",
       "D1 Alternative",
       "Big R Radio - Grunge FM",
@@ -268,7 +267,6 @@
       "Radio K - Real College Radio",
       "KPCR 101.9",
       "WNYU",
-      "KALX",
       "WMBR",
       "KDVS",
       "WREK",
@@ -440,8 +438,7 @@
       "SRF 3",
       "Radio Swiss Pop",
       "MNM",
-      "DR P3",
-      "Studio Brussel"
+      "DR P3"
     ]
   },
   "blockedNames": [
@@ -5261,8 +5258,7 @@
       "SRF 3",
       "Radio Swiss Pop",
       "MNM",
-      "DR P3",
-      "Studio Brussel"
+      "DR P3"
     ]
   },
   "perNationFetchLimits": {
@@ -6499,7 +6495,8 @@
     "classichitsradio.streamingmedia.it",
     "zeno.fm",
     "echoesofbluemars.org",
-    "classicfm.dk"
+    "classicfm.dk",
+    "somafm.com"
   ],
   "adHeavyStreamHosts": [
     "ihrhls",
