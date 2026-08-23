@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-23T10:15:00Z",
+  "updatedAt": "2026-08-23T14:00:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -199,6 +199,7 @@
     "soundtracks",
     "podcast talk",
     "art bell",
+    "after hours",
     "sports",
     "world sport",
     "news",
@@ -286,7 +287,7 @@
     ],
     "indie": [],
     "jazz": [
-      "Smooth Jazz 247",
+      "Adroit Jazz Underground",
       "Jazz Radio Classic Jazz",
       "Suite Jazz Radio",
       "Jazz Radio Blues"
@@ -307,8 +308,9 @@
       "Thrash"
     ],
     "motown": [
+      "SOUL RADIO Classics",
       "Motown Radio",
-      "SOUL RADIO Classics"
+      "Greatest Hits Motown"
     ],
     "news": [
       "LBC UK",
@@ -445,6 +447,11 @@
     ],
     "financial": [
       "Bloomberg"
+    ],
+    "after hours": [
+      "LuxuriaMusic",
+      "FIP (no pub)",
+      "Radio Swiss Jazz"
     ]
   },
   "blockedNames": [
@@ -1630,7 +1637,14 @@
     "Field Recordings",
     "Folk Music Notebook",
     "Gundi FM",
-    "Smooth Groove Radio"
+    "Smooth Groove Radio",
+    "=.977 Smooth Jazz",
+    "SMOOTH JAZZ 24/7",
+    "=NonStop Oldies",
+    "102,3 The Groove",
+    "102.3 The Groove",
+    "=Radio X",
+    "Old School Hip Hop - Urbanradio"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -5303,6 +5317,19 @@
     "financial": [
       "Bloomberg Radio Boston",
       "Bloomberg AM New York"
+    ],
+    "after hours": [
+      "LuxuriaMusic",
+      "FIP (no pub)",
+      "Radio Swiss Jazz"
+    ],
+    "jazz": [
+      "Adroit Jazz Underground"
+    ],
+    "motown": [
+      "SOUL RADIO Classics",
+      "Motown Radio",
+      "Greatest Hits Motown"
     ]
   },
   "perNationFetchLimits": {
@@ -6285,7 +6312,12 @@
     "Exclusively - Eminem",
     "DR P3",
     "Bassdrive",
-    "fullspectrumradio"
+    "fullspectrumradio",
+    "FIP",
+    "Radio Paradise",
+    "Greatest Hits Motown",
+    "SOUL RADIO Classics",
+    "Radio Swiss Jazz"
   ],
   "perSlotStationCap": 5,
   "actionFetchSizes": {
@@ -6424,7 +6456,8 @@
     "art bell": "👽",
     "thrash metal": "🤘",
     "rap legends": "🎤",
-    "financial": "📈"
+    "financial": "📈",
+    "after hours": "🍸"
   },
   "webCategoryIcons": {
     "pop": "pop",
