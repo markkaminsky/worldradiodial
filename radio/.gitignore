@@ -1,4 +1,6 @@
-# Rendered broadcast audio — 57 MB, rebuilt by build_hour.py, published as a release asset.
+# Rendered broadcast audio and the decoded segment cache — large, regenerable.
 gamma-hour.m4a
 _hour.wav
 _t.wav
+_probe.wav
+pool/
