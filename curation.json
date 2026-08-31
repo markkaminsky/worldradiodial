@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-23T23:30:00Z",
+  "updatedAt": "2026-08-31T09:30:00Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -212,7 +212,9 @@
     "2000s": [
       "iHeart2000s Radio",
       "Decada FM 100.1",
-      "Retro Rádio"
+      "Tipik à l'ancienne (RTBF)",
+      "Radio 31 2000s",
+      "1A 2000er Hits"
     ],
     "70s": [
       "My70sRadio",
@@ -225,16 +227,19 @@
       "Exclusively Prince",
       "Prince Hits",
       "24/7 MJ Radio",
-      "Jack FM - Berlin"
+      "Jack FM - Berlin",
+      "Exclusively Depeche Mode",
+      "Totally 80s Radio",
+      "Absolute Radio 80s"
     ],
     "90s": [
-      "Virgin Radio Rock '90",
       "Nirvana",
       "Pearl Jam",
       "Soundgarden",
       "Big R Radio - Grunge FM",
       "Best Of Rock.FM Alternative Rock",
-      "MaximusRockFM"
+      "MaximusRockFM",
+      "Exclusively Nirvana"
     ],
     "alt rock": [
       "TMM 1",
@@ -244,7 +249,12 @@
       "Nirvana",
       "Soundgarden",
       "Pearl Jam",
-      "MaximusRockFM"
+      "MaximusRockFM",
+      "Exclusively - The Smiths",
+      "Exclusively - New Order",
+      "Exclusively The Cure",
+      "Exclusively Green Day",
+      "Exclusively Foo Fighters"
     ],
     "art bell": [
       "Art Bell",
@@ -254,7 +264,8 @@
     ],
     "beatles": [
       "Exclusively The Beatles",
-      "Beatles Radio"
+      "Beatles Radio",
+      "R.SA Beatles Radio"
     ],
     "blues": [
       "Radio BluesFlac",
@@ -279,14 +290,35 @@
       "WVUM",
       "KCPR",
       "WUOG",
-      "WXYC"
+      "WXYC",
+      "Worldwide FM",
+      "Resonance FM 104.4 - London",
+      "Kiosk Radio",
+      "KFJC",
+      "East Village Radio",
+      "Music | Montez Press Radio",
+      "CKUA Radio Network",
+      "Oroko Radio",
+      "Tilos Rádió",
+      "Isla Negra Slowbeat",
+      "Radio Free Brooklyn",
+      "Halfmoon Brooklyn",
+      "Radio grenouille",
+      "Le Mellotron"
     ],
     "electronic": [
       "Radio FG Techno",
       "Sunshine Live - Drum N Bass",
-      "Daft Punk"
+      "Daft Punk",
+      "Rinse UK",
+      "Sub FM",
+      "LYL Radio"
     ],
-    "indie": [],
+    "indie": [
+      "dublab",
+      "Birch Street Radio",
+      "CBC Music Eastern (formerly CBC Radio 2 Toronto)"
+    ],
     "jazz": [
       "Adroit Jazz Underground",
       "Jazz Radio Classic Jazz",
@@ -306,21 +338,28 @@
       "Sepultura",
       "Testament",
       "Exclusively Metallica",
-      "Thrash"
+      "Thrash",
+      "Megadeth"
     ],
     "motown": [
       "SOUL RADIO Classics",
       "Motown Radio",
-      "Greatest Hits Motown"
+      "Greatest Hits Motown",
+      "24-7 Motown"
     ],
     "news": [
       "LBC UK",
       "CJAD 800",
-      "WFED"
+      "WFED",
+      "Al Jazeera - English",
+      "Deutsche Welle Radio",
+      "CBC Radio 1 Toronto"
     ],
     "oasis": [
       "Virgin Radio Rockstar: Oasis",
-      "Radio X"
+      "Radio X",
+      "Exclusively - Oasis Hits",
+      "Exclusively - Blur"
     ],
     "other": [
       "AkroRadio",
@@ -380,27 +419,40 @@
       "BBC Radio 4"
     ],
     "rap legends": [
-      "Exclusively - Eminem"
+      "Exclusively - Eminem",
+      "Exclusively 2Pac",
+      "Exclusively Beastie Boys",
+      "FluxFM - BoomFM Classics",
+      "Exclusively 50 Cent"
     ],
     "reggae": [],
     "soundtracks": [
-      "Classic FM at the Movies",
-      "StreamingSoundtracks.com Hi"
+      "StreamingSoundtracks.com Hi",
+      "1.FM - Movie Soundtrack",
+      "Klassik Radio Movie",
+      "laut.fm Gta Classics",
+      "Radio Mirror Park"
     ],
     "sports": [
       "WJOX",
       "WFAN"
     ],
     "stax motown soul": [
-      "Stax and Motown"
+      "Stax and Motown",
+      "Jazz Radio Stax and Motown",
+      "Station X - Northern Soul"
     ],
     "synthwave": [
-      "Synthwave Radio"
+      "Synthwave Radio",
+      "Synthwave City FM - New",
+      "Synthwave Neon City laut.fm",
+      "Night Drive Radio – Synthwave & Retrowave"
     ],
     "top 40": [
       "Capital FM London",
-      "Virgin Radio UK",
-      "SWR 3"
+      "SWR 3",
+      "NRK MP3",
+      "YleX"
     ],
     "world sport": [
       "Radio Marca Madrid",
@@ -428,23 +480,38 @@
       "YourClassical"
     ],
     "old joints": [
-      "Old School Hip Hop - Urbanradio.com",
-      "Klassic Joints"
+      "Klassic Joints",
+      "WWWQ-HD3 \"OG 979\" Atlanta, GA",
+      "TRAP RADIO TRAP.radio",
+      "as.if.radio",
+      "All Underground Hip Hop Radio",
+      "Super Throwback Party Radio",
+      "bigFM US Rap"
     ],
     "funk": [
       "Generation Funk",
       "Jazz Radio Funk",
-      "Radio Motown"
+      "Radio Motown",
+      "FIP Groove",
+      "Poolside | NTS"
     ],
     "pop": [
-      "SRF 3",
-      "Radio Swiss Pop",
-      "MNM",
-      "DR P3"
+      "Radio 357",
+      "NPO 3FM",
+      "NRK P3",
+      "FIP Pop",
+      "Exclusively Madonna",
+      "Exclusively The Beach Boys",
+      "Exclusively Beyonce",
+      "Exclusively Shania Twain",
+      "Exclusively George Michael",
+      "Exclusively Lana Del Rey",
+      "Exclusively Justin Bieber"
     ],
     "drum and bass": [
       "Bassdrive",
-      "fsr::"
+      "fsr::",
+      "Dutch Delite Drum and Bass"
     ],
     "financial": [
       "Bloomberg"
@@ -453,6 +520,20 @@
       "LuxuriaMusic",
       "FIP (no pub)",
       "Radio Swiss Jazz"
+    ],
+    "rock": [
+      "Radio Caroline",
+      "PLANET ROCK: Where Rock Lives",
+      "Exclusively Guns N’ Roses",
+      "Radio Shadow Deep Tracks",
+      "Exclusively Stone Temple Pilots",
+      "Exclusively Led Zeppelin",
+      "Exclusively Eric Clapton",
+      "Exclusively U2",
+      "OUI FM WOODSTOCK"
+    ],
+    "radio free phoenix": [
+      "Radio Free Phoenix"
     ]
   },
   "blockedNames": [
@@ -1669,7 +1750,32 @@
     "WALM",
     "Classically Christian",
     "8 Ball Radio",
-    "Adaptive"
+    "Adaptive",
+    "=CNN",
+    "BBC Radio 5 Live",
+    "=Smells Like the 90s",
+    "=iHeart2000s Radio",
+    "WJBO Newsradio 1150 AM & 97.7 FM",
+    "News Radio 1000 KTOK",
+    "1110 KFAB",
+    "NewsRadio 840 WHAS",
+    "News Radio 920 WHJJ",
+    "WBZ News Radio 1030",
+    "News/Talk 1130 WISN",
+    "WHP 580",
+    "WFLA 970 AM Tampa Bay, FL",
+    "99.9 KGOR",
+    "=Radio Caroline 259 Gold",
+    "=Radio Caroline Flashback",
+    "WIGN - 1550 AM Bluegrass Gospel",
+    "CKNW 980 New Westminster, BC",
+    "Prambors FM Jakarta 102.2",
+    "La Mega Costa Del Sol",
+    "CFPL-FM 95.9 \"FM96\" London, ON",
+    "Antenne Bayern Top 100ü",
+    "=Exclusively Led Zeppelin - Only Hits",
+    "=Exclusively U2 - HITS",
+    "=CBC Radio One - Toronto, ON (MP3 stream)"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -5212,9 +5318,10 @@
   "featuredByTag": {
     "80s": [
       "Mason Dixon",
-      "Virgin Radio Rock '80",
-      "Virgin Radio Rock ’80",
-      "Got Radio"
+      "Got Radio",
+      "Exclusively Depeche Mode",
+      "Totally 80s Radio",
+      "Absolute Radio 80s"
     ],
     "world sport": [
       "Radio Marca Madrid",
@@ -5227,13 +5334,11 @@
       "talkSPORT"
     ],
     "90s": [
-      "90s90s Grunge",
       "Nirvana",
       "Soundgarden",
-      "Virgin Radio Rock '90",
-      "Virgin Radio Rock ’90",
       "Big R Radio - Grunge FM",
-      "Pearl Jam"
+      "Pearl Jam",
+      "Exclusively Nirvana"
     ],
     "classic rock": [
       "Q104.3",
@@ -5243,25 +5348,37 @@
     ],
     "rock": [
       "Big R Radio - Grunge FM",
-      "Virgin Radio Rockstar: Guns N' Roses"
+      "Radio Caroline",
+      "PLANET ROCK: Where Rock Lives",
+      "Exclusively Guns N’ Roses",
+      "Radio Shadow Deep Tracks",
+      "Exclusively Stone Temple Pilots",
+      "Exclusively Led Zeppelin",
+      "Exclusively Eric Clapton",
+      "Exclusively U2",
+      "OUI FM WOODSTOCK"
     ],
     "metal": [
       "metal rock radio",
       "100.7 WMMS - Cleveland",
-      "BBC Radio 6 Music"
+      "BBC Radio 6 Music",
+      "Megadeth"
     ],
     "electronic": [
       "Digitally Imported - Hard Electronic",
-      "KEXP 90.3 FM Seattle"
+      "KEXP 90.3 FM Seattle",
+      "Rinse UK",
+      "Sub FM",
+      "LYL Radio"
     ],
     "news": [
+      "Al Jazeera - English",
+      "Deutsche Welle Radio",
+      "CBC Radio 1 Toronto",
       "NPR Newscast",
-      "BBC Radio 5 Live",
       "Fox News Radio",
-      "CNN",
       "MSNBC",
       "WNYC-FM 93.9",
-      "CBC Radio One - Toronto",
       "LBC London"
     ],
     "talk": [
@@ -5269,7 +5386,11 @@
       "CFRB News/Talk 1010",
       "WBUR Boston"
     ],
-    "2000s": [],
+    "2000s": [
+      "Tipik à l'ancienne (RTBF)",
+      "Radio 31 2000s",
+      "1A 2000er Hits"
+    ],
     "latin": [
       "La 100",
       "La Mega",
@@ -5293,7 +5414,9 @@
     ],
     "oasis": [
       "Oasis Radio",
-      "90s Britpop Station"
+      "90s Britpop Station",
+      "Exclusively - Oasis Hits",
+      "Exclusively - Blur"
     ],
     "michael jackson": [
       "The King of Pop"
@@ -5308,7 +5431,21 @@
     ],
     "college": [
       "KEXP Seattle",
-      "WFUV New York"
+      "WFUV New York",
+      "Worldwide FM",
+      "Resonance FM 104.4 - London",
+      "Kiosk Radio",
+      "KFJC",
+      "East Village Radio",
+      "Music | Montez Press Radio",
+      "CKUA Radio Network",
+      "Oroko Radio",
+      "Tilos Rádió",
+      "Isla Negra Slowbeat",
+      "Radio Free Brooklyn",
+      "Halfmoon Brooklyn",
+      "Radio grenouille",
+      "Le Mellotron"
     ],
     "sports": [
       "TalkSPORT"
@@ -5321,20 +5458,34 @@
       "OLDIE ANTENNE"
     ],
     "funk": [
-      "Generation Funk"
+      "Generation Funk",
+      "FIP Groove",
+      "Poolside | NTS"
     ],
     "rap legends": [
-      "Exclusively - Eminem"
+      "Exclusively - Eminem",
+      "Exclusively 2Pac",
+      "Exclusively Beastie Boys",
+      "FluxFM - BoomFM Classics",
+      "Exclusively 50 Cent"
     ],
     "pop": [
-      "SRF 3",
-      "Radio Swiss Pop",
-      "MNM",
-      "DR P3"
+      "Radio 357",
+      "NPO 3FM",
+      "NRK P3",
+      "FIP Pop",
+      "Exclusively Madonna",
+      "Exclusively The Beach Boys",
+      "Exclusively Beyonce",
+      "Exclusively Shania Twain",
+      "Exclusively George Michael",
+      "Exclusively Lana Del Rey",
+      "Exclusively Justin Bieber"
     ],
     "drum and bass": [
       "Bassdrive",
-      "fsr::"
+      "fsr::",
+      "Dutch Delite Drum and Bass"
     ],
     "dance": [
       "FUN Radio"
@@ -5354,10 +5505,54 @@
     "motown": [
       "SOUL RADIO Classics",
       "Motown Radio",
-      "Greatest Hits Motown"
+      "Greatest Hits Motown",
+      "24-7 Motown"
     ],
     "synthwave": [
-      "Synthwave Radio"
+      "Synthwave Radio",
+      "Synthwave City FM - New",
+      "Synthwave Neon City laut.fm",
+      "Night Drive Radio – Synthwave & Retrowave"
+    ],
+    "alt rock": [
+      "Exclusively - The Smiths",
+      "Exclusively - New Order",
+      "Exclusively The Cure",
+      "Exclusively Green Day",
+      "Exclusively Foo Fighters"
+    ],
+    "indie": [
+      "dublab",
+      "CBC Music Eastern (formerly CBC Radio 2 Toronto)"
+    ],
+    "soundtracks": [
+      "1.FM - Movie Soundtrack",
+      "Klassik Radio Movie",
+      "StreamingSoundtracks.com Hi",
+      "laut.fm Gta Classics",
+      "Radio Mirror Park"
+    ],
+    "stax motown soul": [
+      "Jazz Radio Stax and Motown",
+      "Station X - Northern Soul"
+    ],
+    "radio free phoenix": [
+      "Radio Free Phoenix"
+    ],
+    "beatles": [
+      "R.SA Beatles Radio"
+    ],
+    "old joints": [
+      "WWWQ-HD3 \"OG 979\" Atlanta, GA",
+      "TRAP RADIO TRAP.radio",
+      "as.if.radio",
+      "All Underground Hip Hop Radio",
+      "Super Throwback Party Radio",
+      "bigFM US Rap"
+    ],
+    "top 40": [
+      "NRK MP3",
+      "YleX"
     ]
   },
   "perNationFetchLimits": {
@@ -6346,7 +6541,88 @@
     "SOUL RADIO Classics",
     "Radio Swiss Jazz",
     "Synthwave Radio",
-    "Shady Pines Radio"
+    "Shady Pines Radio",
+    "Radio 357",
+    "NPO 3FM",
+    "NRK P3",
+    "FIP Pop",
+    "Exclusively 2Pac",
+    "Exclusively Beastie Boys",
+    "FluxFM - BoomFM Classics",
+    "Tipik à l'ancienne (RTBF)",
+    "Radio 31 2000s",
+    "1A 2000er Hits",
+    "Al Jazeera - English",
+    "Deutsche Welle Radio",
+    "Exclusively Depeche Mode",
+    "Exclusively - The Smiths",
+    "Exclusively - New Order",
+    "Exclusively The Cure",
+    "dublab",
+    "FIP Groove",
+    "Poolside | NTS",
+    "PLANET ROCK: Where Rock Lives",
+    "1.FM - Movie Soundtrack",
+    "Klassik Radio Movie",
+    "StreamingSoundtracks.com Hi",
+    "Exclusively - Oasis Hits",
+    "R.SA Beatles Radio",
+    "Dutch Delite Drum and Bass",
+    "Exclusively - Blur",
+    "24-7 Motown",
+    "Station X - Northern Soul",
+    "Totally 80s Radio",
+    "Absolute Radio 80s",
+    "Exclusively Guns N’ Roses",
+    "Radio Shadow Deep Tracks",
+    "Exclusively Stone Temple Pilots",
+    "Rinse UK",
+    "Sub FM",
+    "Exclusively Madonna",
+    "The Word WPEO 1020 AM",
+    "WMET 1160 AM",
+    "KLNG 1560 AM",
+    "WIGO AM 1570",
+    "WWWQ-HD3 \"OG 979\" Atlanta, GA",
+    "TRAP RADIO TRAP.radio",
+    "East Village Radio",
+    "Music | Montez Press Radio",
+    "laut.fm Gta Classics",
+    "Radio Mirror Park",
+    "Exclusively Nirvana",
+    "KZSU 90.1 FM Stanford University",
+    "WUSB 90.1 State University of New York at Stony Brook, NY",
+    "WDET 101.9 FM Detroit Public Radio",
+    "as.if.radio",
+    "All Underground Hip Hop Radio",
+    "Super Throwback Party Radio",
+    "Exclusively Led Zeppelin",
+    "Exclusively Eric Clapton",
+    "Exclusively The Beach Boys",
+    "Exclusively Beyonce",
+    "Exclusively Shania Twain",
+    "Exclusively U2",
+    "OUI FM WOODSTOCK",
+    "Exclusively George Michael",
+    "Exclusively Lana Del Rey",
+    "Exclusively Green Day",
+    "Exclusively Foo Fighters",
+    "Synthwave City FM - New",
+    "Synthwave Neon City laut.fm",
+    "Night Drive Radio – Synthwave & Retrowave",
+    "CBC Music Eastern (formerly CBC Radio 2 Toronto)",
+    "Oroko Radio",
+    "Tilos Rádió",
+    "Isla Negra Slowbeat",
+    "Exclusively 50 Cent",
+    "Megadeth",
+    "Halfmoon Brooklyn",
+    "Exclusively Justin Bieber",
+    "Radio grenouille",
+    "Le Mellotron",
+    "NRK MP3",
+    "YleX",
+    "bigFM US Rap"
   ],
   "perSlotStationCap": 5,
   "actionFetchSizes": {
@@ -6605,13 +6881,15 @@
     "zeno.fm",
     "echoesofbluemars.org",
     "classicfm.dk",
-    "somafm.com"
+    "somafm.com",
+    "kissfmradio.cires21.com"
   ],
   "adHeavyStreamHosts": [
     "ihrhls",
     "revma",
     "adhandler",
     "adswizz",
-    "adserver"
+    "adserver",
+    "live365"
   ]
 }
