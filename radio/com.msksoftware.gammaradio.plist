@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.msksoftware.gammaradio</string>
+
+  <!-- Rebuild and republish Gamma One's hour once a day. Daily rather than hourly
+       on purpose: replacing an hour-long file while somebody is seeked into it can
+       stall or jump their playback, and at 04:10 nobody is mid-listen. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>$HOME/Documents/worldradiodial-curation/radio/publish.sh</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>4</integer>
+    <key>Minute</key><integer>10</integer>
+  </dict>
+
+  <!-- If the Mac was asleep at 04:10, run once on wake rather than skipping the day. -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/gamma-radio.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/gamma-radio.err</string>
+</dict>
+</plist>
