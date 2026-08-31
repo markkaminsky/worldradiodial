@@ -119,19 +119,31 @@ def cmd_list(args):
 
 # ————————————————————————————— director —————————————————————————————
 
-def choose(pool_by_type, kind, now, cooldown_secs, need_max=None):
-    """Least-recently-used segment of `kind` that is out of cooldown and fits."""
+def choose(pool_by_type, kind, now, cooldown_secs, need_max=None, used_here=None):
+    """Least-recently-used segment of `kind` that is out of cooldown and fits.
+
+    `used_here` counts what this plan has already placed, and it is not optional
+    bookkeeping — it is the whole correctness of the thing. Stamping every pick with the
+    same `now` makes every already-used segment tie on recency, and `min` then returns
+    whichever happens to be first in the list, forever. The symptom is an hour that plays
+    one track fifteen times while seven others sit unused. Ordering by (times used in THIS
+    plan, then recency across previous plans) rotates properly and degrades gracefully:
+    a pool too shallow to fill the hour repeats round-robin instead of looping one item.
+    """
     cands = pool_by_type.get(kind, [])
     if need_max is not None:
         cands = [s for s in cands if s["seconds"] <= need_max]
     if not cands:
         return None
+    used_here = used_here if used_here is not None else {}
     fresh = [s for s in cands
              if not s["usedAt"] or (now - max(s["usedAt"])) > cooldown_secs]
     # Cooldown is a preference, not a wall: a pool too shallow to honour it should
     # still produce an hour, just a less varied one.
     pick_from = fresh or cands
-    return min(pick_from, key=lambda s: (max(s["usedAt"]) if s["usedAt"] else 0))
+    return min(pick_from, key=lambda s: (used_here.get(s["sha"], 0),
+                                         max(s["usedAt"]) if s["usedAt"] else 0,
+                                         s["sha"]))
 
 
 def plan(manifest, cycle, now, cooldown_secs):
@@ -141,6 +153,7 @@ def plan(manifest, cycle, now, cooldown_secs):
         by_type.setdefault(s["type"], []).append(s)
 
     order, used, i = [], 0.0, 0
+    used_here = {}
     guard = 0
     while guard < 10000:
         guard += 1
@@ -150,12 +163,14 @@ def plan(manifest, cycle, now, cooldown_secs):
         kind = FORMAT_CLOCK[i % len(FORMAT_CLOCK)]
         i += 1
         # Reserve nothing: a segment is placed only if it fits whole.
-        seg = choose(by_type, kind, now, cooldown_secs, need_max=remaining)
+        seg = choose(by_type, kind, now, cooldown_secs, need_max=remaining,
+                     used_here=used_here)
         if seg is None:
             # Nothing of this type fits or exists. If NOTHING at all fits, stop and
             # let the bed take the remainder.
             anything = any(
-                choose(by_type, k, now, cooldown_secs, need_max=remaining)
+                choose(by_type, k, now, cooldown_secs, need_max=remaining,
+                       used_here=used_here)
                 for k in TYPES if k != "bed"
             )
             if not anything:
@@ -163,6 +178,7 @@ def plan(manifest, cycle, now, cooldown_secs):
             continue
         order.append(seg)
         used += seg["seconds"]
+        used_here[seg["sha"]] = used_here.get(seg["sha"], 0) + 1
         seg["usedAt"] = (seg["usedAt"] + [now])[-8:]
     return order, max(0.0, cycle - used)
 
@@ -300,6 +316,18 @@ def cmd_selftest(args):
     man["segments"][2]["usedAt"] = []
     first = choose({"track": man["segments"]}, "track", now, 3600, need_max=1000)
     check("never-used segment is chosen before any used one", first["sha"] == "track2")
+
+    # THE ONE THAT WAS MISSING. An hour must exhaust the pool before repeating anything,
+    # and when it does have to repeat it must go round again rather than loop one item.
+    # The real bug this catches: every pick stamped with the same `now` makes all used
+    # segments tie on recency, so `min` returned the same track fifteen times while seven
+    # others sat unused, and the length check passed happily the whole time.
+    man = {"segments": [seg("track", 150, i) for i in range(8)]}
+    order, _ = plan(man, 3600, 1_000_000.0, 3600 * 3)
+    from collections import Counter
+    counts = Counter(s["sha"] for s in order)
+    check(f"all 8 tracks used before any repeats (spread {min(counts.values())}-{max(counts.values())})",
+          len(counts) == 8 and max(counts.values()) - min(counts.values()) <= 1)
 
     # A segment longer than the remaining time is never placed.
     man = {"segments": [seg("track", 5000, 0), seg("bed", 30, 0)]}
