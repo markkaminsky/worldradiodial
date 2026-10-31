@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-08-31T09:30:00Z",
+  "updatedAt": "2026-10-31T20:36:24Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -477,7 +477,8 @@
     ],
     "classical": [
       "Your Classical",
-      "YourClassical"
+      "YourClassical",
+      "Radio Swiss Classic"
     ],
     "old joints": [
       "Klassic Joints",
@@ -5502,6 +5503,9 @@
     "jazz": [
       "Adroit Jazz Underground"
     ],
+    "classical": [
+      "Radio Swiss Classic German"
+    ],
     "motown": [
       "SOUL RADIO Classics",
       "Motown Radio",
@@ -6540,6 +6544,7 @@
     "Greatest Hits Motown",
     "SOUL RADIO Classics",
     "Radio Swiss Jazz",
+    "Radio Swiss Classic",
     "Synthwave Radio",
     "Shady Pines Radio",
     "Radio 357",
