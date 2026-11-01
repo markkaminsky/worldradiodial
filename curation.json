@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-10-31T20:36:24Z",
+  "updatedAt": "2026-11-01T23:01:16Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -482,12 +482,9 @@
     ],
     "old joints": [
       "Klassic Joints",
-      "WWWQ-HD3 \"OG 979\" Atlanta, GA",
       "TRAP RADIO TRAP.radio",
-      "as.if.radio",
       "All Underground Hip Hop Radio",
-      "Super Throwback Party Radio",
-      "bigFM US Rap"
+      "Super Throwback Party Radio"
     ],
     "funk": [
       "Generation Funk",
@@ -1776,7 +1773,10 @@
     "Antenne Bayern Top 100ü",
     "=Exclusively Led Zeppelin - Only Hits",
     "=Exclusively U2 - HITS",
-    "=CBC Radio One - Toronto, ON (MP3 stream)"
+    "=CBC Radio One - Toronto, ON (MP3 stream)",
+    "WWWQ-HD3",
+    "as.if.radio",
+    "bigFM US Rap"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -5547,12 +5547,10 @@
       "R.SA Beatles Radio"
     ],
     "old joints": [
-      "WWWQ-HD3 \"OG 979\" Atlanta, GA",
+      "Klassic Joints Radio",
       "TRAP RADIO TRAP.radio",
-      "as.if.radio",
       "All Underground Hip Hop Radio",
-      "Super Throwback Party Radio",
-      "bigFM US Rap"
+      "Super Throwback Party Radio"
     ],
     "top 40": [
       "NRK MP3",
@@ -6588,7 +6586,7 @@
     "WMET 1160 AM",
     "KLNG 1560 AM",
     "WIGO AM 1570",
-    "WWWQ-HD3 \"OG 979\" Atlanta, GA",
+    "Klassic Joints Radio",
     "TRAP RADIO TRAP.radio",
     "East Village Radio",
     "Music | Montez Press Radio",
@@ -6598,7 +6596,6 @@
     "KZSU 90.1 FM Stanford University",
     "WUSB 90.1 State University of New York at Stony Brook, NY",
     "WDET 101.9 FM Detroit Public Radio",
-    "as.if.radio",
     "All Underground Hip Hop Radio",
     "Super Throwback Party Radio",
     "Exclusively Led Zeppelin",
@@ -6626,8 +6623,7 @@
     "Radio grenouille",
     "Le Mellotron",
     "NRK MP3",
-    "YleX",
-    "bigFM US Rap"
+    "YleX"
   ],
   "perSlotStationCap": 5,
   "actionFetchSizes": {
@@ -6887,7 +6883,10 @@
     "echoesofbluemars.org",
     "classicfm.dk",
     "somafm.com",
-    "kissfmradio.cires21.com"
+    "kissfmradio.cires21.com",
+    "wwwqh3",
+    "stream.as-if-records.com/listen/as.if.records/radio",
+    "bigfm-usrap"
   ],
   "adHeavyStreamHosts": [
     "ihrhls",
