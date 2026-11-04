@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-11-01T23:01:16Z",
+  "updatedAt": "2026-11-04T22:16:05Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -494,7 +494,6 @@
       "Poolside | NTS"
     ],
     "pop": [
-      "Radio 357",
       "NPO 3FM",
       "NRK P3",
       "FIP Pop",
@@ -1776,7 +1775,9 @@
     "=CBC Radio One - Toronto, ON (MP3 stream)",
     "WWWQ-HD3",
     "as.if.radio",
-    "bigFM US Rap"
+    "bigFM US Rap",
+    "=Radio 357",
+    "=NPO 3FM Serious Radio"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -5471,11 +5472,10 @@
       "Exclusively 50 Cent"
     ],
     "pop": [
-      "Radio 357",
       "NPO 3FM",
+      "Exclusively Madonna",
       "NRK P3",
       "FIP Pop",
-      "Exclusively Madonna",
       "Exclusively The Beach Boys",
       "Exclusively Beyonce",
       "Exclusively Shania Twain",
@@ -6545,7 +6545,6 @@
     "Radio Swiss Classic",
     "Synthwave Radio",
     "Shady Pines Radio",
-    "Radio 357",
     "NPO 3FM",
     "NRK P3",
     "FIP Pop",
@@ -6886,7 +6885,10 @@
     "kissfmradio.cires21.com",
     "wwwqh3",
     "stream.as-if-records.com/listen/as.if.records/radio",
-    "bigfm-usrap"
+    "bigfm-usrap",
+    "radio357",
+    "3fm-sb-aac",
+    "3fm-bb-aac"
   ],
   "adHeavyStreamHosts": [
     "ihrhls",
