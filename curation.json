@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-11-04T22:16:05Z",
+  "updatedAt": "2026-11-10T05:34:42Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -310,7 +310,6 @@
       "Radio FG Techno",
       "Sunshine Live - Drum N Bass",
       "Daft Punk",
-      "Rinse UK",
       "Sub FM",
       "LYL Radio"
     ],
@@ -506,7 +505,6 @@
       "Exclusively Justin Bieber"
     ],
     "drum and bass": [
-      "Bassdrive",
       "fsr::",
       "Dutch Delite Drum and Bass"
     ],
@@ -1777,7 +1775,10 @@
     "as.if.radio",
     "bigFM US Rap",
     "=Radio 357",
-    "=NPO 3FM Serious Radio"
+    "=NPO 3FM Serious Radio",
+    "=Kiss Fm Ro",
+    "Bassdrive",
+    "=Rinse UK"
   ],
   "excludedCountryCodes": [
     "RU",
@@ -5369,7 +5370,6 @@
     "electronic": [
       "Digitally Imported - Hard Electronic",
       "KEXP 90.3 FM Seattle",
-      "Rinse UK",
       "Sub FM",
       "LYL Radio"
     ],
@@ -5484,7 +5484,6 @@
       "Exclusively Justin Bieber"
     ],
     "drum and bass": [
-      "Bassdrive",
       "fsr::",
       "Dutch Delite Drum and Bass"
     ],
@@ -6535,7 +6534,6 @@
     "MNM",
     "Exclusively - Eminem",
     "DR P3",
-    "Bassdrive",
     "fullspectrumradio",
     "FIP",
     "Radio Paradise",
@@ -6578,7 +6576,6 @@
     "Exclusively Guns N’ Roses",
     "Radio Shadow Deep Tracks",
     "Exclusively Stone Temple Pilots",
-    "Rinse UK",
     "Sub FM",
     "Exclusively Madonna",
     "The Word WPEO 1020 AM",
@@ -6888,7 +6885,12 @@
     "bigfm-usrap",
     "radio357",
     "3fm-sb-aac",
-    "3fm-bb-aac"
+    "3fm-bb-aac",
+    "funradio.fr/fun-",
+    "rtl.fr/fun-",
+    "kissfm.ro/kissfm",
+    "bassdrive.net",
+    "rinse.fm/proxy/rinse_uk"
   ],
   "adHeavyStreamHosts": [
     "ihrhls",
