@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-11-19T23:09:13Z",
+  "updatedAt": "2026-11-19T23:25:53Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -322,7 +322,8 @@
       "Adroit Jazz Underground",
       "Jazz Radio Classic Jazz",
       "Suite Jazz Radio",
-      "Jazz Radio Blues"
+      "Jazz Radio Blues",
+      "FIP Jazz"
     ],
     "metal": [
       "metal rock radio",
@@ -5500,7 +5501,8 @@
       "Radio Swiss Jazz"
     ],
     "jazz": [
-      "Adroit Jazz Underground"
+      "Adroit Jazz Underground",
+      "FIP Jazz"
     ],
     "classical": [
       "Radio Swiss Classic German"
