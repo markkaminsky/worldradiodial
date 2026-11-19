@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "updatedAt": "2026-11-10T05:34:42Z",
+  "updatedAt": "2026-11-19T23:09:13Z",
   "excludedWebCategories": [
     "00's",
     "00s",
@@ -6890,7 +6890,9 @@
     "rtl.fr/fun-",
     "kissfm.ro/kissfm",
     "bassdrive.net",
-    "rinse.fm/proxy/rinse_uk"
+    "rinse.fm/proxy/rinse_uk",
+    "0nlineradio.radioho.st",
+    "stream.epic-lounge.com"
   ],
   "adHeavyStreamHosts": [
     "ihrhls",
